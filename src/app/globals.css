@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+section{
+  overflow:hidden;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  overflow-x: hidden;
+}
+
+.bg-back{
+  background: url(../assets/home/background-1.jpg);
+}
+
+
+.swiperstyle1 {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    content: "";
+    background-color: #ffffff !important;
+  }
+}
+
+
+.swiper-pagination-bullet {
+  height: 11px!important; width: 11px!important;
+  opacity: 1!important;
+  border: 1px solid #BCD42F;
+  background: rgb(255, 255, 255) !important;
+}
+.swiper-pagination-bullet-active {
+  background: #BCD42F !important;
+}
+
+.animate-x{
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+
+/* animation */
+.hover14 {
+  position: relative;
+}
+.hover14::before {
+  position: absolute;
+  top: 0;
+  left: -92%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.568) 100%
+  );
+  transform: skewX(-45deg);
+}
+.hover14:hover::before {
+  animation: shine 0.55s ease-in-out;
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+.bg-grad1{
+  background: linear-gradient(0deg, #0D401C, #077f2b);
+}
+
+/* animation */
+.hover14 {
+  position: relative;
+}
+.hover14::before {
+  position: absolute;
+  top: 0;
+  left: -99%;
+  z-index: 2;
+  display: block;
+  content: "";
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.568) 100%
+  );
+  transform: skewX(-45deg);
+}
+.hover14:hover::before {
+  animation: shine 0.55s ease-in-out;
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+.text-filling-container {
+  color: transparent; /* Make the text transparent */
+  background-image: url('../assets/home/Bannner2.jpg'); /* Your image */
+  background-clip: text; /* Make the image fill the text */
+  -webkit-background-clip: text; /* For Safari */
+  display: inline-block;
+  overflow: hidden;
+  animation: scroll-image 24s linear infinite;
+background-position: top;
+}
+
+/* Animation for scrolling the background image */
+
+
+/* Scroll animation */
+@keyframes scroll-image {
+  0% {
+    background-position: top;
+  }
+  100% {
+    background-position: bottom;
+  }
+}
