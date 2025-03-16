@@ -40,11 +40,11 @@ body {
 .swiper-pagination-bullet {
   height: 11px!important; width: 11px!important;
   opacity: 1!important;
-  border: 1px solid #BCD42F;
+  border: 1px solid #1542FE;
   background: rgb(255, 255, 255) !important;
 }
 .swiper-pagination-bullet-active {
-  background: #BCD42F !important;
+  background: #1542FE !important;
 }
 
 .animate-x{
@@ -93,7 +93,7 @@ body {
 }
 
 .bg-grad1{
-  background: linear-gradient(0deg, #0D401C, #077f2b);
+  background: linear-gradient(0deg, #164DA4, #2A99F3);
 }
 
 /* animation */

@@ -10,8 +10,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Blogs() {
- 
-
   const uniqueId = "servic123";
 
   const swiperOptions = {
@@ -49,11 +47,23 @@ export default function Blogs() {
 
   return (
     <section className=" lg:p-28 sm:p-12 p-7 bg-back text-center relative slider1 flex flex-col items-center">
-     <div className="w-full text-center flex flex-col items-center !gap-y-4 mb-8 md:mb-16">
-                  {blogData?.title1 && <h4 className='text-green3 bg-[#E1F1D8] px-7 mb-3 font-bold text-sm rounded-lg py-3 w-max'>{blogData?.title1}</h4>}
-                    {blogData?.title2 && <h2 className='text-zinc-800 text-2xl md:text-4xl font-bold'>{blogData?.title2}</h2>}
-                        {blogData?.para && <p className='text-zinc-600 text-sm md:text-base max-w-4xl'>{blogData?.para}</p>}
-                        </div>
+      <div className="w-full text-center flex flex-col items-center !gap-y-4 mb-8 md:mb-16">
+        {blogData?.title1 && (
+          <h4 className="text-green3 bg-[#CCF1F8] px-7 mb-3 font-bold text-sm rounded-lg py-3 w-max">
+            {blogData?.title1}
+          </h4>
+        )}
+        {blogData?.title2 && (
+          <h2 className="text-zinc-800 text-2xl md:text-4xl font-bold">
+            {blogData?.title2}
+          </h2>
+        )}
+        {blogData?.para && (
+          <p className="text-zinc-600 text-sm md:text-base max-w-4xl">
+            {blogData?.para}
+          </p>
+        )}
+      </div>
 
       <Swiper
         {...swiperOptions}
@@ -74,20 +84,23 @@ export default function Blogs() {
                 />
               </div>
               <div className="px-4">
-              <div className="text-white -mt-7 z-10 sticky bg-green1 py-2 shadow-md px-4 max-w-max text-base ml-4 font-semibold transition-all duration-500 group-hover:bg-zinc-900 ">
-                {cards.date}
-              </div>
+                <div className="text-white -mt-7 z-10 sticky bg-green1 py-2 shadow-md px-4 max-w-max text-base ml-4 font-semibold transition-all duration-500 group-hover:bg-zinc-900 ">
+                  {cards.date}
+                </div>
 
-              <h3 className="text-xl font-bold my-4 text-zinc-800 group-hover:text-green2">
-                {cards.title}
-              </h3>
-              <p className="text-zinc-600 text-sm">{cards.text}</p><br />
-              <Link 
+                <h3 className="text-xl font-bold my-4 text-zinc-800 group-hover:text-green2">
+                  {cards.title}
+                </h3>
+                <p className="text-zinc-600 text-sm">{cards.text}</p>
+                <br />
+                <Link
                   href={"#"}
                   className=" duration-500  group-hover:bg-zinc-800 text-white px-16 bg-green3  text-center -mb-3 py-2  text-base  font-bold"
                 >
                   Read More
-                </Link><br/><br/>
+                </Link>
+                <br />
+                <br />
               </div>
             </div>
           </SwiperSlide>
@@ -98,7 +111,7 @@ export default function Blogs() {
       </Swiper>
 
       {/* Add navigation buttons */}
-{/* 
+      {/* 
     
       <Link href={"/"} className="w-min mt-7">
             <div className=" rounded-3xl  text-nowrap px-6 py-2 hover:bg-green3 border border-black bg-black hover:border-white text-white duration-300 shadow-lg">

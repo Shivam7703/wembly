@@ -1,5 +1,5 @@
 "use client";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade } from "swiper/modules";
 // Import Swiper styles
@@ -36,7 +36,7 @@ export default function HomeBanner() {
       nextEl: `.${uniqueId}-next`,
       prevEl: `.${uniqueId}-prev`,
     },
-    modules: [Autoplay, Pagination, EffectFade, Navigation],
+    modules: [Autoplay, EffectFade, Navigation],
     effect: "fade",
     onSlideChange: (swiper: any) => setCurrentSlide(swiper.realIndex), // Update slide index on change
   };

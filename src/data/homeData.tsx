@@ -21,7 +21,7 @@ export const navItemsArray = [
   {
     id: 2,
     label: "Products",
-    href: "/products",
+    href: "/products/product-detail",
   
   },
 
