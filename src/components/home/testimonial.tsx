@@ -45,7 +45,7 @@ export default function Testimonials() {
     <section className=" lg:px-28 md:p-20 sm:p-12 p-7 bg-back text-center relative slider1 flex flex-col items-center">
       <div className="w-full text-center flex flex-col items-center !gap-y-4 mb-8 md:mb-16">
         {testimonialData?.title1 && (
-          <h4 className="text-green3 bg-[#CCF1F8] px-7 mb-3 font-bold text-sm rounded-lg py-3 w-max">
+          <h4 className="text-green1 bg-[#e2eef9] px-7 mb-3 font-bold text-sm rounded-lg py-3 w-max">
             {testimonialData?.title1}
           </h4>
         )}

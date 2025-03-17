@@ -30,32 +30,32 @@ function AboutSection() {
       </motion.div>
       <div className="sm:w-[49%] w-full space-y-5">
         {aboutdata?.title1 && (
-          <h4 className="text-green3 bg-[#CCF1F8] px-7 font-bold text-sm rounded-lg py-3 w-max">
+          <h4 className="text-green1 bg-[#e2eef9] px-7 font-bold text-sm rounded-lg py-3 w-max">
             {aboutdata?.title1}
           </h4>
         )}
         {aboutdata?.title2 && (
-          <h2 className="text-zinc-700 text-3xl md:text-5xl font-bold">
+          <h2 className="text-zinc-800 text-3xl md:text-5xl font-bold">
             {aboutdata?.title2}
           </h2>
         )}
         {aboutdata?.para && (
-          <p className="text-zinc-600 text-sm md:text-base">
+          <p className="text-zinc-700 text-sm md:text-base">
             {aboutdata?.para}
           </p>
         )}
         {aboutdata?.title3 && (
-          <h4 className="md:text-3xl text-2xl text-zinc-700 font-semibold">
+          <h4 className="md:text-3xl text-2xl text-brown2 font-semibold">
             {aboutdata?.title3}
           </h4>
         )}
         <ul className="space-y-2">
           {aboutdata?.vision?.map((data) => (
             <li key={data.id} className="flex gap-x-2">
-              <div className="text-xl text-green3 mt-1">
+              <div className="text-xl text-green1 mt-1">
                 <FaCheckCircle />
               </div>
-              <p className="text-zinc-600 sm:text-lg">
+              <p className="text-zinc-700 sm:text-lg">
                 <span className="font-bold">{data.heading}: </span> {data.text}
               </p>
             </li>

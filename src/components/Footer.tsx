@@ -11,11 +11,11 @@ import { foot } from "@/assets";
 export default function Footer({ footer }: any) {
   return (
     <>
-      <footer className="pt-5 p-6 md:px-24  w-full z-20  text-white bg-green1  relative">
+      <footer className="pt-5 p-6 md:px-24  w-full text-white bg-[#030727] !z-50 relative">
       <Image
       src={foot}
       alt="logo"
-      className="w-full object-cover absolute -top-6 z-50 left-0 min-h-7" />
+      className="w-full object-cover absolute -top-6 !-z-40 left-0 min-h-7" />
         {/* NewsLetter Section  */}
 
         {/* Footer links section  */}
@@ -24,7 +24,7 @@ export default function Footer({ footer }: any) {
             <Image
               src={footer?.logo}
               alt="logo"
-              className="max-w-44 w-[80vw] object-contain" />
+              className="max-w-64 w-[80vw] object-contain" />
             <p className=" w-full text-base mt-3  max-sm:mt-3">
               {footer?.text}
             </p>
@@ -33,27 +33,27 @@ export default function Footer({ footer }: any) {
               <div className="flex  gap-2 md:gap-x-3 mt-3  text-4xl text-white">
                 {footer?.socials?.facebook && (
                   <FaFacebook
-                    className=" hover:text-green1 p-2 bg-zinc-700 rounded-full duration-300 "
+                    className=" hover:text-brown2 p-2 bg-[#ffffff19] rounded-full duration-300 "
                     onClick={() => window.open(footer?.socials?.facebook, "_blank")} />
                 )}
                 {footer?.socials?.instagram && (
                   <AiFillInstagram
-                    className="hover:text-green1 p-2 bg-zinc-700 rounded-full duration-300"
+                    className="hover:text-brown2 p-2 bg-[#ffffff19] rounded-full duration-300"
                     onClick={() => window.open(footer?.socials?.instagram, "_blank")} />
                 )}
                 {footer?.socials?.linkedin && (
                   <FaLinkedinIn
-                    className="hover:text-green1 p-2 bg-zinc-700 rounded-full duration-300"
+                    className="hover:text-brown2 p-2 bg-[#ffffff19] rounded-full duration-300"
                     onClick={() => window.open(footer?.socials?.linkedin, "_blank")} />
                 )}
                 {footer?.socials?.youtube && (
                   <TbBrandYoutubeFilled
-                    className="hover:text-green1 p-2 bg-zinc-700 rounded-full duration-300"
+                    className="hover:text-brown2 p-2 bg-[#ffffff19] rounded-full duration-300"
                     onClick={() => window.open(footer?.socials?.youtube, "_blank")} />
                 )}
                 {footer?.socials?.twitter && (
                   <FaXTwitter
-                    className="hover:text-green1 p-2 bg-zinc-700 rounded-full duration-300"
+                    className="hover:text-brown2 p-2 bg-[#ffffff19] rounded-full duration-300"
                     onClick={() => window.open(footer?.socials?.twitter, "_blank")} />
                 )}
               </div>

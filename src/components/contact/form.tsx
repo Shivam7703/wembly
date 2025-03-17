@@ -35,7 +35,7 @@ function Form({ contactdata }: any) {
         )}
 
         <div className="md:w-[50%] md:sticky left-0 top-20 px-7 h-full py-10 w-full  rounded-xl">
-               <h4 className='text-green1   mb-3 font-bold text-sm rounded-lg  w-max'>Let's Cooperate Together
+               <h4 className="text-green1   mb-3 font-bold text-sm rounded-lg  w-max'>Let's Cooperate Together
           </h4>
                   <h2 className='text-zinc-900 mb-6 text-3xl md:text-5xl font-bold'>
                   Contact Us Today!

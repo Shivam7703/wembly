@@ -40,14 +40,14 @@ export default function WhyChoose({ aboutdata }: any) {
         className="sm:w-[49%] w-full space-y-7"
       >
         {aboutdata?.title1 && (
-          <h4 className="text-green3 bg-[#CCF1F8]  px-7 font-bold text-sm rounded-lg py-3 w-max">
+          <h4 className="text-green1 bg-[#e2eef9]  px-7 font-bold text-sm rounded-lg py-3 w-max">
             {aboutdata?.title1}
           </h4>
         )}
 
         <h2 className="text-zinc-900 text-3xl md:text-5xl font-bold">
           {aboutdata?.title2}{" "}
-          <span className="text-brown2">{aboutdata?.title3}</span>
+          <span className="text-green1">{aboutdata?.title3}</span>
         </h2>
 
         {aboutdata?.para && (

@@ -60,12 +60,12 @@ export default function HomeBanner() {
 
       {/* Navigation buttons */}
       <div
-        className={`${uniqueId}-next swiper-button-next !right-2 !p-2.5 !text-lg !text-yellow3 md:!right-3 md:!top-[55%] md:!h-16 md:!w-16 max-md:!hidden`}
+        className={`${uniqueId}-next swiper-button-next !right-2 !p-2.5 !text-lg !text-green3 md:!right-3 md:!top-[55%] md:!h-16 md:!w-16 max-md:!hidden`}
       >
         <GrNext />
       </div>
       <div
-        className={`${uniqueId}-prev swiper-button-prev !left-2  !p-2.5  !text-yellow3 md:!left-3 md:!top-[55%] md:!h-16 md:!w-16 max-md:!hidden`}
+        className={`${uniqueId}-prev swiper-button-prev !left-2  !p-2.5  !text-green3 md:!left-3 md:!top-[55%] md:!h-16 md:!w-16 max-md:!hidden`}
       >
         <GrPrevious />
       </div>

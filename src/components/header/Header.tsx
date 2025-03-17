@@ -77,6 +77,7 @@ const Header = ({ header }: any) => {
         className={`fixed top-0 left-0 w-screen z-50 transition-all duration-300 
         ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
       >
+        <div className="bg-brown2 text-white "></div>
         <div className="hidden md:flex md:py-7 shadow-xl items-center justify-between bg-white h-24  px-5 py-3 lg:px-20">
           <Link href={header?.href || "/"}>
             <Image

@@ -15,7 +15,7 @@ const config: Config = {
         green2: '#748EFF',
         green3:"#748EFF",
         green1: "#0D29AD",
-        brown2:"#52320A",
+        brown2:"#08131F",
         yellow3:"#EAB308"
       },
     },

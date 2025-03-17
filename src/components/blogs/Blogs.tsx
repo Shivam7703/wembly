@@ -8,7 +8,7 @@ export default function Blogsection({ data }: any) {
   return (
     <section className="my-6 md:p-24 py-6 px-2 text-center relative slider1 flex flex-col items-center">
       <div className="w-full text-center flex flex-col items-center !gap-y-4 mb-8 md:mb-16 px-7">
-        <h4 className="text-green3 bg-[#CCF1F8] px-7 mb-3 font-bold text-sm rounded-lg py-3 w-max">
+        <h4 className="text-green1 bg-[#e2eef9] px-7 mb-3 font-bold text-sm rounded-lg py-3 w-max">
           Blogs and News{" "}
         </h4>
         <h2 className="text-zinc-800 text-2xl md:text-4xl font-bold">
