@@ -22,7 +22,28 @@ export const navItemsArray = [
     id: 2,
     label: "Products",
     href: "/products/product-detail",
-  
+    subNav:[
+      {id:1,
+        label:"Implements",
+        href:"/products/product-detail"
+      },
+      {id:1,
+        label:"Insecticides",
+        href:"/products/product-detail"
+      },
+      {id:1,
+        label:"Herbicides",
+        href:"/products/product-detail"
+      },
+      {id:1,
+        label:"Fungicides",
+        href:"/products/product-detail"
+      },
+      {id:1,
+        label:"Fertilizer",
+        href:"/products/product-detail"
+      }
+    ]
   },
 
   { id: 3, label: "Agro Machinery", href: "/agro-machinery" },
@@ -106,46 +127,6 @@ export const countDown=[
     Value:"50"
   }
 ]
-
-export const benefit = {
-  title1: "Certified By Government Of India",
-  title2: "Benefits of Biofuels",
-  para:
-    "Biofuels reduce carbon emissions, promote energy security, create jobs, support rural economies, and decrease reliance on fossil fuels. Embrace renewable energy for a sustainable and eco-friendly future.",
-  img: car,
-  points: [
-    {
-      id: 1,
-      icon: <TbSpiral />,
-      heading: "INDIA based productions",
-      text:
-        "There is growing demand for Biofuel as it is safe alternative to traditional fuel.",
-    },
-
-    {
-      id: 2,
-      icon: <TbSpiral />,
-      heading: "Employment opportunities",
-      text: "Join, Work and Succeed.",
-    },
-
-    {
-      id: 3,
-      icon: <TbSpiral />,
-      heading: "85% pollution reduction",
-      text: "Go green, Breathe clean.",
-    },
-
-    {
-      id: 4,
-      icon: <TbSpiral />,
-      heading: "Additional mileage best in quality fuel and GST benefit",
-      text: "Fuel for your engine.",
-    },
-
-   
-  ],
-};
 
 export const whychoose ={
   img: banner,
@@ -266,6 +247,46 @@ export const footer = {
     title: "Contact Us",
     description: "Subscribe to our newsletter to get latest news and updates.",
   },
+};
+
+export const benefit = {
+  title1: "Certified By Government Of India",
+  title2: "Benefits of Biofuels",
+  para:
+    "Biofuels reduce carbon emissions, promote energy security, create jobs, support rural economies, and decrease reliance on fossil fuels. Embrace renewable energy for a sustainable and eco-friendly future.",
+  img: car,
+  points: [
+    {
+      id: 1,
+      icon: <TbSpiral />,
+      heading: "INDIA based productions",
+      text:
+        "There is growing demand for Biofuel as it is safe alternative to traditional fuel.",
+    },
+
+    {
+      id: 2,
+      icon: <TbSpiral />,
+      heading: "Employment opportunities",
+      text: "Join, Work and Succeed.",
+    },
+
+    {
+      id: 3,
+      icon: <TbSpiral />,
+      heading: "85% pollution reduction",
+      text: "Go green, Breathe clean.",
+    },
+
+    {
+      id: 4,
+      icon: <TbSpiral />,
+      heading: "Additional mileage best in quality fuel and GST benefit",
+      text: "Fuel for your engine.",
+    },
+
+   
+  ],
 };
 
 
@@ -411,6 +432,23 @@ export const aboutsec2 =
 {id:7, img:banner},
 {id:8, img:banner2},
 ]
+
+// products page and product
+export const productBanner = {
+  title: "Our Products",
+  para:
+    "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
+  slug: "about-us",
+  img: banner2,
+};
+
+export const products = [{
+  id:1,
+  category:"implement",
+  name:"OX – PLOUGH",
+  para1:"-	Ni jembe linalokokotwa na mnyama na hutumika kugeuza udongo kabla ya kupanda. Inatumika kwa kilimo cha msingi na cha sekondari. Jembe hutumika kwa shughuli mbalimbali za shambani ambazo ni pamoja na kulima, kuweka alama kwenye mstari (kwa ajili ya uanzishaji wa mazao),  na kupalilia. Wakati wa kulima,  jembe la kukokotwa hukata, hupasua, hulegeza, hugeuza udongo na kufukia magugu, mabaki ya mazao na samadi. Jembe la kukokotwa na ng'ombe ni zana ya kawaida ya kulima inayotumiwa na wakulima wadogo barani Afrika. ",
+  para2:"-	 Is farming tool that is used to turn over the soil before planting. It is used for primary and secondary tillage. The plough is used for a number of different field operations that include ploughing, row-marking (for crop establishment), ridging and weeding. During ploughing, the animal drawn plough cuts, breaks, loosens, inverts the soil and buries weeds, crop residues and manure. The ox drawn plough is the most common tillage implement used by smallholder farmers in Africa."
+}];
 
 
 

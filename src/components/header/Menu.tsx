@@ -11,12 +11,12 @@ const Menu = ({ activeItemId, onItemClick , onTop}: any) => {
         <li key={item?.id} className="group relative transition-all">
           <Link
             href={item?.href || "#"}
-            className={` ${activeItemId === item.href ? "bg-white  rounded-md bg-opacity-90 text-brown2"
+            className={` ${activeItemId === item.href ? "bg-white  rounded-md bg-opacity-90 text-green1"
                : "bg-transparent"} xl:px-4 px-2 py-3 flex justify-center  cursor-pointer items-center gap-1`}
             onClick={() => onItemClick(item.id, item.href)}
           >
             <span
-              className={`font  transition-all hover:text-brown2 hover:scale-105 duration-300 
+              className={`font  transition-all hover:text-green1 hover:scale-105 duration-300 
              
               `}>              {item?.label}
             </span>
@@ -31,7 +31,7 @@ const Menu = ({ activeItemId, onItemClick , onTop}: any) => {
                 <Link
                   key={nav.id}
                   href={nav.href || "#"}
-                  className={`hover:bg-white bg-opacity-30 flex cursor-pointer items-center py-1 pl-2 pr-8 hover:text-brown2 
+                  className={`hover:bg-white bg-opacity-30 flex cursor-pointer items-center py-1 pl-2 pr-8 hover:text-green1 
                    `}
                   onClick={() => onItemClick(nav.id, nav.href)}
                 >

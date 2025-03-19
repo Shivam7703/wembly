@@ -53,7 +53,7 @@ export default function Blogsection({ data }: any) {
                 <br />
                 <Link
                   href={"blogs/details"}
-                  className=" duration-500 max-sm:scale-50  group-hover:bg-zinc-800 text-white px-10 bg-green3  text-center -mb-3 py-2  text-base  sm:font-bold"
+                  className=" duration-500 max-sm:scale-50  group-hover:bg-zinc-800 text-white px-10 bg-green2  text-center -mb-3 py-2  text-base  sm:font-bold"
                 >
                   Read More
                 </Link>

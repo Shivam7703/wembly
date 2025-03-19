@@ -40,8 +40,8 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
         <li key={item.id} className="border-b border-gray-100/20 last:border-none">
           <div className="w-full">
             <div
-              className={`flex items-center justify-between px-4 py-3 cursor-pointer text-black hover:text-brown2
-                ${activeItemId === item.href ? " text-brown2" : ""}
+              className={`flex items-center justify-between px-4 py-3 cursor-pointer text-black hover:text-green1
+                ${activeItemId === item.href ? " text-green1" : ""}
               `}
               onClick={() => {
                 if (item.subNav && item.subNav.length > 0) {
@@ -68,8 +68,8 @@ const MenuMobile: React.FC<MenuMobileProps> = ({
                   <Link
                     key={subItem.id}
                     href={subItem.href || "#"}
-                    className={`block px-8 py-2 transition-all duration-300 text-black hover:text-brown2
-                      ${activeItemId === subItem.href ? "bg-white bg-opacity-30 backdrop-blur-xl text-brown2" : ""}
+                    className={`block px-8 py-2 transition-all duration-300 text-black hover:text-green1
+                      ${activeItemId === subItem.href ? "bg-white bg-opacity-30 backdrop-blur-xl text-green1" : ""}
                     `}
                     onClick={() => handleItemClick(subItem.href)}
                   >

@@ -46,7 +46,7 @@ export default function Servicesection({ data }: any) {
                   {" "}
                   <Link
                     href={cards.slug}
-                    className=" duration-500 !min-w-full !mx-auto group-hover:bg-zinc-800 text-white px-16 bg-green3  text-center -mb-3 py-2  text-base  font-bold"
+                    className=" duration-500 !min-w-full !mx-auto group-hover:bg-zinc-800 text-white px-16 bg-green2  text-center -mb-3 py-2  text-base  font-bold"
                   >
                     Know More
                   </Link>

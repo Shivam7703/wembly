@@ -95,7 +95,7 @@ export default function Blogs() {
                 <br />
                 <Link
                   href={"#"}
-                  className=" duration-500  group-hover:bg-zinc-800 text-white px-16 bg-green3  text-center -mb-3 py-2  text-base  font-bold"
+                  className=" duration-500  group-hover:bg-zinc-800 text-white px-16 bg-green2  text-center -mb-3 py-2  text-base  font-bold"
                 >
                   Read More
                 </Link>
@@ -114,7 +114,7 @@ export default function Blogs() {
       {/* 
     
       <Link href={"/"} className="w-min mt-7">
-            <div className=" rounded-3xl  text-nowrap px-6 py-2 hover:bg-green3 border border-black bg-black hover:border-white text-white duration-300 shadow-lg">
+            <div className=" rounded-3xl  text-nowrap px-6 py-2 hover:bg-green2 border border-black bg-black hover:border-white text-white duration-300 shadow-lg">
               <p className="text-base font-semibold">Load More</p>
             </div>
           </Link> */}
