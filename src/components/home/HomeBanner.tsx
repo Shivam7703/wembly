@@ -18,7 +18,7 @@ import { MdArrowRightAlt } from "react-icons/md";
 import { sliderContent } from "@/data/homeData";
 
 export default function HomeBanner() {
-  const uniqueId = "banner123";
+  const uniqueId = "banner12376";
   const [currentSlide, setCurrentSlide] = useState(0); // Track the current slide
 
   const swiperOptions = {
@@ -42,7 +42,7 @@ export default function HomeBanner() {
   };
 
   return (
-    <section className="swiperstyle1">
+    <section className="swiperstyle1 relative">
       <Swiper {...swiperOptions} className="mySwiper ">
         {sliderContent.map((item, index) => (
           <SwiperSlide key={index} className="overflow-hidden ">
@@ -60,12 +60,12 @@ export default function HomeBanner() {
 
       {/* Navigation buttons */}
       <div
-        className={`${uniqueId}-next swiper-button-next !right-2 !p-2.5 !text-lg !text-green2 md:!right-3 md:!top-[55%] md:!h-16 md:!w-16 max-md:!hidden`}
+        className={`${uniqueId}-next absolute z-40 font-bold text-4xl text-green2 right-3 top-[55%] max-md:!hidden`}
       >
         <GrNext />
       </div>
       <div
-        className={`${uniqueId}-prev swiper-button-prev !left-2  !p-2.5  !text-green2 md:!left-3 md:!top-[55%] md:!h-16 md:!w-16 max-md:!hidden`}
+        className={`${uniqueId}-prev absolute z-40 font-bold text-4xl  text-green2 left-3 md:top-[55%] max-md:!hidden`}
       >
         <GrPrevious />
       </div>
