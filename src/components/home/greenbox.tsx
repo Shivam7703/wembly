@@ -34,7 +34,7 @@ export default function Greenbox() {
   ];
 
   return (
-    <section className="lg:m-20 sm:m-12 !m-7 lg:!-mt-24 relative z-30 sm:!-mt-16  sm:p-5 p-3 max-w-[1580px] mx-auto bg-grad1 rounded-[39px]">
+    <section className="lg:-mt-24 relative z-30 sm:-mt-16 my-6 w-[90%] sm:p-5 p-3 max-w-[1280px] !mx-auto bg-grad1 rounded-[39px]">
       <div className="border gap-y-8 rounded-[30px] p-5 py-7 md:!py-12 flex flex-wrap items-stretch w-full">
         {data?.map((card: any) => (
           <div

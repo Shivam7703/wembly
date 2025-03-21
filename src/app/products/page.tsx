@@ -1,9 +1,17 @@
+import Banner from '@/components/global/banner'
+import Product from '@/components/products/product'
+import { productBanner } from '@/data/homeData'
 import React from 'react'
 
 function page() {
   return (
-    <section className='lg:px-28 md:p-20 sm:p-16 p-7'>
-    </section>
+<>
+      <Banner img ={productBanner?.img}
+      title={productBanner.title}
+      para={productBanner.para}
+      slug={productBanner.slug}/>
+      <Product/>
+      </>
   )
 }
 

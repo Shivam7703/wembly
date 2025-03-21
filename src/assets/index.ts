@@ -22,9 +22,10 @@ import env from "@/assets/about/env.png";
 import social from "@/assets/about/social.jpg";
 // product
 import ferti from "@/assets/product/Fertilizer/AMMONIUM SULPHATE.png";
-import Best50 from "@/assets/product/Fungicides/BESTONIL 50%SC.png";
+import Best50 from "@/assets/product/Fungicides/BESTONIL.png";
 import Bestsup from "@/assets/product/Fungicides/BESTONIL SUPER 720SC.png";
 import mansup from "@/assets/product/Fungicides/MANCOSTAR  SUPER 720WP.png";
+import supaking from "@/assets/product/Fungicides/SUPAKINGA 72WP.png";
 import man5sc from "@/assets/product/Fungicides/MANCOVIL 5SC.png";
 import sulph from "@/assets/product/Fungicides/SULPHOWIT 800 WDG.png";
 import supa from "@/assets/product/Fungicides/SUPAZEB 80WP.png";
@@ -40,7 +41,7 @@ import farm20 from "@/assets/product/implements/farmcare20.png";
 import oxp from "@/assets/product/implements/oxplough.jpg";
 import bestacron720 from "@/assets/product/Insecticides/BESTACRON 720EC.png";
 import dual from "@/assets/product/Insecticides/DUAL  POWER 344SE.png";
-import fendel from "@/assets/product/Insecticides/FENDEL DUST 1.13%.png";
+import fendel from "@/assets/product/Insecticides/FENDEL.png";
 import supamec from "@/assets/product/Insecticides/SUPAMECTIN 5EC.png";
 import supath from "@/assets/product/Insecticides/SUPAMECTIN 5EC.png";
 import tunza from "@/assets/product/Insecticides/TUNZA 70WS.png";
@@ -59,7 +60,7 @@ export {
  ,Best50
  ,man5sc
  ,sulph
- ,supa
+ ,supa, supaking
  ,Best720
  ,Best200
 ,Best480,Best75 ,rondo,supa720

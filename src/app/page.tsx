@@ -11,6 +11,7 @@ import WhyChoose from "@/components/home/whychoose";
 import { countDown } from "@/data/homeData";
 import HealthyLife from "@/components/home/healthylife";
 import FaqSection from "@/components/home/faq";
+import Product from "@/components/products/product";
 
 
 export default function Home() {
@@ -19,7 +20,9 @@ export default function Home() {
 <BannerSlider/>
 <Greenbox/>
 <AboutSection/>
-<Benifit data = {benefit}/>
+<section className='lg:px-28 md:p-20 sm:p-14 p-6'>
+<Product/>
+</section>
 <CountDown data={countDown}/>
 <Benifit data = {benefit}/>
 <WhyChoose aboutdata={whychoose}/>

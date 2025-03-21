@@ -13,11 +13,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
-import { aboutdata } from "@/data/homeData";
 
 const images = [banner, banner2, about, about2, banner2, about];
 
-export default function ProductGallery() {
+export default function ProductGallery({detail} : any) {
   const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   const [showMagnifier, setShowMagnifier] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -148,43 +147,53 @@ export default function ProductGallery() {
         </Swiper>
       </div>
       <div className="xl:w-[45%] space-y-4 w-full">
-        {aboutdata?.title2 && (
+        {detail?.name && (
           <h2 className="text-brown2 text-3xl md:text-4xl font-bold">
-            Product Name Here
+            {detail?.name}
           </h2>
         )}
+         {detail?.desc && (
         <p className="text-base text-black !mt-1">
-          <span className="text-yellow-400">★★★★★</span>&nbsp; 5.00(customer
-          review){" "}
+          {detail?.desc} 
         </p>
-        {aboutdata?.para && (
+         )}
+         <p className="py-1 font-bold text-xs px-3 bg-yellow-400 rounded-md shadow-lg">
+                   {detail?.category}
+                </p>
+        {detail?.para1 && (
           <p className="text-zinc-600 text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eos
-            dignissimos nulla excepturi quisquam nobis, iusto hic sit sunt est!
-            Obcaecati laudantium non beatae similique aliquam. A natus expedita
-            voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eum, eos qui doloribus quia veritatis repellendus necessitatibus.
-            Iusto atque autem rerum dolores sint delectus officiis, at sit porro
-            natus voluptates fugiat distinctio perspiciatis?
+           {detail?.para1}
           </p>
         )}
-        {aboutdata?.title3 && (
-          <h4 className="md:text-2xl text-xl text-zinc-700 font-semibold">
-            Key Features
-          </h4>
+        {detail?.para2 && (
+          <p className="text-zinc-600 text-sm md:text-base">
+           {detail?.para2}
+          </p>
         )}
-        <ul className="space-y-2">
-          {aboutdata?.vision?.map((data) => (
-            <li key={data.id} className="flex gap-x-2">
-              <div className="text-lg text-green2 mt-1">
-                <FaCheckCircle />
-              </div>
-              <p className="text-zinc-600 sm:text-lg">
-                <span className="font-bold">{data.heading}: </span> {data.text}
-              </p>
-            </li>
-          ))}
-        </ul>
+         {detail?.para3 && (
+          <p className="text-zinc-600 text-sm md:text-base">
+           {detail?.para3}
+          </p>
+        )}
+       {detail?.sizes && (
+  <table className="w-full border-collapse border !mt-6 border-gray-300">
+    <thead>
+      <tr className="bg-green2 text-white">
+        <th className="border  px-4 py-2">Pack</th>
+        <th className="border  px-4 py-2">Cartoon</th>
+      </tr>
+    </thead>
+    <tbody>
+      {detail?.sizes?.map((boxes: any) => (
+        <tr key={boxes?.id} className="hover:bg-gray-50 text-zinc-800 text-center">
+          <td className="border border-gray-300 px-4 py-2">{boxes?.pack}</td>
+          <td className="border border-gray-300 px-4 py-2">{boxes?.cartoon}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}
+
       </div>
     </div>
   );

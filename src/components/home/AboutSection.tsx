@@ -8,7 +8,7 @@ import { fadeIn, staggerContainer } from "@/utils/motion";
 
 function AboutSection() {
   return (
-    <section className="bg-back lg:p-20 sm:p-12 p-7 max-w-[1580px] mx-auto flex flex-wrap justify-between gap-y-7 bg-white">
+    <section className=" lg:p-20 sm:p-12 p-7 max-w-[1580px] mx-auto flex flex-wrap justify-between gap-y-7 bg-white">
       <motion.div
         variants={fadeIn("right", "tween", 0.3, 1)}
         className="sm:w-[45%] w-full min-h-96 relative group"
