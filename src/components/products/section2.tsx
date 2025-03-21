@@ -28,7 +28,11 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
       disableOnInteraction: false,
     },
     breakpoints: {
-      140: {
+      100: {
+        slidesPerView: 1,
+        spaceBetween: 0,
+      },
+      380: {
         slidesPerView: 2,
         spaceBetween: 0,
       },

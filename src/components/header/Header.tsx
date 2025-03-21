@@ -88,7 +88,7 @@ const Header = ({ header }: any) => {
       >
         {/* Top Bar with Contact and Google Translate */}
         <div className="bg-[#030727] text-white p-3 flex justify-between items-center lg:px-20">
-          <div className="flex gap-11">
+          <div className="flex gap-11 ">
             <a
               className="flex items-center hover:scale-105 duration-300"
               href="tel:+918765432110"
@@ -97,7 +97,7 @@ const Header = ({ header }: any) => {
               +91 8765432110
             </a>
             <a
-              className="flex items-center hover:scale-105 duration-300"
+              className="flex items-center max-lg:hidden hover:scale-105 duration-300"
               href="mailto:info@wembly.com"
             >
               <MdAttachEmail className="text-lg mr-1" />
@@ -131,14 +131,14 @@ const Header = ({ header }: any) => {
 
         {/* Mobile Section */}
         <div
-          className={`flex md:hidden w-screen items-center justify-between h-20 px-3 bg-white`}
+          className={`flex md:hidden w-screen items-center justify-between h-16 px-3 bg-white`}
         >
           <div className="flex items-center relative cursor-pointer text-3xl justify-between w-full">
             <Link href={header?.href || "/"}>
               <Image
                 src={logo}
                 alt="logo"
-                className="w-[110px] object-contain"
+                className="w-[180px] object-contain"
               />
             </Link>
             {isMobileMenuOpen ? (

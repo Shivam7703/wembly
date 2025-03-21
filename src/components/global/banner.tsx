@@ -39,7 +39,7 @@ export default function Banner({title, para, img, slug}:any) {
                     animate="animate"
                     exit="exit"
                     transition={{ easings: ["easeIn", "easeOut"] }}
-                                        className="md:w-1/2 md:ml-28 flex flex-col max-md:justify-center max-md:items-center my-auto max-md:p-[10%] max-md:text-center"
+                                        className="md:w-1/2 md:ml-28 flex flex-col max-md:justify-center max-md:items-center my-auto max-md:p-[8%] w-full max-md:text-center"
                   >
                   
                   
