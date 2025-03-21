@@ -148,3 +148,12 @@ background-position: top;
     background-position: bottom;
   }
 }
+
+
+#google_translate_element select {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 5px;
+}

@@ -21,6 +21,9 @@ export default function Home() {
 <Greenbox/>
 <AboutSection/>
 <section className='lg:px-28 md:p-20 sm:p-14 p-6'>
+<h2 className="text-zinc-800 text-3xl text-center pb-7 sm:pb-9 md:text-5xl font-bold">
+                    All Products
+                  </h2>
 <Product/>
 </section>
 <CountDown data={countDown}/>

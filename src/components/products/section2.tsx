@@ -53,7 +53,7 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
   const filteredProducts = products?.filter((cards: any) => cards.category === datacat);
 
   return (
-    <section className="md:pt-20 pt-7 text-center relative slider1 flex flex-col items-center">
+    <section className="md:pt-12 pt-7 text-center relative slider1 flex flex-col items-center">
       <Swiper
         {...swiperOptions}
         className={`mySwiper w-full mx-auto p-5 !mt-0 ${uniqueId}`}
@@ -77,7 +77,7 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
               </p>
               <p className="w-max text-base text-black my-3">
                 {/* <span className="max-sm:hidden">Category: </span> */}
-                <span className="py-1 font-bold text-xs px-3 bg-yellow-400 rounded-md shadow-lg">
+                <span className="py-1 font-bold text-xs px-3 text-white bg-yellow3 rounded-md shadow-lg">
                    {cards.category}
                 </span>
               </p>

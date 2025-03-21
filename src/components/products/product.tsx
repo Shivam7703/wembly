@@ -13,7 +13,7 @@ function setProduct(product :any) {
 }
   return (
     <section>
-      <div className='flex md:gap-6 gap-3 justify-center mx-auto flex-wrap'>
+      <div className='flex md:gap-6 gap-3 justify-center mx-auto overflow-auto'>
         {productcategory?.map((cat)=>(
             <div key={cat?.id} className={`border uppercase px-3 cursor-pointer py-2 rounded-lg font-medium ${activeItem == cat?.label ? "bg-brown2 text-white" : "text-brown2 "}`} onClick={() => setProduct(cat.label)}>{cat?.label}</div>
         ))}

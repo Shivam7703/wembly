@@ -11,7 +11,7 @@ export default function Section4() {
     <section className=" text-zinc-900 flex flex-wrap justify-between items-stretch overflow-hidden">
    
       <div className="lg:w-[48%] group w-full min-h-52  relative  ">
-      <div className="bg-green1 absolute group-hover:bg-white group-hover:text-zinc-800 min-w-36 group-hover:rounded-[40px] duration-500 z-10 bottom-32 max-lg:hidden -right-16 text-white  p-6">
+      <div className="bg-yellow3 absolute group-hover:bg-white group-hover:text-zinc-800 min-w-36 group-hover:rounded-[40px] duration-500 z-10 bottom-32 max-lg:hidden -right-16 text-white  p-6">
           <IoShieldCheckmarkSharp className=" md:text-5xl text-3xl" />
           <h3 className="text-2xl md:text-4xl font-semibold my-2">300k</h3>
           <p className="md:text-xl text-sm">

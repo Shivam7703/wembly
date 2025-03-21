@@ -148,7 +148,7 @@ export default function ProductGallery({detail} : any) {
       </div>
       <div className="xl:w-[45%] space-y-4 w-full">
         {detail?.name && (
-          <h2 className="text-brown2 text-3xl md:text-4xl font-bold">
+          <h2 className="text-brown2 text-3xl md:text-3xl font-bold">
             {detail?.name}
           </h2>
         )}
@@ -157,7 +157,7 @@ export default function ProductGallery({detail} : any) {
           {detail?.desc} 
         </p>
          )}
-         <p className="py-1 font-bold text-xs px-3 bg-yellow-400 rounded-md shadow-lg">
+         <p className="py-1 font-bold text-sm w-max px-5 bg-yellow3 rounded-md shadow-lg">
                    {detail?.category}
                 </p>
         {detail?.para1 && (
