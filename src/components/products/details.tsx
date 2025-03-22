@@ -18,7 +18,7 @@ function Productdetails({product} :any) {
                 <h2 className="text-zinc-800 text-3xl text-center mx-auto sm:p-16 p-7 sm:pb-9 md:text-5xl font-bold">
                     All Products
                   </h2>
-<Product/>
+<Product isslider ={true}/>
         </div>
         <div className='md:w-[25%] bg-zinc-200 p-4 rounded-xl w-full md:sticky space-y-5 top-10 h-full'>
           <Aside/>

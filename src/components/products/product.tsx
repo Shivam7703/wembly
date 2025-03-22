@@ -2,8 +2,13 @@
 import React, { useState } from 'react';
 import { productcategory } from '@/data/homeData';
 import ProductSlider from './section2';
+import ProCards from './proCards';
 
-export default function Product() {
+interface flex{
+  isslider: boolean;
+}
+
+export default function Product({isslider}: flex) {
 const [activeItem , setActiveitem] = useState("Implements")
 
 function setProduct(product :any) {
@@ -18,7 +23,11 @@ function setProduct(product :any) {
             <div key={cat?.id} className={`border uppercase px-3 cursor-pointer py-2 rounded-lg font-medium ${activeItem == cat?.label ? "bg-brown2 text-white" : "text-brown2 "}`} onClick={() => setProduct(cat.label)}>{cat?.label}</div>
         ))}
               </div>
-                <ProductSlider uniqueId = "service123" datacat={activeItem}/>
+              {isslider ? (
+        <ProductSlider uniqueId="service123" datacat={activeItem} />
+      ) : (
+        <ProCards datacat={activeItem} />
+      )}
         
     </section>
   )

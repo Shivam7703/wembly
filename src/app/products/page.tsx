@@ -14,7 +14,7 @@ function page() {
 <h2 className="text-zinc-800 text-3xl text-center pb-7 sm:pb-9 md:text-5xl font-bold">
                     All Products
                   </h2>
-<Product/>
+<Product isslider ={false}/>
 </section>      </>
   )
 }
