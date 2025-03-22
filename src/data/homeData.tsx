@@ -4,9 +4,8 @@ import {
 } from "react-icons/fa6";
 import { GiChestnutLeaf, GiDeadEye } from "react-icons/gi";
 import { GrVmMaintenance } from "react-icons/gr";
-import { LiaBullseyeSolid, LiaChargingStationSolid } from "react-icons/lia";
-import { MdAttachEmail, MdLocationCity, MdWifiCalling3, MdWorkHistory } from "react-icons/md";
-import { PiPlugChargingFill } from "react-icons/pi";
+import { LiaBullseyeSolid} from "react-icons/lia";
+import { MdAttachEmail, MdLocationCity, MdWifiCalling3} from "react-icons/md";
 import { SiTerraform} from "react-icons/si";
 import { TbRecharging, TbSpiral } from "react-icons/tb";
 import { VscActivateBreakpoints } from "react-icons/vsc";
@@ -21,23 +20,23 @@ export const navItemsArray = [
     subNav:[
       {id:1,
         label:"Implementss",
-        href:"/products/product-detail"
+        href:"/products"
       },
       {id:1,
         label:"Insecticidess",
-        href:"/products/product-detail"
+        href:"/products"
       },
       {id:1,
         label:"Herbicidess",
-        href:"/products/product-detail"
+        href:"/products"
       },
       {id:1,
         label:"Fungicidess",
-        href:"/products/product-detail"
+        href:"/products"
       },
       {id:1,
         label:"Fertilizer",
-        href:"/products/product-detail"
+        href:"/products"
       }
     ]
   },

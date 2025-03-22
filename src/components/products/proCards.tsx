@@ -8,7 +8,7 @@ function ProCards({datacat}:any) {
       const filteredProducts = products?.filter((cards: any) => cards.category === datacat);
     
   return (
-    <div className='flex mt-5 md:mt-12 sm:gap-[4%] gap-y-8 gap-[2%] justify-center  flex-wrap items-baseline'>
+    <div className='flex my-8 md:my-12 sm:gap-[4%] sm:gap-y-8 gap-[2%] justify-center  flex-wrap items-baseline'>
        {filteredProducts?.map((cards: any) => (
           <div
             key={cards.id}
