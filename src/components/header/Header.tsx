@@ -87,27 +87,27 @@ const Header = ({ header }: any) => {
         ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
       >
         {/* Top Bar with Contact and Google Translate */}
-        <div className="bg-[#030727] text-white p-3 flex justify-between items-center lg:px-20">
-          <div className="flex gap-11 ">
+        <div className="bg-[#030727] text-white p-3  flex justify-between items-center lg:px-20">
+          <div className="flex md:gap-11 gap-5">
             <a
               className="flex items-center hover:scale-105 duration-300"
               href="tel:+918765432110"
             >
-              <MdCall className="text-lg mr-1" />
-              +91 8765432110
+              <MdCall className="sm:text-lg text-2xl mr-1" />
+             <p className="max-md:hidden">+91 8765432110</p> 
             </a>
             <a
-              className="flex items-center max-lg:hidden hover:scale-105 duration-300"
+              className="flex items-center  hover:scale-105 duration-300"
               href="mailto:info@wembly.com"
             >
-              <MdAttachEmail className="text-lg mr-1" />
-              info@wembly.com
+              <MdAttachEmail className="sm:text-lg text-2xl mr-1" />
+             <p className="max-lg:hidden"> info@wembly.com</p> 
             </a>
           </div>
 
           {/* ✅ Google Translate Widget */}
-          <div className="max-h-10 overflow-hidden">
-          <div id="google_translate_element" ></div>
+          <div className="max-h-8 overflow-hidden rounded-lg ">
+          <div id="google_translate_element" className=" !-mt-1 max-sm:p-1 max-sm:text-sm"></div>
           </div>
         </div>
 
@@ -154,7 +154,7 @@ const Header = ({ header }: any) => {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed h-screen left-0 top-32 md:hidden bg-white overflow-x-hidden duration-300 transition-all ${
+          className={`fixed h-screen left-0 top-28 md:hidden bg-white overflow-x-hidden duration-300 transition-all ${
             isMobileMenuOpen ? "!w-[88%]" : "!w-0"
           }`}
         >
