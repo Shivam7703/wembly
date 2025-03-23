@@ -15,11 +15,12 @@ function ProCards({datacat}:any) {
             className=" w-max text-left p-3 px-5 rounded-xl max-w-80 max-sm:w-[49%]"
           >
             <div className="w-full h-full overflow-hidden group">
+              <div className='bg-zinc-100 mb-3 rounded-lg overflow-hidden  w-full p-3 h-64'>
               <Image
                 src={cards.img}
                 alt={cards.name}
-                className="transition-all object-left duration-500 my-4 mx-auto  w-[95%] h-64 rounded-xl object-contain group-hover:scale-105"
-              />
+                className="transition-all h-full w-full object-center duration-500 mx-auto object-contain group-hover:scale-105"
+              /></div>
               <h3 className="text-xl font-bold text-zinc-800 group-hover:text-color1">
                 {cards.name}
               </h3>

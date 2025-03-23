@@ -7,8 +7,8 @@ import Product from './product'
 
 function Productdetails({product} :any) {
   return (
-    <div className='flex flex-wrap justify-between gap-y-7 md:p-20 sm:p-16 p-7 relative min-h-screen w-full'>
-        <div className='md:w-[73%] w-full '>
+    <div className='flex flex-wrap justify-between gap-y-7 lg:px-28 md:p-20 sm:p-16 p-7 relative min-h-screen w-full'>
+        <div className='md:w-[62%] w-full '>
         <ProductGallery detail={product}/>
           <h2 className="text-zinc-800 text-3xl text-center mx-auto sm:p-16 p-7 !pb-0 md:text-5xl font-bold">
                     Other Products
@@ -20,8 +20,8 @@ function Productdetails({product} :any) {
                   </h2>
 <Product isslider ={true}/>
         </div>
-        <div className='md:w-[25%] bg-zinc-200 p-4 rounded-xl w-full md:sticky space-y-5 top-10 h-full'>
-          <Aside/>
+        <div className='md:w-[33%] bg-zinc-200 p-4 w-full md:sticky space-y-5 top-10 h-full'>
+          <Aside currpro ={product?.name}/>
 </div>
     </div>
   )

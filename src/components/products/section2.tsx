@@ -68,11 +68,12 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
             className="mb-2 w-full text-left p-2 px-4 rounded-xl "
           >
             <div className="w-full h-full overflow-hidden group">
-              <Image
-                src={cards.img}
-                alt={cards.name}
-                className="transition-all object-left duration-500 my-4 mx-auto  w-[95%] h-64 rounded-xl object-contain group-hover:scale-105"
-              />
+                <div className='bg-zinc-100 rounded-lg overflow-hidden mb-3  w-full p-3 h-64'>
+                            <Image
+                              src={cards.img}
+                              alt={cards.name}
+                              className="transition-all h-full w-full object-center duration-500 mx-auto object-contain group-hover:scale-105"
+                            /></div>
               <h3 className="text-xl font-bold text-zinc-800 group-hover:text-color1">
                 {cards.name}
               </h3>

@@ -58,8 +58,8 @@ export default function ProductGallery({detail} : any) {
   };
 
   return (
-    <div className="flex flex-wrap gap-y-7 pb-4 justify-between">
-      <div className="xl:w-[53%] w-full">
+    <div className=" pb-4 ">
+      <div className=" w-full mb-6 md:mb-8">
         <Swiper
           loop={true}
           spaceBetween={10}
@@ -146,9 +146,9 @@ export default function ProductGallery({detail} : any) {
           ))}
         </Swiper>
       </div>
-      <div className="xl:w-[45%] space-y-4 w-full">
+      <div className="space-y-4 w-full">
         {detail?.name && (
-          <h2 className="text-brown2 text-3xl md:text-3xl font-bold">
+          <h2 className="text-brown2 text-3xl md:text-4xl font-bold">
             {detail?.name}
           </h2>
         )}
