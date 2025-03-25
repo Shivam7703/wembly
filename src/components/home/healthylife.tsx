@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { SiHappycow } from "react-icons/si";
 
 export default function HealthyLife({ data }: any) {
   
@@ -29,7 +30,8 @@ export default function HealthyLife({ data }: any) {
               className="p-4 lg:w-[23.6%] group sm:w-[48.5%] w-full sm:p-8 rounded-xl text-white shadow"
             >
               <div className="flex justify-center animate-scale rounded-full items-center mx-auto sm:w-24 sm:h-24 bg-green1 w-14 h-14 sticky sm:-mt-20 group-hover:scale-x-[-1] duration-200 -mt-9 text-white text-xl sm:!text-3xl">
-                {card.icon}
+              <SiHappycow />
+
               </div>
               <h2 className="text-xl my-5 leading-[1.9] text-zinc-800 text-center sm:text-xl font-bold">
                 Pure Cow's Milk
