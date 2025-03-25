@@ -138,7 +138,7 @@ const Header = ({ header }: any) => {
               <Image
                 src={logo}
                 alt="logo"
-                className="w-[180px] object-contain"
+                className="h-14 max-w-max object-contain"
               />
             </Link>
             {isMobileMenuOpen ? (
