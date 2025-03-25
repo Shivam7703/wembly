@@ -253,7 +253,7 @@ export const benefit = {
   points: [
     {
       id: 1,
-      icon: <TbSpiral />,
+     img:about,
       heading: "INDIA based productions",
       text:
         "There is growing demand for Biofuel as it is safe alternative to traditional fuel.",
@@ -261,23 +261,23 @@ export const benefit = {
 
     {
       id: 2,
-      icon: <TbSpiral />,
+      img:banner2,
       heading: "Employment opportunities",
-      text: "Join, Work and Succeed.",
+      text: "JoThere is growing demand for Biofuel as it is safe alternative to traditional fuel.",
     },
 
     {
       id: 3,
-      icon: <TbSpiral />,
+      img:about2,
       heading: "85% pollution reduction",
-      text: "Go green, Breathe clean.",
+      text: "There is growing demand for Biofuel as it is safe alternative to traditional fuel.",
     },
 
     {
       id: 4,
-      icon: <TbSpiral />,
-      heading: "Additional mileage best in quality fuel and GST benefit",
-      text: "Fuel for your engine.",
+      img:banner,
+      heading: "Additional mileage best in .",
+      text: "There is growing demand for Biofuel as it is safe alternative to traditional fuel.",
     },
 
    

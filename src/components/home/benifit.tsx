@@ -28,19 +28,20 @@ function Benifit({ data }: any) {
           data?.points.map((card: any) => (
             <div
               key={card.id}
-              className="p-4 lg:w-[23.6%] group sm:w-[48.5%] w-full sm:p-8 rounded-xl bg-grad1 text-white shadow"
+              className=" lg:w-[23.6%] group sm:w-[48.5%] w-full relative rounded-xl   shadow"
             >
-              <div className="flex justify-center animate-scale rounded-full items-center mx-auto sm:w-24 sm:h-24 bg-yellow3 w-14 h-14 sticky sm:-mt-20 group-hover:scale-x-[-1] duration-200 -mt-9 text-brown2 text-xl sm:!text-3xl">
-                {card.icon}
-              </div>
-              <h2 className="text-xl my-5 leading-[1.9]  text-center sm:text-xl font-bold">
+              <Image src={card?.img} alt={"product"} className="w-full h-64 object-cover sm:h-96"/>
+             
+             <div className="absolute top-0 flex flex-col justify-center left-0 w-full bg-black/65 overflow-hidden h-0 group-hover:h-full duration-300 text-white text-center ">
+              <h2 className="text-xl m-5 leading-[1.9] text-center sm:text-xl font-bold">
                 Pure Cow's Milk
               </h2>
-              <div className="border-b-2 border-yellow3 max-w-44 mx-auto"></div>
-              <p className="text-center font-semibold text-sm md:text-base leadiung-[1.4] my-5">
+              <div className="h-1 bg-yellow3 max-w-44 w-full mx-auto"></div>
+              <p className="text-center font-semibold text-sm md:text-base leadiung-[1.4] m-5">
                 Ultrices sagittis orci a scelerisque purus semper eget duis at.
                 Sollictudin nibh sit amet commodo nulla.
               </p>
+              </div>
             </div>
           ))}
       </div>
