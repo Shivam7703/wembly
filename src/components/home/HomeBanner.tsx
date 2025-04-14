@@ -51,6 +51,7 @@ export default function HomeBanner() {
               welcome={item.welcome}
               title1={item?.title1}
               title2={item?.title2}
+              para={item?.para}
               btntext={item?.btntext}
               key={currentSlide} // Re-trigger animation when slide changes
             />
@@ -73,7 +74,7 @@ export default function HomeBanner() {
   );
 }
 
-function HomeBannerCard({ img, welcome, title1, title2, btntext }: any) {
+function HomeBannerCard({ img, welcome, title1, title2, para, btntext }: any) {
   return (
     <div className="relative w-full overflow-hidden  text-white md:h-[95vh] min-h-[60vh]">
       {/* Full-size image */}
@@ -100,9 +101,8 @@ function HomeBannerCard({ img, welcome, title1, title2, btntext }: any) {
             {title1} <span className="text-green2">{title2}</span>
           </h1>
           <p className="-mt-4 !mb-4">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
-            dolores beatae nostrum dicta, sit amet consectetur adipisicing elit.
-            Quas dolores beatae nostrum dicta.
+           
+           {para}
           </p>
           <Link href={"/"} className="w-min">
             <div className="flex items-center rounded-3xl gap-4 text-nowrap px-6 py-2 text-green1 bg-white duration-300 hover:bg-black hover:text-white">

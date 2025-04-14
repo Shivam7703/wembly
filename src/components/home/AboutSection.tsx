@@ -56,7 +56,7 @@ function AboutSection() {
                 <FaCheckCircle />
               </div>
               <p className="text-zinc-700 sm:text-lg">
-                <span className="font-bold">{data.heading}: </span> {data.text}
+                {data.text}
               </p>
             </li>
           ))}

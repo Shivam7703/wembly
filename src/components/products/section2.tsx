@@ -86,7 +86,7 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
                    {cards.category}
                 </span>
               </p>
-              <Link href={`products/${cards?.name}`} className="flex items-center gap-x-2 group/link">
+              <Link href={`/products/${encodeURIComponent(cards?.name || '')}`} className="flex items-center gap-x-2 group/link">
                 <p className="text-sm text-green1 sm:font-extrabold">
                   View Product
                 </p>

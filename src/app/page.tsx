@@ -1,6 +1,6 @@
 import AboutSection from "@/components/home/AboutSection";
 import Benifit from "@/components/home/benifit";
-import { benefit, whychoose } from "@/data/homeData";
+import { benefit, healthy, whychoose } from "@/data/homeData";
 
 import Blogs from "@/components/home/blog";
 import CountDown from "@/components/home/Contdown";
@@ -29,7 +29,7 @@ export default function Home() {
 <CountDown data={countDown}/>
 <Benifit data = {benefit}/>
 <WhyChoose aboutdata={whychoose}/>
-<HealthyLife data = {benefit}/>
+<HealthyLife data = {healthy}/>
 <Testimonials/>
 <FaqSection/>
 

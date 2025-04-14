@@ -1,14 +1,13 @@
 import { about, about2, banner, banner2, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, car, cl1, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, rondo, sec1, sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
+import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
 } from "react-icons/fa6";
-import { GiChestnutLeaf, GiDeadEye } from "react-icons/gi";
-import { GrVmMaintenance } from "react-icons/gr";
+import { GiChestnutLeaf, GiDeadEye, GiOakLeaf } from "react-icons/gi";
 import { LiaBullseyeSolid} from "react-icons/lia";
-import { MdAttachEmail, MdLocationCity, MdWifiCalling3} from "react-icons/md";
-import { SiTerraform} from "react-icons/si";
-import { TbRecharging, TbSpiral } from "react-icons/tb";
-import { VscActivateBreakpoints } from "react-icons/vsc";
+import { LuSmilePlus } from "react-icons/lu";
+import { MdAttachEmail, MdGppGood, MdLocationCity, MdWifiCalling3} from "react-icons/md";
+
 
 // homepage
 export const navItemsArray = [
@@ -19,30 +18,34 @@ export const navItemsArray = [
     href: "/products",
     subNav:[
       {id:1,
-        label:"Implementss",
+        label:"Herbicides",
         href:"/products"
       },
-      {id:1,
-        label:"Insecticidess",
+      {id:2,
+        label:"Fungicides",
         href:"/products"
       },
-      {id:1,
-        label:"Herbicidess",
+      {id:3,
+        label:"Insecticides",
         href:"/products"
       },
-      {id:1,
-        label:"Fungicidess",
-        href:"/products"
-      },
-      {id:1,
+      {id:4,
         label:"Fertilizer",
         href:"/products"
-      }
+      },
+      {id:5,
+        label:"Implements",
+        href:"/products"
+      },
+      {id:6,
+        label:"Animal Feeds",
+        href:"/products"
+      },
+     
     ]
   },
 
-  { id: 3, label: "Agro Machinery", href: "/agro-machinery" },
-  { id: 7, label: "Sustainability", href: "/sustainability" },
+  { id: 3, label: "Sustainability", href: "/sustainability" },
   { id: 4, label: "Privacy Policy", href: "/privacy" },
   { id: 5, label: "Blogs", href: "/blogs" },
   { id: 6, label: "Contact Us", href: "/contact-us" },
@@ -52,22 +55,22 @@ export const sliderContent = [
   {
     id: 1,
     img: banner,
-    welcome: "Welcome to AI Eco Fuel",
-    title1: "Transforming India's Future with",
-    title2: "AI Ecofuels",
-
+    welcome: "Welcome to The Trusted Crop Care ",
+    title1: "Better care for crops, stronger yields with our ",
+    title2: "trusted solutions",
+para:"Your crops find all necessary elements under one combined solution. The product range includes herbicides alongside fertilizers and tools that enable both superior growth and accelerated production.",
     btntext: "Explore More",
-    href: "/",
+    href: "/products",
   },
   {
     id: 2, // Fix duplicate id issue by using unique ids
     img: banner2,
-    welcome: "Welcome to AI Eco Fuel2",
-    title1: "Transforming Your Future with",
-    title2: "AI Ecofuels",
-
+    welcome: "The Best Agriculture Company",
+    title1: "Helping farmers grow more with ",
+    title2: "simple and effective products.",
+para:"Making farming simple and effective. Your crops will be protected while the soil gets nourished for increased production.",
     btntext: "Contact Us",
-    href: "/",
+    href: "/contact-us",
   },
 ];
 
@@ -76,50 +79,42 @@ export const aboutdata = {
   img2: about2,
 
   title1: "About Us",
-  title2: "Transforming India's Future with AI Ecofuels",
+  title2: "Add a subheading here",
   para:
-    "At AI Ecofuels, we are revolutionizing the biofuel industry and transforming the lives of millions of farmers and people across India. By promoting biofuel production, we are creating opportunities and employment for individuals in even the most rural areas.",
+    "Our company delivers premium herbicides together with insecticides and fungicides with fertilizers supported by farming devices. Our agricultural products enable farmers to defend their fields from harmful pests while building soil health and multiplying their produce. At our company we offer dependable products along with dedicated delivery of excellence as we work to help farmers cultivate healthy, easy-to-grow crop yields.",
   title3: "Our Vision and Commitment",
   vision: [
     {
       id: 1,
-      heading: "Empowering Rural Communities",
-      text: "Generating jobs and boosting local economies.",
+      text: "The company aims to give farmers access to state-of-the-art, cost-effective, and performance-based agricultural products.",
     },
     {
       id: 2,
-      heading: "Sustainable Energy Solutions",
-      text: "Leading the way in eco-friendly biofuel production.",
+      text: "Our mission enables farmers to reach sustainable, successful farming outcomes.",
     },
     {
       id: 3,
-      heading: "Trusted Partnerships",
       text:
-        "Valuing our distributors, clients, customers, associates, employees, and well-wishers.",
+        "Quality products from our company deliver crop care benefits while safeguarding environmental resources.",
     },
   ],
-  title4: "Join us at AI Ecofuels and be part of the change!",
 };
 
 export const countDown=[
   {id:1,
     icon:<GiChestnutLeaf />,
-    title:"destinations worldwide",
-    textColor:"!text-[#0E9384]",
-    Value:"50"
+    title:"Retailers",
+    Value:"75"
   },{id:2,
     icon:<GiChestnutLeaf />,
-    title:"booking completed",
-    textColor:"!text-[#0E9384]",
-    Value:"750"
+    title:"Distributors",
+    Value:"5"
   },{id:3,    icon:<GiChestnutLeaf />,
-    title:"destinations worldwide",
-    textColor:"!text-blue-700",
-    Value:"6000"
+    title:"Trusted Customers",
+    Value:"1000"
   },{id:4,     icon:<GiChestnutLeaf />,
-    title:"destinations worldwide",
-    textColor:"!text-red-800",
-    Value:"50"
+    title:"Skus",
+    Value:"500"
   }
 ]
 
@@ -127,48 +122,59 @@ export const whychoose ={
   img: banner,
   img2: banner2,
   title1:"Why Choose Us",
-  title2:"Explore the Horizon: Discover",
-  title3:"The World",
-      para: "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.",
+  title2:"Your Trusted Partner in ",
+  title3:"Agricultural Excellence",
+      para: "Our company maintains trust from farmers so we supply premium solutions for protecting crops and supporting their growth. The company's dedication to innovations combined with quality guarantees and eco-respectful approaches leads to improved crop production and health, which extends assistance to farmers across their entire journey.",
   vision:[{
     id:1,
     icon:<GiDeadEye />,
     heading:"Our Vision",
-    text:"Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore mesureme aliquaum suspendisse ultrices gravidisu.",
+    text:"We aim to excel globally as an agricultural market leader by developing state-of-the-art agricultural solutions with environmentally sustainable farming practices.",
   },
   {
     id:2,
     icon:<LiaBullseyeSolid />,
     heading:"Our Mission",
-    text:"Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore mesureme aliquaum suspendisse ultrices gravidisu.",
+    text:"The company aims to deliver innovative, affordable, and dependable agricultural solutions that protect crops while improving their growth performance.",
   }],
-  title4:"Join us at Bharat Ecofuels and be part of the change!"
 }
 export const testimonialData = {
   title1: "Testimonial",
   title2: "What Our Client Says",
-  para:
-    "We are best service Provider for We are best service Provider for We are best service Provider for service ",
   testimonials: [
     {
       id: 1,
       title: "R.M. Mathur",
       text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+        "Their products are fantastic! Since I initiated their utilization, my agricultural output has achieved better health markers alongside observable yield increases. The successful outcomes have delighted me so much that I highly suggest their products to all farmers.",
       img: cl1,
     },
     {
       id: 2,
       title: "Shivam Goyal",
       text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+        "I have been utilizing their fertilizer products throughout the last few years and I maintain a favorable opinion. The products require simple application methods, which resulted in robust, healthy plants.",
       img: cl1,
     },
     {
       id: 3,
       title: "Sageer Ansari",
       text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+        "This company is amazing! All their solutions maintain a level of high quality together with reliability. Their solutions actively contribute to the improved growth of my farming operation. I trust their products completely and know they’ll always deliver great results.",
+      img: cl1,
+    },
+    {
+      id: 4,
+      title: "Sageer Ansari",
+      text:
+        "Their herbicides are top-notch. I trust this brand with its fertilizers since I have been using their products year after year. This chemical solution proves effective by preventing damage to my crops as it produces consistent favorable outcomes.",
+      img: cl1,
+    },
+    {
+      id: 5,
+      title: "Sageer Ansari",
+      text:
+        "Excellent service and amazing products! The team members at this company completely understand what farmers require because their support proves extremely valuable.  I’ve seen such a positive change in my crops, and I’m very thankful for their help.",
       img: cl1,
     },
   ],
@@ -177,28 +183,28 @@ export const testimonialData = {
 export const faqData = {
   title:"Frequently Asked ",
   title2:"Question",
-  para: "dreamsTour, a tour operator specializing in dream destinations, offers a variety of benefits for travelers",
+  para: "The dependable herbicides, along with insecticides, fungicides, and fertilizers offered by the company, help farmers maintain healthful crops and higher production volumes while remaining budget-friendly.",
   faqs:[
     {
       id:1,
-      que:"What types of tours do you offer?",
-      ans:" We offer a wide range of tours, including cultural, adventure, luxury, and customized itineraries. opular destinations include Europe, Africa (e.g., Morocco),"
+      que:"What products do you offer?",
+      ans:"Our company delivers herbicides as weed treatment solutions and insecticides for pest protection along with fungicides for disease prevention and fertilizers for growth improvement and practical farming tools."
     }, {
       id:2,
-      que:"What types of tours do you offer?",
-      ans:" We offer a wide range of tours, including cultural, adventure, luxury, and customized itineraries. opular destinations include Europe, Africa (e.g., Morocco),"
+      que:"Are your products safe for the environment?",
+      ans:" Absolutely! The development of all our products includes environmentally friendly production techniques that produce minimal environmental impact while providing proper crop care."
     }, {
       id:3,
-      que:"What types of tours do you offer?",
-      ans:" We offer a wide range of tours, including cultural, adventure, luxury, and customized itineraries. opular destinations include Europe, Africa (e.g., Morocco),"
+      que:"Do your solutions improve yields?",
+      ans:" Yes, for sure! The design of our products works to improve crop wellbeing and minimize losses, which in turn supports farmers to reach enduringly increased yields."
     }, {
       id:4,
-      que:"What types of tours do you offer?",
-      ans:" We offer a wide range of tours, including cultural, adventure, luxury, and customized itineraries. opular destinations include Europe, Africa (e.g., Morocco),"
+      que:"How can farmers use your products?",
+      ans:" A simple instruction manual accompanies our products, which allows farmers to use them professionally for protecting and caring for their crops."
     }, {
       id:5,
-      que:"What types of tours do you offer?",
-      ans:" We offer a wide range of tours, including cultural, adventure, luxury, and customized itineraries. opular destinations include Europe, Africa (e.g., Morocco),"
+      que:"Where can I buy your products?",
+      ans:" Dating from authorized distributors and our organization, you can acquire our products. Users need only to reach out to obtain information about local availability."
     }
   ]
 }
@@ -245,42 +251,39 @@ export const footer = {
 };
 
 export const benefit = {
-  title1: "Certified By Government Of India",
-  title2: "Benefits of Biofuels",
+  title1: "Our Sustainable Agriculture Practices",
+  title2: "Benefits of Our Crop Care Products",
   para:
-    "Biofuels reduce carbon emissions, promote energy security, create jobs, support rural economies, and decrease reliance on fossil fuels. Embrace renewable energy for a sustainable and eco-friendly future.",
-  img: car,
+    "Crop medications defend plants from pests and diseases while enhancing yield quantities to encourage healthier development, which leads to environmentally sustainable cultivation resulting in better harvests.",
   points: [
     {
       id: 1,
      img:about,
-      heading: "INDIA based productions",
+      heading: "Innovation in Research and Development",
       text:
-        "There is growing demand for Biofuel as it is safe alternative to traditional fuel.",
+        "Our work produces better techniques for agricultural enhancement while developing innovative protection methods for crops.",
     },
 
     {
       id: 2,
       img:banner2,
-      heading: "Employment opportunities",
-      text: "JoThere is growing demand for Biofuel as it is safe alternative to traditional fuel.",
+      heading: "Job Creation and Economic Growth",
+      text: "A local employment drive at our workplace enables farmers and businesses to flourish while strengthening both community and economic growth.",
     },
 
     {
       id: 3,
       img:about2,
-      heading: "85% pollution reduction",
-      text: "There is growing demand for Biofuel as it is safe alternative to traditional fuel.",
+      heading: "Quality Standards",
+      text: "Our organization delivers safe and effective crop products that meet superior quality guidelines to enhance both crop conditions and agricultural achievements.",
     },
 
     {
       id: 4,
       img:banner,
-      heading: "Additional mileage best in .",
-      text: "There is growing demand for Biofuel as it is safe alternative to traditional fuel.",
+      heading: "Accessibility of Medicines",
+      text: "We make essential crop care products that farmers need for crop protection and nurture readily available from our company.",
     },
-
-   
   ],
 };
 
@@ -341,42 +344,42 @@ export const blogData = {
     },
   ],
 };
-export const whychooseData = {
-  title2: "Why Choose AI Eco Fuels",
 
-  data: [
+export const healthy = {
+  title1: "Safe Farming For Healthy Lifestyle",
+  para:
+    "Manufactured products that guarantee safety contribute to human health by minimizing threats, in addition to fostering well-being and maintaining environmental cleanliness.",
+  points: [
     {
       id: 1,
-      icon: <SiTerraform />,
-      title: "EV Site Identification",
+     img:<BsCart4 />     ,
+      heading: "Safe Products",
       text:
-        "Our surveys help determine site conditions for the purpose of meeting technical and regulatory expectations.",
+        "Our company creates protective products that safeguard crops and maintain health by preventing adverse effects on humans and nature.",
     },
+
     {
       id: 2,
-      icon: <TbRecharging />,
-      title: "EV Location Survey",
-      text:
-        "Our surveys help determine site conditions for the purpose of meeting technical and regulatory expectations.",
+      img:<LuSmilePlus />,
+      heading: "Healthier Lifestyle",
+      text: "Solutions offered by our company enable farmers to cultivate nutritious crops that result in improved food quality and promote better health outcomes throughout the population.",
     },
+
     {
       id: 3,
-      title: "Installation and Activation",
-      icon: <VscActivateBreakpoints />,
-      text:
-        "This is to mean that our technicians have the right to handle everything from installation to activation to enable charging stations to run as from the inception.",
+      img:<MdGppGood />,
+      heading: "High-Quality Solutions",
+      text: "The company provides dependable, high-quality solutions that bring effective protection and growth support to farmers maintaining simple crop management.",
     },
+
     {
       id: 4,
-      title: "Charging Station Maintenance",
-      icon: <GrVmMaintenance />,
-      text:
-        "Our surveys help determine site conditions for the purpose of meeting technical and regulatory expectations.",
+      img:<GiOakLeaf />,
+      heading: "Sustainable Practices ",
+      text: "Our environmental protection methods combine with sustainable approaches to achieve farming success for future generations in a green, sustainable world.",
     },
   ],
 };
-
-
 
 // about Page
 export const aboutBanner = {
@@ -527,7 +530,7 @@ export const products = [
   id:6,
   img:fendel,
   category:"Insecticides",
-  name:"FENDEL DUST 1.13%", desc:"(FENITROTHION1% + Deltamethrin 0.13%)",
+  name:"FENDEL DUST", desc:"(FENITROTHION1% + Deltamethrin 0.13%)",
   para1:"Ni kiua dudu cha kuangamiza wadudu mbalimbali kwenye mazao ya nafaka na mikunde dhidi ya wadudu waharibifu kwenye ghala la mazao. Inashauriwa kumwaga dawa  kwenye kuta na sakafu ya ghala kabla ya kuhifadhi nafaka au nafaka ambazo tayari zimetibiwa. Ni muhimu kwa ganda la  mahindi kutoka kwa punje na kuchanganya nafaka zilizotibiwa vizuri ni salama kwa hadi miezi 12.",
   para2:"Is a grain protectant dust for post-harvest protection of grains in the granary/grain store. It is advisable to splash some FENDEL DUST on walls and floor of granary before storing cereals or already treated cereals. Its kw maize from kernel and mix properly treated grains are safe for up to 12 months.",
   sizes:[

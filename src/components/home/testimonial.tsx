@@ -54,11 +54,6 @@ export default function Testimonials() {
             {testimonialData?.title2}
           </h2>
         )}
-        {testimonialData?.para && (
-          <p className="text-zinc-600 text-sm md:text-base max-w-4xl">
-            {testimonialData?.para}
-          </p>
-        )}
       </div>
 
       <Swiper
@@ -72,9 +67,6 @@ export default function Testimonials() {
             className="mb-12 w-full text-left p-4 sm:p-10 rounded-2xl bg-white shadow-xl"
           >
             <div className=" w-full  h-full overflow-hidden  group  ">
-              <h3 className="text-xl font-bold mb-3 text-green1">
-                {cards?.heading}
-              </h3>
               <p className="text-zinc-900 text-lg leading-[1.4] pb-3 border-b border-zinc-500">
                 {cards.text}
               </p>

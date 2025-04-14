@@ -1,35 +1,41 @@
 import React from "react";
+import { GiHerbsBundle, GiInsectJaws, GiPlantWatering } from "react-icons/gi";
 import { ImLeaf } from "react-icons/im";
+import { PiPlantLight } from "react-icons/pi";
 
 export default function Greenbox() {
   const data = [
     {
       id: 1,
-      heading: "Product quality",
+      heading: "Herbicides ",
       para:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, .",
-      icon: <ImLeaf />,
+        "The company develops herbicides that eliminate weeds yet maintain both crop safety and health.",
+      icon: <GiHerbsBundle />
+      ,
     },
     {
       id: 2,
-      heading: "Product quality",
+      heading: "Insecticides",
       para:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, .",
-      icon: <ImLeaf />,
+        "These agricultural insecticides defend your cultivated plants from damaging pests so you can obtain a secure and improved harvest.",
+      icon: <GiInsectJaws />
+      ,
     },
     {
       id: 3,
-      heading: "Product quality",
+      heading: "Fungicides",
       para:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, .",
-      icon: <ImLeaf />,
+        "The fungicides we produce fight diseases in your plants, which helps maintain vigorous plant growth together with preserved yields.",
+      icon:<PiPlantLight />
+      ,
     },
     {
       id: 4,
-      heading: "Product quality",
+      heading: "Fertilizers",
       para:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, .",
-      icon: <ImLeaf />,
+        "Additionally, our company offers fertilization products containing vital nutrients for crops to become more robust while also producing better yields.",
+      icon: <GiPlantWatering />
+      ,
     },
   ];
 
@@ -41,7 +47,7 @@ export default function Greenbox() {
             key={card.id}
             className="lg:w-1/4 sm:w-1/2 w-full lg:border-r text-center sm:px-12 px-3 group text-white last:border-none"
           >
-            <div className="mx-auto flex justify-center rounded-full items-center bg-yellow3 w-14 h-14 group-hover:scale-x-[-1] duration-300 text-brown2">
+            <div className="mx-auto flex justify-center text-3xl rounded-full items-center bg-yellow3 w-14 h-14 group-hover:scale-x-[-1] duration-300 text-brown2">
               {card?.icon}
             </div>
             <h2 className="mt-3 md:mt-5 sm:text-xl duration-200 group-hover:text-yellow3 text-lg font-semibold">

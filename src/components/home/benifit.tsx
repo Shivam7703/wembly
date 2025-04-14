@@ -34,12 +34,10 @@ function Benifit({ data }: any) {
              
              <div className="absolute top-0 flex flex-col justify-center left-0 w-full bg-black/65 overflow-hidden h-0 group-hover:h-full duration-300 text-white text-center ">
               <h2 className="text-xl m-5 leading-[1.9] text-center sm:text-xl font-bold">
-                Pure Cow's Milk
-              </h2>
+{card?.heading}              </h2>
               <div className="h-1 bg-yellow3 max-w-44 w-full mx-auto"></div>
               <p className="text-center font-semibold text-sm md:text-base leadiung-[1.4] m-5">
-                Ultrices sagittis orci a scelerisque purus semper eget duis at.
-                Sollictudin nibh sit amet commodo nulla.
+              {card?.text}
               </p>
               </div>
             </div>
