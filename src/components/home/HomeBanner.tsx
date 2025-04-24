@@ -80,12 +80,12 @@ function HomeBannerCard({ img, welcome, title1, title2, para, btntext }: any) {
       {/* Full-size image */}
       <Image
         src={img} // Use the dynamic image passed in
-        className="absolute z-0 h-full w-full  object-cover object-center"
+        className="absolute z-0 h-full w-full  object-cover md:object-right"
         alt="banner image"
         layout="fill"
       />
 
-      <div className="absolute top-0 left-0 items-center justify-center w-full h-full z-10 bg-[#0000006f] grid grid-cols-2 md:grid-cols-3   gap-y-10   lg:p-28 sm:p-12 p-7  ">
+      <div className="absolute top-0 left-0 items-center justify-center w-full h-full z-10 bg-gradient-to-l from-transparent via-[#00000053] to-[#000000b3]  grid grid-cols-2 md:grid-cols-3   gap-y-10   lg:p-28 sm:p-12 p-7  ">
         <motion.div
           variants={sliderText}
           initial="initial"
@@ -97,7 +97,7 @@ function HomeBannerCard({ img, welcome, title1, title2, para, btntext }: any) {
           <h4 className="text-yellow3 font-bold md:text-xl text-lg">
             {welcome}
           </h4>
-          <h1 className="inline-block !leading-[1.3] text-4xl font-bold md:text-6xl ">
+          <h1 className="inline-block !leading-[1.2] text-3xl font-bold md:text-5xl ">
             {title1} <span className="text-green2">{title2}</span>
           </h1>
           <p className="-mt-4 !mb-4">

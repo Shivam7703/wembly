@@ -6,7 +6,7 @@ function Sustainsec2() {
   return (
     <section className=" p-7 text-center relative overflow-hidden">
       <Imageslide data={aboutsec2}/>
-      <div className="absolute bg-yellow3 bottom-0 left-0 h-3/4 -z-10 w-full"></div>
+      <div className="absolute bg-blue-200 bottom-0 left-0 h-3/4 -z-10 w-full"></div>
     </section>
   )
 }

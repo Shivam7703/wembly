@@ -22,17 +22,15 @@ export default function Section3() {
           className="space-y-7 "
         >
         
-          <h2 className="sm:text-5xl text-zinc-900 font-bold text-3xl">
-          Research & Development          </h2>
+          <h2 className="sm:text-5xl !leading-tight text-zinc-900 font-bold text-3xl">
+          RESEARCH & DEVELOPMENT
+          </h2>
 
           <p className="text-zinc-800  ">
-          The company continuously focuses in research and innovation to bring high-tech solutions, and thus have increasingly efficient responses to the challenges of today and tomorrow in the field.
+          Wembley International puts its faith in innovation along with research to drive its operations. Our organization continuously delivers enhanced high-tech solutions to adapt to present agricultural requirements and build resilience for upcoming farming challenges. 
 </p> 
  <p className="text-zinc-800  ">
-Every day Mankind Agritech reaffirms its commitment to the progress of Indian agriculture, developing and marketing speciality products for crop protection that help growers preserve their legacy and enhance their productivity.
-<br />
-The R&D team and the new product development team in the company is focused on finding more sustainable solutions than those which are in the market, as well as products with eco-friendly profile for consumers. Mankind Agritech works closely with its customers to assist in finding the balance of cost and environmental impact.
-
+ Our R&D division and new product development projects work jointly to produce environmentally friendly and secure solutions. Our organization seeks to deliver sustainable alternatives that offer benefits to both human beings and agricultural produce while providing advantages to all environmental components. Wembley International partners with farmers to achieve sustainable crop growth through responsible cost-effectiveness practices since we support growing more without compromising environmental stewardship. 
           </p>
       
         </motion.div>

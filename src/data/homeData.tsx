@@ -1,12 +1,16 @@
-import { about, about2, banner, banner2, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, car, cl1, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, rondo, sec1, sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
+import { about, about2, aboutb, banner, banner2, banner3, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, cl1, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, rondo,  sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
 } from "react-icons/fa6";
-import { GiChestnutLeaf, GiDeadEye, GiOakLeaf } from "react-icons/gi";
+import { GiDeadEye, GiOakLeaf } from "react-icons/gi";
+import { HiShoppingBag } from "react-icons/hi";
+import { HiBuildingOffice } from "react-icons/hi2";
+import { IoIosPeople } from "react-icons/io";
 import { LiaBullseyeSolid} from "react-icons/lia";
 import { LuSmilePlus } from "react-icons/lu";
 import { MdAttachEmail, MdGppGood, MdLocationCity, MdWifiCalling3} from "react-icons/md";
+import { RiShoppingCart2Fill } from "react-icons/ri";
 
 
 // homepage
@@ -55,17 +59,17 @@ export const sliderContent = [
   {
     id: 1,
     img: banner,
-    welcome: "Welcome to The Trusted Crop Care ",
+    welcome: "Welcome To Wembley International",
     title1: "Better care for crops, stronger yields with our ",
     title2: "trusted solutions",
-para:"Your crops find all necessary elements under one combined solution. The product range includes herbicides alongside fertilizers and tools that enable both superior growth and accelerated production.",
+para:" Our Solutions Provide Everything your Crops Need, From Pest Protection to Essential Nutrients. Ensuring Healthy Growth and Higher Yields. ",
     btntext: "Explore More",
     href: "/products",
   },
   {
     id: 2, // Fix duplicate id issue by using unique ids
-    img: banner2,
-    welcome: "The Best Agriculture Company",
+    img: banner3,
+    welcome: "Best Agri-input & Crop Protection Firm ",
     title1: "Helping farmers grow more with ",
     title2: "simple and effective products.",
 para:"Making farming simple and effective. Your crops will be protected while the soil gets nourished for increased production.",
@@ -79,9 +83,11 @@ export const aboutdata = {
   img2: about2,
 
   title1: "About Us",
-  title2: "Add a subheading here",
+  title2: "Innovative Solutions for a Healthier,",
+  title4: " More Productive World",
+
   para:
-    "Our company delivers premium herbicides together with insecticides and fungicides with fertilizers supported by farming devices. Our agricultural products enable farmers to defend their fields from harmful pests while building soil health and multiplying their produce. At our company we offer dependable products along with dedicated delivery of excellence as we work to help farmers cultivate healthy, easy-to-grow crop yields.",
+    "Wembley International is a Tanzania-based agricultural solutions company committed to transforming and supporting the country's farming landscape through innovative, science-backed products and sustainable practices. Our business spans a wide range of crop protection and nutrition segments, including Herbicides, Insecticides, Fungicides, Plant Growth Regulators (PGRs), Bio Pesticides, and Plant Nutrition.",
   title3: "Our Vision and Commitment",
   vision: [
     {
@@ -102,17 +108,17 @@ export const aboutdata = {
 
 export const countDown=[
   {id:1,
-    icon:<GiChestnutLeaf />,
+    icon:<HiShoppingBag  />,
     title:"Retailers",
     Value:"75"
   },{id:2,
-    icon:<GiChestnutLeaf />,
+    icon:<RiShoppingCart2Fill />    ,
     title:"Distributors",
     Value:"5"
-  },{id:3,    icon:<GiChestnutLeaf />,
+  },{id:3,    icon:<IoIosPeople />    ,
     title:"Trusted Customers",
     Value:"1000"
-  },{id:4,     icon:<GiChestnutLeaf />,
+  },{id:4,     icon:<HiBuildingOffice />    ,
     title:"Skus",
     Value:"500"
   }
@@ -287,61 +293,176 @@ export const benefit = {
   ],
 };
 
-
 export const blogData = {
   title1: "Blogs & News",
   title2: "Stay Updated With our Latest News And Blogs",
   para:
-    "We are best service Provider for We are best service Provider for We are best service Provider for service Provider for Petrolium",
+    "Stay informed with Wembley International—your trusted source for agricultural knowledge and innovation.",
   blogs: [
     {
       id: 1,
-      title: "Learn more about the Best Electric Cars and Charging Time",
+      title: "Benefits of Crop Protection in Indian Agriculture",
       text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+        "Indian agricultural farming practices serve over one billion citizens while sustaining the professional lives of numerous farmers throughout the region. The production of a healthy yield faces continuous threats from plant diseases, together with pest attacks and weed growth. Crop protection stands as a necessity for such situations. The crop protection from dangerous organisms through effective methods ensures improved yield quality and secures food availability, and also enhances farmer financial stability. ",
+        detail:`  <h1 style="">Benefits of Crop Protection in Indian Agriculture</h1>
+
+    <p>Indian agricultural farming practices serve over one billion citizens while sustaining the professional lives of numerous farmers throughout the region. The production of a healthy yield faces continuous threats from plant diseases, together with pest attacks and weed growth. Crop protection stands as a necessity for such situations. The crop protection from dangerous organisms through effective methods ensures improved yield quality and secures food availability, and also enhances farmer financial stability.</p>
+
+    <h2 style="">Why Crop Protection Matters for Indian Farmers?</h2>
+    <p>Crop protection has become essential in India because agricultural weather instability, rising pest adaptation rates, and diseases are negatively affecting farms' health. Farmers need to invest their time in crop cultivation for months. The careful work of farmers will become useless because sudden infestations or infections will destroy their crops if adequate crop protection is not implemented. The implementation of insecticides, together with fungicides and herbicides, provides crop protection from beginning to end.</p>
+
+    <h2 style="">Types of Crop Protection Solutions Used in India</h2>
+    <ul>
+      <li><strong>Insecticides:</strong> Protective agents against insects such as bollworms, aphids, and beetles.</li>
+      <li><strong>Herbicides:</strong> Suppress weeds that compete with crops for nutrients and water.</li>
+      <li><strong>Fungicides:</strong> Defend crops from fungal infections like blight and mildew.</li>
+      <li><strong>Fertilizers:</strong> Supply essential nutrients to boost development and harvest yields.</li>
+      <li><strong>Implements:</strong> Tools and machines like plows and harvesters improve work efficiency.</li>
+      <li><strong>Animal Feeds:</strong> Ensure nutritious diets for livestock, boosting vitality and commercial value.</li>
+    </ul>
+
+    <h2 style="">Benefits of Crop Protection in Indian Agriculture</h2>
+    <ul>
+      <li><strong>Higher Yields:</strong> Reduces damage from pests and diseases for better harvests.</li>
+      <li><strong>Improved Quality:</strong> Results in better-quality produce with premium market value.</li>
+      <li><strong>Food Security:</strong> Helps increase national food reserves and manage inflation.</li>
+      <li><strong>Farmer Income Growth:</strong> Reduces losses and improves financial security.</li>
+      <li><strong>Sustainable Agriculture:</strong> Promotes land and plant health for long-term farming.</li>
+    </ul>
+
+    <h2 style="">Wembley International’s Role in Crop Protection</h2>
+    <p>Wembley International offers a wide range of crop protection products tailored to Indian farming conditions, including:</p>
+    <ul>
+      <li>Eco-friendly insecticides for safe pest control.</li>
+      <li>New-generation herbicides that protect without harming crops.</li>
+      <li>Modern fungicides applied at critical crop development stages.</li>
+    </ul>
+    <p>All products are certified for safety, effectiveness, and affordability based on Indian conditions.</p>
+
+    <h2 style="">How Crop Protection Helps Different Crops</h2>
+    <ul>
+      <li><strong>Wheat and Rice:</strong> Protection from rust, blight, and borer infestations.</li>
+      <li><strong>Cotton:</strong> Defense against bollworms and sucking pests.</li>
+      <li><strong>Vegetables:</strong> Safeguards from fungal infections and leaf eaters.</li>
+      <li><strong>Fruits:</strong> Prevention of diseases like anthracnose to preserve fruit quality.</li>
+    </ul>
+
+    <h2 style="">How Indian Farmers Can Use Crop Protection Wisely</h2>
+    <ul>
+      <li>Follow instructions on product labels carefully.</li>
+      <li>Use protective gear while handling pesticides.</li>
+      <li>Apply specific sprays instead of general scattering.</li>
+      <li>Combine crop protection with proper irrigation, seed selection, and soil health strategies.</li>
+    </ul>
+
+    <h2 style="">The Future of Crop Protection in Indian Agriculture</h2>
+    <p>Sustainable and smart solutions are reshaping crop protection. Drone tech, data-based farming, and precision tools now help detect pests early and apply solutions efficiently. Wembley International continues to invest in innovative, eco-friendly protection solutions for Indian farmers.</p>
+
+    <h2 style="">How Wembley Can Help You With Crop Protection</h2>
+    <ul>
+      <li><strong>Eco-friendly insecticides:</strong> Target pests while being safe for the environment.</li>
+      <li><strong>Advanced herbicides:</strong> Tackle tough weeds without harming crops.</li>
+      <li><strong>Modern fungicides:</strong> Support crop health during key growth phases.</li>
+    </ul>
+    <p>All products are tested under Indian soil and climate conditions to ensure reliability and affordability. With Wembley’s help, farmers can enhance yield, protect plants, and uplift community well-being.</p>
+
+    <p style="margin-top:20px; font-weight:600;">Crop protection is not just a farming technique—it's a lifeline for Indian agriculture. With reliable solutions from trusted names like Wembley International, farmers can grow healthy crops, increase incomes, and contribute to India's food security. Let’s support our farmers by promoting smart, safe, and effective crop protection practices across the country.</p>
+
+`,
       date: "05/09/23",
       img: banner,
     },
     {
       id: 2,
-      title: "Learn more about the Best Electric Cars and Charging Time",
+      title: "Protecting Crops with Advanced Farming Solutions",
       text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+        "Indian agriculture sustains itself due to farming yet crop protection remains essential for farmer success. The expanding population, along with climate uncertainties, makes it essential for farmers to adopt progressive farm solutions at this historical moment. Advanced farming solutions enable farmers to achieve better crop yield and protect their crops while practicing sustainable agriculture.",
+        detail:` <h1 style="color:#2c5f2d;">Protecting Crops with Advanced Farming Solutions</h1>
+
+    <p>Indian agriculture sustains itself due to farming yet crop protection remains essential for farmer success. The expanding population, along with climate uncertainties, makes it essential for farmers to adopt progressive farm solutions at this historical moment. Advanced farming solutions enable farmers to achieve better crop yield and protect their crops while practicing sustainable agriculture.</p>
+
+    <p>Agriculture experiences a transformation through the implementation of precise tools along with sustainable pesticides and integrated pest management solutions. The modern agricultural solutions minimize both pests and diseases' impact on crops, together with efficient utilization of water and fertilizers. These agricultural methods provide farmers with better yields and environmental protection, together with solid soil preservation, which allows sustained agricultural production.</p>
+
+    <h2 >Why Do We Need Advanced Farming Solutions Today?</h2>
+    <p>Advanced farming solutions deliver technical tools along with efficient farming technologies, which help farmers execute all agricultural processes. These farming solutions enhance productivity levels while minimizing harvest losses through their utilization from planting until the harvest period. The contemporary agricultural field suffers crop destruction from pests and diseases, together with weed growth. Crop protection requires effective farming solutions for its survival.</p>
+
+    <h2 >Types of Advanced Farming Solutions for Indian Agriculture</h2>
+    <ul>
+      <li><strong>Precision Farming Solutions:</strong> The system integrates both data and technological tools for enhanced planting and harvesting quality.</li>
+      <li><strong>Integrated Pest Management:</strong> Combines different methods to control pests without harming the environment.</li>
+      <li><strong>Organic Farming Solutions:</strong> Organic agriculture should be promoted through fertilization methods based on nature, along with biopesticide applications for crop production.</li>
+      <li><strong>Smart Irrigation Systems:</strong> Efficient water preservation systems allow for exact watering amounts to arrive at the crops.</li>
+      <li><strong>Drone-Based Farming Solutions:</strong> Farmers need to inspect crops while they perform fertilizer applications, and they need to obtain current field information.</li>
+    </ul>
+
+    <h2 >Benefits of Using Advanced Farming Solutions</h2>
+    <ul>
+      <li>Better crop protection against pests and diseases</li>
+      <li>Increased crop yield and better quality produce</li>
+      <li>Reduced need for chemical pesticides</li>
+      <li>Improved soil health and water usage</li>
+      <li>Enhanced income for farmers and reduced losses</li>
+    </ul>
+
+    <h2 >Farming Solutions and Crop Protection—A Strong Relationship</h2>
+    <p>Present-day agricultural solutions function to maintain complete protection of crops. Proper utilization of insecticides together with fungicides and herbicides stands as a core element of smart farming technology. The tools safeguard crops from damaging pests while offering protection without harming the environmental surroundings.</p>
+
+    <h2 >How Agriculture Solutions Are Transforming Indian Farms</h2>
+    <p>Indian agricultural workers experience fundamental operational changes through technology-enabled solutions in farming. Indian farmers access solutions that use technology to deliver weather alerts along with soil testing features and crop health monitoring capabilities. These methods have revolutionized rural territories that used to practice farming through traditional methods only.</p>
+
+    <h2 >Challenges in Adopting Farming Solutions</h2>
+    <ul>
+      <li>Lack of awareness among farmers</li>
+      <li>Limited access to new technology</li>
+      <li>High cost of advanced farming solutions</li>
+    </ul>
+    <p>To harness modern farming technology, farmers require assistance from the government along with training programs.</p>
+
+    <h2 >How Wembley International Supports Farmers with Farming Solutions</h2>
+    <p>Wembley International works to supply trusted farming solutions that empower Indian farmers. Wembley International delivers agricultural sprays and insecticides, along with fungicides that have been specially formulated to accommodate Indian agricultural requirements. The offered agricultural products defend crops while fostering sustainable farming methods.</p>
+
+    <p>Farmers who adopt Wembley’s farming solutions have achieved outstanding improvements regarding both their harvest output and crop quality outcomes. The company delivers professional recommendations together with reasonably priced agricultural products to ensure all farmers receive ideal solutions.</p>
+
+    <h2 >The Future of Indian Agriculture with Farming Solutions</h2>
+    <p>Modernizing farming solutions will determine what kind of future Indian agriculture will have. Sustainable farming tools, together with precise equipment and organic growing methods, and advanced pest management solutions become accessible to all farmers with proper backing systems. The transition will enhance both economic growth and the supply of food worldwide.</p>
+
+    <p>Indian agricultural practices will become more productive through contemporary farming solutions, which simultaneously defend crops from pests as well as maintain soil well-being. Advanced solutions protect sustainability in farming operations, maintain farmer incomes, and strengthen food security for prosperous agricultural development.</p>
+`,
       date: "15/12/23",
       img: banner,
     },
-    {
-      id: 3,
-      title: "Learn more about the Best Electric Cars and Charging Time",
-      text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
-      date: "05/09/24",
-      img: banner,
-    },
-    {
-      id: 4,
-      title: "Learn more about the Best Electric Cars and Charging Time",
-      text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
-      date: "07/03/24",
-      img: banner,
-    },
-    {
-      id: 5,
-      title: "Learn more about the Best Electric Cars and Charging Time",
-      text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
-      date: "15/09/24",
-      img: banner,
-    },
-    {
-      id: 6,
-      title: "Learn more about the Best Electric Cars and Charging Time",
-      text:
-        "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
-      date: "01/07/24",
-      img: banner,
-    },
+    // {
+    //   id: 3,
+    //   title: "Learn more about the Best Electric Cars and Charging Time",
+    //   text:
+    //     "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+    //   date: "05/09/24",
+    //   img: banner,
+    // },
+    // {
+    //   id: 4,
+    //   title: "Learn more about the Best Electric Cars and Charging Time",
+    //   text:
+    //     "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+    //   date: "07/03/24",
+    //   img: banner,
+    // },
+    // {
+    //   id: 5,
+    //   title: "Learn more about the Best Electric Cars and Charging Time",
+    //   text:
+    //     "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+    //   date: "15/09/24",
+    //   img: banner,
+    // },
+    // {
+    //   id: 6,
+    //   title: "Learn more about the Best Electric Cars and Charging Time",
+    //   text:
+    //     "In this post, we take a look at the best electric cars currently on the market today and how long it would take to charge each to its full capacity.",
+    //   date: "01/07/24",
+    //   img: banner,
+    // },
   ],
 };
 
@@ -385,38 +506,35 @@ export const healthy = {
 export const aboutBanner = {
   title: "About Us",
   para:
-    "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
+    "We are confident that we are the leading farm in providing agricultural products that ensure food hygiene and safety.",
   slug: "about-us",
-  img: banner2,
+  img: aboutb,
 };
 
 export const aboutsec1 = {
-  img: sec1,
-  img2: car,
+  img: about2,
   title1: "About Us",
-  title2: "Transforming India's Future ",
-  title3: "with AI Ecofuels",
+  title2: "Providing the Finest Agro Solutions to the",
+  title3: "Best Farming Partners",
   para1:
-    "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan,Risus commodo viverra maecenas accumsan.",
+    "The company Wembley International supplies premium crop protection options, which include herbicides together with insecticides and fungicides and other solutions. Wembley International delivers solution products to the best agricultural suppliers for increased farm productivity through crop protection and healthy yield maintenance. Wembley International provides reliable farming products to suit diverse agricultural requirements.",
     para2:
-    "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan,Risus commodo viverra maecenas accumsan.",
+    "Our extensive network as well as our accumulated experience enables us to identify current agricultural requirements. Our production aims to deliver solutions for weed control and pest and disease management operations. Our company, Wembley International, maintains its solemn pledge to supply sustainable farming with high-quality solutions for achieving effective harvests.",
   vision: [
     {
       id: 1,
-      icon: <GiDeadEye />,
-      heading: "Our Vision",
+      heading: "OUR MISSION",
       text:
-        "Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore mesureme aliquaum suspendisse ultrices gravidisu.",
+        "Wembley International dedicates itself to supplying farmers with top-quality herbicides, along with insecticides and fungicides and additional crop care products, which aid farmers in protecting their crops and achieving higher yields. Our organization serves modern farming by delivering agricultural products that provide safety and effectiveness in addition to reliability. The company seeks to create enduring partnerships through proven methods backed by expert feedback, which results in reliable, sustainable outcomes.",
     },
     {
       id: 2,
-      icon: <LiaBullseyeSolid />,
-      heading: "Our Mission",
+      heading: "OUR VISION",
       text:
-        "Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore mesureme aliquaum suspendisse ultrices gravidisu.",
+        "Our company plans to be the leading agrochemical industry player by providing innovative, sustainable solutions that benefit farmers. Every type of farmer should be able to obtain simple and affordable high-quality crop protection products for their agricultural operations. Wembley International strives to achieve better yields and healthier crops with environmentally responsible farming practices, together with continual improvement of its products, to plant a greener planet.",
     },
   ],
-  title4: "Join us at AI Ecofuels and be part of the change!",
+
 };
 
 export const aboutsec2 =
@@ -435,32 +553,29 @@ export const aboutsec2 =
 export const productBanner = {
   title: "Our Products",
   para:
-    "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
-  slug: "about-us",
+    "We provide a full range of quality agricultural solutions trusted by farmers for consistent performance, better growth, and long-term success in every season.",
+  slug: "our-products",
   img: banner2,
 };
 
 export const productcategory = [
-  {
-  id:1,
-  label:"Implements"
-},
-{
-  id:2,
-  label:"Insecticides"
-},
-{
-  id:3,
-  label:"Herbicides"
-},
-{
-  id:4,
-  label:"Fungicides"
-},
-{
-  id:5,
-  label:"Fertilizer"
-}
+
+  {id:1,
+    label:"Herbicides",
+  },
+  {id:2,
+    label:"Fungicides",
+  },
+  {id:3,
+    label:"Insecticides",
+  },
+  {id:4,
+    label:"Fertilizer",
+  },
+  {id:5,
+    label:"Implements",
+  },
+ 
 ];
 
 
@@ -861,36 +976,6 @@ export const products = [
 },
 ];
 
-export const outletBanner = {
-  title: "Our Outlets",
-  para:
-    "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
-  slug: "about-us",
-  img: banner,
-};
-
-export const OutletDetails = [
-  {
-    id: 1,
-    name: "Andhra Pradesh",
-    cities: [
-      {
-        id: 1,
-        title1: "City1",
-        text1:
-          "We assist in determining areas on the roads most suitable for setting up the EV charging station in order to be easily located by users. We place emphasis on selecting the optimum site in which to place EV charging stations to ensure the close vicinity of the users. This is good because if a driver gets into the car and needs to recharge the car soon, then he or she will be able to easily locate a charging station.",
-        img: banner,
-        text2:
-          "Our team analyzes the  traffic and demand and makes conscious decisions about the patterns. and other features that make up the location to decide the best places to set the infrastructure. Such a placement makes use of figures to ascertain that the charging stations are positioned favorably in a way that they will benefit the most drivers. ",
-      },
-
-    ],
-  },
-
- 
-
-];
-
 // blog Page
 export const blogBanner = {
   title: "Blogs & News",
@@ -902,7 +987,6 @@ export const blogBanner = {
 
 
 // contat Us
-
 export const contactBanner = {
   title: "Contact Us",
   para:

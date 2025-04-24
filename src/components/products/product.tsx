@@ -9,7 +9,7 @@ interface flex{
 }
 
 export default function Product({isslider}: flex) {
-const [activeItem , setActiveitem] = useState("Implements")
+const [activeItem , setActiveitem] = useState("Herbicides")
 
 function setProduct(product :any) {
     {activeItem != product  &&

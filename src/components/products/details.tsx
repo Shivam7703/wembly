@@ -20,7 +20,7 @@ function Productdetails({product} :any) {
                   </h2>
 <Product isslider ={true}/>
         </div>
-        <div className='md:w-[33%] bg-zinc-200 p-4 w-full md:sticky space-y-5 top-10 h-full'>
+        <div className='md:w-[30%]  p-4 w-full md:sticky space-y-5 top-10 h-full'>
           <Aside currpro ={product?.name}/>
 </div>
     </div>

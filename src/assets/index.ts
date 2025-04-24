@@ -1,50 +1,60 @@
 import logo from "@/assets/logo.png";
 import logo2 from "@/assets/logo-white.png";
-import heade from "@/assets/home/header.png";
-import count from "@/assets/home/count.png"
-import banner from "@/assets/home/Bannner1.jpg";
-import banner2 from "@/assets/home/Bannner2.jpg";
-import bann from "@/assets/home/bann.png";
-import about from "@/assets/home/about.png";
-import about2 from "@/assets/home/about2.png";
-import contat from "@/assets/home/contact.jpg";
-import foot from "@/assets/home/foot.png";
+import heade from "@/assets/home/header.webp";
+import count from "@/assets/home/count.webp";
+import susbanner from "@/assets/home/sustainability.webp";
+import aboutb from "@/assets/home/aboutb.webp";
 
+import banner from "@/assets/home/Bannner1.webp";
+import banner2 from "@/assets/home/Bannner2.webp";
+import banner3 from "@/assets/home/banner2.gif";
+import bann from "@/assets/home/bann.webp";
+import about from "@/assets/home/about.webp";
+import about2 from "@/assets/home/about2.webp";
+import contat from "@/assets/home/contact.webp";
+import foot from "@/assets/home/foot.webp";
 
-import car from "@/assets/home/car.png";
-import partner from "@/assets/home/partner.png";
-import whychoose from "@/assets/home/whychoose.png";
-import cl1 from "@/assets/home/cl-1.jpg";
+import cl1 from "@/assets/home/cl-1.webp";
 // about
-import sec1 from "@/assets/about/section1.png";
-import com from "@/assets/about/com.jpg";
-import env from "@/assets/about/env.png";
-import social from "@/assets/about/social.jpg";
+import com from "@/assets/about/com.webp";
+import env from "@/assets/about/env.webp";
+import social from "@/assets/about/social.webp";
 // product
-import ferti from "@/assets/product/Fertilizer/AMMONIUM SULPHATE.png";
-import Best50 from "@/assets/product/Fungicides/BESTONIL.png";
-import Bestsup from "@/assets/product/Fungicides/BESTONIL SUPER 720SC.png";
-import mansup from "@/assets/product/Fungicides/MANCOSTAR  SUPER 720WP.png";
-import supaking from "@/assets/product/Fungicides/SUPAKINGA 72WP.png";
-import man5sc from "@/assets/product/Fungicides/MANCOVIL 5SC.png";
-import sulph from "@/assets/product/Fungicides/SULPHOWIT 800 WDG.png";
-import supa from "@/assets/product/Fungicides/SUPAZEB 80WP.png";
-import Best720 from "@/assets/product/Herbicides/BESTOMINE 720SL.png";
-import Best200 from "@/assets/product/Herbicides/BESTOQUAT 200SL.png";
-import Best480 from "@/assets/product/Herbicides/BESTOSATE 480SL.png";
-import Best75 from "@/assets/product/Herbicides/BESTOSPEED 75.7SG.png";
-import rondo from "@/assets/product/Herbicides/RONDO.png";
-import supa720 from "@/assets/product/Herbicides/SUPAMINE 720SL.png";
-import supa480 from "@/assets/product/Herbicides/SUPASATE 480SL.png";
-import farm16 from "@/assets/product/implements/farmcare16.png";
-import farm20 from "@/assets/product/implements/farmcare20.png";
-import oxp from "@/assets/product/implements/oxplough.jpg";
-import bestacron720 from "@/assets/product/Insecticides/BESTACRON 720EC.png";
-import dual from "@/assets/product/Insecticides/DUAL  POWER 344SE.png";
-import fendel from "@/assets/product/Insecticides/FENDEL.png";
-import supamec from "@/assets/product/Insecticides/SUPAMECTIN 5EC.png";
-import supath from "@/assets/product/Insecticides/SUPAMECTIN 5EC.png";
-import tunza from "@/assets/product/Insecticides/TUNZA 70WS.png";
+import ferti from "@/assets/product/Fertilizer/AMMONIUM-SULPHATE.webp";
+
+
+
+import Best50 from "@/assets/product/Fungicides/BESTONIL.webp";
+import Bestsup from "@/assets/product/Fungicides/BESTONIL SUPER 720SC.webp";
+import mansup from "@/assets/product/Fungicides/MANCOSTAR SUPER 720WP.webp";
+import supaking from "@/assets/product/Fungicides/SUPAKINGA 72WP.webp";
+import man5sc from "@/assets/product/Fungicides/MANCOVIL 5SC.webp";
+import sulph from "@/assets/product/Fungicides/SULPHOWIT 800 WDG.webp";
+import supa from "@/assets/product/Fungicides/SUPAZEB 80WP.webp";
+
+
+
+import Best720 from "@/assets/product/Herbicides/BESTOMINE-720SL.webp";
+import Best200 from "@/assets/product/Herbicides/BESTOQUAT-200SL.webp";
+import Best480 from "@/assets/product/Herbicides/BESTOSATE-480SL.webp";
+import Best75 from "@/assets/product/Herbicides/BESTOSPEED-75.7SG.webp";
+import rondo from "@/assets/product/Herbicides/RONDO.webp";
+import supa720 from "@/assets/product/Herbicides/SUPAMINE-720SL.webp";
+import supa480 from "@/assets/product/Herbicides/SUPASATE 480SL.webp";
+
+
+import farm16 from "@/assets/product/implements/farmcare16.webp";
+import farm20 from "@/assets/product/implements/farmcare20.webp";
+import oxp from "@/assets/product/implements/oxplough.webp";
+
+
+
+import bestacron720 from "@/assets/product/Insecticides/BESTACRON-720EC.webp";
+import dual from "@/assets/product/Insecticides/DUAL-POWER-344SE.webp";
+import fendel from "@/assets/product/Insecticides/FENDEL.webp";
+import supamec from "@/assets/product/Insecticides/SUPAMECTIN-5EC.webp";
+import supath from "@/assets/product/Insecticides/SUPATHRIN-5EC.webp";
+import tunza from "@/assets/product/Insecticides/TUNZA-70WS.webp";
 
 
 
@@ -53,7 +63,7 @@ import tunza from "@/assets/product/Insecticides/TUNZA 70WS.png";
 
 
 export {
-    logo , logo2, banner,banner2,bann, about,about2,foot,contat, car, partner, whychoose, cl1,sec1,com,env ,social,heade, count
+    logo , logo2, banner,banner2,banner3,susbanner,aboutb, bann, about,about2,foot,contat,cl1, com,env ,social,heade, count
  , ferti
  ,Bestsup
  ,mansup

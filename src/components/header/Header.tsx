@@ -10,6 +10,7 @@ import Image from "next/image";
 import { logo } from "@/assets";
 import { MdCall, MdAttachEmail } from "react-icons/md";
 import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Header = ({ header }: any) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
@@ -87,21 +88,28 @@ const Header = ({ header }: any) => {
         ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
       >
         {/* Top Bar with Contact and Google Translate */}
-        <div className="bg-[#030727] text-white p-3  flex justify-between items-center lg:px-20">
-          <div className="flex md:gap-11 gap-5">
+        <div className="bg-[#030727] text-white p-3 flex justify-between items-center lg:px-20">
+          <div className="flex md:gap-9 gap-4">
             <a
               className="flex items-center hover:scale-105 duration-300"
               href="tel:+918765432110"
             >
-              <MdCall className="sm:text-lg text-2xl mr-1" />
+              <MdCall className=" text-2xl mr-2" />
              <p className="max-md:hidden">+91 8765432110</p> 
             </a>
             <a
               className="flex items-center  hover:scale-105 duration-300"
               href="mailto:info@wembly.com"
             >
-              <MdAttachEmail className="sm:text-lg text-2xl mr-1" />
+              <MdAttachEmail className=" text-2xl mr-2" />
              <p className="max-lg:hidden"> info@wembly.com</p> 
+            </a>
+            <a
+              className="flex items-center  hover:scale-105 duration-300"
+              href="mailto:info@wembly.com"
+            >
+              <FaLocationDot className=" text-2xl mr-2" />
+             <p className="max-lg:hidden">Noida, UP-201301, Uttar Pradesh</p> 
             </a>
           </div>
 
@@ -112,7 +120,7 @@ const Header = ({ header }: any) => {
         </div>
 
         {/* Main Navigation for Desktop */}
-        <div className="hidden md:flex md:py-7 shadow-xl items-center justify-between bg-white h-24 px-5 py-3 lg:px-20">
+        <div className="hidden md:flex md:py-5 shadow-xl items-center justify-between bg-white h-[5.5rem] px-5 py-3 lg:px-20">
           <Link href={header?.href || "/"}>
             <Image
               src={logo}

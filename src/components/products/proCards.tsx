@@ -14,8 +14,8 @@ function ProCards({datacat}:any) {
             key={cards.id}
             className=" w-max text-left p-3 px-5 rounded-xl max-w-80 max-sm:w-[49%]"
           >
-            <div className="w-full h-full overflow-hidden group">
-              <div className='bg-zinc-100 mb-3 rounded-lg overflow-hidden  w-full p-3 h-64'>
+            <Link href={`/products/${encodeURIComponent(cards?.name || '')}`} className="w-full h-full overflow-hidden group">
+              <div className='pro-bg mb-3 rounded-lg overflow-hidden  w-full p-2 h-56'>
               <Image
                 src={cards.img}
                 alt={cards.name}
@@ -33,13 +33,13 @@ function ProCards({datacat}:any) {
                    {cards.category}
                 </span>
               </p>
-              <Link href={`/products/${encodeURIComponent(cards?.name || '')}`} className="flex items-center gap-x-2 group/link">
+              <div className="flex items-center gap-x-2 group/link">
                 <p className="text-sm text-green1 sm:font-extrabold">
                   View Product
                 </p>
                 <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-xl group-hover/link:rotate-45 duration-300" />
-              </Link>
-            </div>
+              </div>
+            </Link>
           </div>
         ))}
     </div>

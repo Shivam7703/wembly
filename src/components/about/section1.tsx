@@ -15,8 +15,17 @@ function Section1({ aboutdata }: any) {
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.3, 1)}
-        className="sm:w-[45%] w-full space-y-4"
+        className="sm:w-[45%] w-full space-y-4 hover14 overflow-hidden"
       >
+        <Image src={aboutdata?.img} alt="" className="w-full h-full object-cover min-h-80"/>
+      
+      </motion.div>
+
+      <motion.div
+        variants={fadeIn("left", "tween", 0.3, 1)}
+        className="sm:w-[50%] w-full "
+      >
+        <div className="space-y-7 overflow-hidden">
         {aboutdata?.title1 && (
           <h4 className="text-green1 bg-zinc-100 px-7 font-bold text-sm rounded-lg py-3 w-max">
             {aboutdata?.title1}
@@ -27,13 +36,6 @@ function Section1({ aboutdata }: any) {
           {aboutdata?.title2}{" "}
           <span className="text-green1">{aboutdata?.title3}</span>
         </h2>
-      </motion.div>
-
-      <motion.div
-        variants={fadeIn("left", "tween", 0.3, 1)}
-        className="sm:w-[50%] w-full "
-      >
-        <div className="space-y-7 overflow-hidden">
           {aboutdata?.para1 && (
             <p className="text-zinc-600 text-sm md:text-base">
               {aboutdata?.para1}

@@ -28,15 +28,15 @@ function Benifit({ data }: any) {
           data?.points.map((card: any) => (
             <div
               key={card.id}
-              className=" lg:w-[23.6%] group sm:w-[48.5%] w-full relative rounded-xl   shadow"
+              className=" lg:w-[23.6%] group sm:w-[48.5%] w-full relative rounded-xl overflow-hidden  shadow"
             >
-              <Image src={card?.img} alt={"product"} className="w-full h-64 object-cover sm:h-96"/>
+              <Image src={card?.img} alt={"product"} className="w-full h-64 object-cover object-right-top sm:h-96"/>
              
-             <div className="absolute top-0 flex flex-col justify-center left-0 w-full bg-black/65 overflow-hidden h-0 group-hover:h-full duration-300 text-white text-center ">
+             <div className="absolute bottom-[5%] flex flex-col justify-center text-black left-[5%] w-[90%] bg-white overflow-hidden h-16 rounded-xl group-hover:h-[90%] duration-300 text-center ">
               <h2 className="text-xl m-5 leading-[1.9] text-center sm:text-xl font-bold">
 {card?.heading}              </h2>
-              <div className="h-1 bg-yellow3 max-w-44 w-full mx-auto"></div>
-              <p className="text-center font-semibold text-sm md:text-base leadiung-[1.4] m-5">
+              <div className="h-1 bg-green2 max-w-44 w-full mx-auto"></div>
+              <p className="text-center font-semibold hidden group-hover:block text-sm md:text-base leadiung-[1.4] m-5">
               {card?.text}
               </p>
               </div>

@@ -25,7 +25,7 @@ export default function Blogsection({ data }: any) {
         {data?.blogs?.map((cards: any) => (
           <div
             key={cards.id}
-            className="md:mb-12 w-[50%] md:w-[31%] sm:p-4 p-1  rounded-xl  "
+            className="md:mb-12 sm:w-[50%] w-full md:w-[31%] sm:p-4 p-1  rounded-xl  "
           >
             <div className=" w-full  h-full overflow-hidden  group  shadow-xl bg-white rounded-sm sm:rounded-2xl">
               <div className="relative overflow-hidden w-full sm:h-60 h-36">
@@ -40,7 +40,7 @@ export default function Blogsection({ data }: any) {
                   {cards.date}
                 </div>
 
-                <h3 className="sm:text-xl !leading-[1.2] text-base sm:font-bold mt-4 text-zinc-800 group-hover:text-green2">
+                <h3 className="sm:text-xl !leading-[1.2] text-base sm:font-bold mt-4 text-zinc-800 group-hover:text-green1">
                   {cards.title}
                 </h3>
                 <p className="sm:hidden text-xs  mt-2 text-zinc-600">
@@ -52,8 +52,8 @@ export default function Blogsection({ data }: any) {
                 </p>
                 <br />
                 <Link
-                  href={"blogs/details"}
-                  className=" duration-500 max-sm:scale-50  group-hover:bg-zinc-800 text-white px-10 bg-green2  text-center -mb-3 py-2  text-base  sm:font-bold"
+                  href={`blogs/${cards?.title}`}
+                  className=" duration-500 max-sm:scale-50  group-hover:bg-zinc-800 text-white px-10 bg-green1  text-center -mb-3 py-2  text-base  sm:font-bold"
                 >
                   Read More
                 </Link>

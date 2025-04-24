@@ -36,7 +36,7 @@ function AboutSection() {
         )}
         {aboutdata?.title2 && (
           <h2 className="text-zinc-800 text-3xl md:text-5xl font-bold">
-            {aboutdata?.title2}
+            {aboutdata?.title2} <span className="text-green1">{aboutdata?.title4}</span>
           </h2>
         )}
         {aboutdata?.para && (

@@ -2,54 +2,25 @@
 
 import React, { useState, useRef } from "react";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import type { Swiper as SwiperType } from "swiper";
-import { FreeMode, Navigation, Thumbs, Autoplay } from "swiper/modules";
-import { banner, banner2, about, about2 } from "@/assets";
-import { FaCheckCircle } from "react-icons/fa";
+import { banner, banner2 } from "@/assets";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
-
-const images = [banner, banner2, about, about2, banner2, about];
-
-export default function ProductGallery({detail} : any) {
-  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
+export default function ProductGallery({ detail }: any) {
   const [showMagnifier, setShowMagnifier] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [activeSlideIndex, setActiveSlideIndex] = useState(0);
   const imageRef = useRef<HTMLDivElement>(null);
 
-  // Magnifier properties
-  const magnifierSize = 200; // 200px diameter
-  const zoomLevel = 2.5; // 2.5x zoom
+  const magnifierSize = 200;
+  const zoomLevel = 3;
 
-  const handleMouseEnter = () => {
-    setShowMagnifier(true);
-  };
-
-  const handleMouseLeave = () => {
-    setShowMagnifier(false);
-  };
+  const handleMouseEnter = () => setShowMagnifier(true);
+  const handleMouseLeave = () => setShowMagnifier(false);
 
   const handleMouseMove = (e: React.MouseEvent) => {
     if (imageRef.current) {
-      // Get image dimensions and position
-      const {
-        left,
-        top,
-        width,
-        height,
-      } = imageRef.current.getBoundingClientRect();
-
-      // Calculate cursor position relative to the image
+      const { left, top, width, height } = imageRef.current.getBoundingClientRect();
       const x = e.clientX - left;
       const y = e.clientY - top;
 
-      // Ensure the magnifier stays within the image boundaries
       setMousePosition({
         x: Math.max(0, Math.min(x, width)),
         y: Math.max(0, Math.min(y, height)),
@@ -58,142 +29,97 @@ export default function ProductGallery({detail} : any) {
   };
 
   return (
-    <div className=" pb-4 ">
-      <div className=" w-full mb-6 md:mb-8">
-        <Swiper
-          loop={true}
-          spaceBetween={10}
-          autoplay={{
-            delay: 4500,
-            disableOnInteraction: true,
-          }}
-          thumbs={{
-            swiper:
-              thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
-          }}
-          modules={[FreeMode, Navigation, Thumbs, Autoplay]}
-          className="w-full mb-3"
-          onSlideChange={(swiper) => setActiveSlideIndex(swiper.realIndex)}
+    <div className="pb-4 ">
+      <div className="mb-6 md:mb-8">
+        <div
+          className="relative mx-auto h-80 w-full max-w-[450px]  sm:h-[450px]"
+          ref={imageRef}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          onMouseMove={handleMouseMove}
         >
-          {images.map((src, index) => (
-            <SwiperSlide key={index}>
-              <div
-                className="relative w-full h-80 sm:h-[450px]"
-                ref={index === activeSlideIndex ? imageRef : null}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                onMouseMove={handleMouseMove}
-              >
-                <Image
-                  src={src}
-                  alt={`Slide ${index + 1}`}
-                  className="h-full w-full object-cover"
-                  priority={index === 0}
-                />
+          <Image
+            src={detail?.img}
+            alt={"Product Image"}
+            fill
+            className="object-cover max-h-[450px] w-full h-full"
+            priority
+          />
 
-                {/* Magnifier lens */}
-                {showMagnifier && index === activeSlideIndex && (
-                  <div
-                    className="absolute rounded-full overflow-hidden pointer-events-none border-2 border-gray-200 shadow-lg z-10"
-                    style={{
-                      width: `${magnifierSize}px`,
-                      height: `${magnifierSize}px`,
-                      left: `${mousePosition.x - magnifierSize / 2}px`,
-                      top: `${mousePosition.y - magnifierSize / 2}px`,
-                    }}
-                  >
-                    <div
-                      className="absolute"
-                      style={{
-                        width: `${imageRef.current?.clientWidth || 0}px`,
-                        height: `${imageRef.current?.clientHeight || 0}px`,
-                        transform: `scale(${zoomLevel})`,
-                        transformOrigin: `${mousePosition.x}px ${mousePosition.y}px`,
-                        backgroundImage: `url(${src.src})`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                        left: `-${mousePosition.x}px`,
-                        top: `-${mousePosition.y}px`,
-                      }}
-                    />
-                  </div>
-                )}
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-
-        <Swiper
-          onSwiper={setThumbsSwiper}
-          loop={true}
-          spaceBetween={10}
-          slidesPerView={4}
-          freeMode={true}
-          watchSlidesProgress={true}
-          modules={[FreeMode, Navigation, Thumbs]}
-          className="packI mt-4 w-full box-border py-2"
-        >
-          {images.map((src, index) => (
-            <SwiperSlide key={index}>
-              <div className="relative w-full sm:h-[100px] h-20">
-                <Image
-                  src={src}
-                  alt={`Thumbnail ${index + 1}`}
-                  className="object-cover w-full h-full"
-                />
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+          {/* Magnifier lens */}
+          {showMagnifier && (
+  <div
+    className="absolute rounded-full overflow-hidden pointer-events-none border-2 border-gray-200 shadow-lg z-50"
+    style={{
+      width: `${magnifierSize}px`,
+      height: `${magnifierSize}px`,
+      left: `${mousePosition.x - magnifierSize / 2}px`,
+      top: `${mousePosition.y - magnifierSize / 2}px`,
+    }}
+  >
+    <div className="backdrop-blur-sm"
+      style={{
+        position: "absolute",
+        width: `${imageRef.current?.clientWidth || 0}px`,
+        height: `${imageRef.current?.clientHeight || 0}px`,
+        transform: `scale(${zoomLevel})`,
+        transformOrigin: "top left",
+        left: `${-mousePosition.x * zoomLevel + magnifierSize / 2}px`,
+        top: `${-mousePosition.y * zoomLevel + magnifierSize / 2}px`,
+      }}
+    >
+      <Image
+        src={detail.img}
+        alt="Magnified view"
+        fill
+        className="object-cover"
+      />
+    </div>
+  </div>
+)}
+        </div>
       </div>
+
       <div className="space-y-4 w-full">
         {detail?.name && (
-          <h2 className="text-brown2 text-3xl md:text-4xl font-bold">
-            {detail?.name}
-          </h2>
+          <h2 className="text-brown2 text-3xl md:text-4xl font-bold">{detail.name}</h2>
         )}
-         {detail?.desc && (
-        <p className="text-base text-black !mt-1">
-          {detail?.desc} 
-        </p>
-         )}
-         <p className="py-1 font-bold text-sm w-max px-5 bg-yellow3 rounded-md shadow-lg">
-                   {detail?.category}
-                </p>
-        {detail?.para1 && (
-          <p className="text-zinc-600 text-sm md:text-base">
-           {detail?.para1}
+        {detail?.desc && (
+          <p className="text-base text-black !mt-1">{detail.desc}</p>
+        )}
+        {detail?.category && (
+          <p className="py-1 font-bold text-sm w-max px-5 bg-yellow3 rounded-md shadow-lg">
+            {detail.category}
           </p>
+        )}
+        {detail?.para1 && (
+          <p className="text-zinc-600 text-sm md:text-base">{detail.para1}</p>
         )}
         {detail?.para2 && (
-          <p className="text-zinc-600 text-sm md:text-base">
-           {detail?.para2}
-          </p>
+          <p className="text-zinc-600 text-sm md:text-base">{detail.para2}</p>
         )}
-         {detail?.para3 && (
-          <p className="text-zinc-600 text-sm md:text-base">
-           {detail?.para3}
-          </p>
+        {detail?.para3 && (
+          <p className="text-zinc-600 text-sm md:text-base">{detail.para3}</p>
         )}
-       {detail?.sizes && (
-  <table className="w-full border-collapse border !mt-6 border-gray-300">
-    <thead>
-      <tr className="bg-green2 text-white">
-        <th className="border  px-4 py-2">Pack</th>
-        <th className="border  px-4 py-2">Cartoon</th>
-      </tr>
-    </thead>
-    <tbody>
-      {detail?.sizes?.map((boxes: any) => (
-        <tr key={boxes?.id} className="hover:bg-gray-50 text-zinc-800 text-center">
-          <td className="border border-gray-300 px-4 py-2">{boxes?.pack}</td>
-          <td className="border border-gray-300 px-4 py-2">{boxes?.cartoon}</td>
-        </tr>
-      ))}
-    </tbody>
-  </table>
-)}
 
+        {detail?.sizes && (
+          <table className="w-full border-collapse border !mt-6 border-gray-300">
+            <thead>
+              <tr className="bg-green2 text-white">
+                <th className="border px-4 py-2">Pack</th>
+                <th className="border px-4 py-2">Cartoon</th>
+              </tr>
+            </thead>
+            <tbody>
+              {detail?.sizes?.map((boxes: any) => (
+                <tr key={boxes?.id} className="hover:bg-gray-50 text-zinc-800 text-center">
+                  <td className="border border-gray-300 px-4 py-2">{boxes?.pack}</td>
+                  <td className="border border-gray-300 px-4 py-2">{boxes?.cartoon}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
       </div>
     </div>
   );

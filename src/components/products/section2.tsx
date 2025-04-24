@@ -67,13 +67,13 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
             key={cards.id}
             className="mb-2 w-full text-left p-2 px-4 rounded-xl "
           >
-            <div className="w-full h-full overflow-hidden group">
-                <div className='bg-zinc-100 rounded-lg overflow-hidden mb-3  w-full p-3 h-64'>
-                            <Image
-                              src={cards.img}
-                              alt={cards.name}
-                              className="transition-all h-full w-full object-center duration-500 mx-auto object-contain group-hover:scale-105"
-                            /></div>
+           <Link href={`/products/${encodeURIComponent(cards?.name || '')}`} className="w-full h-full overflow-hidden group">
+              <div className='pro-bg mb-3 rounded-lg overflow-hidden  w-full p-2 h-56'>
+              <Image
+                src={cards.img}
+                alt={cards.name}
+                className="transition-all h-full w-full object-center duration-500 mx-auto object-contain group-hover:scale-105"
+              /></div>
               <h3 className="text-xl font-bold text-zinc-800 group-hover:text-color1">
                 {cards.name}
               </h3>
@@ -86,13 +86,13 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
                    {cards.category}
                 </span>
               </p>
-              <Link href={`/products/${encodeURIComponent(cards?.name || '')}`} className="flex items-center gap-x-2 group/link">
+              <div className="flex items-center gap-x-2 group/link">
                 <p className="text-sm text-green1 sm:font-extrabold">
                   View Product
                 </p>
                 <BsArrowUpRightCircleFill className="text-brown2 rounded-full text-xl group-hover/link:rotate-45 duration-300" />
-              </Link>
-            </div>
+              </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>

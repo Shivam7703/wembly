@@ -1,3 +1,4 @@
+import { susbanner } from '@/assets'
 import Banner from '@/components/global/banner'
 import Sustainsec3 from '@/components/sustainbility/sec'
 import Sustainsec1 from '@/components/sustainbility/sec1'
@@ -7,9 +8,9 @@ import React from 'react'
 function page() {
   return (
     <>
-        <Banner img ={""}
+        <Banner img ={susbanner}
             title={"Sustainability"}
-            para={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae labore placeat! Expedita exercitationem quasi, eligendi, omnis minima,"}
+            para={"At Wembley International, we’re committed to making a real impact—using innovative solutions to drive sustainable practices for healthier crops and a greener future."}
             slug={"sustainability"}/>
             <Sustainsec1/>
             <Sustainsec2/>
