@@ -294,6 +294,7 @@ export const benefit = {
 };
 
 export const blogData = {
+  img:banner3,
   title1: "Blogs & News",
   title2: "Stay Updated With our Latest News And Blogs",
   para:
@@ -1046,14 +1047,7 @@ export const products = [
 },
 ];
 
-// blog Page
-export const blogBanner = {
-  title: "Blogs & News",
-  para:
-    "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
-  slug: "blogs",
-  img: banner,
-};
+
 
 
 // contat Us

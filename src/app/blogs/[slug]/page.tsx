@@ -26,9 +26,9 @@ function Page({ params }: Props) {
     <>
       <Banner
         img={banner2}
-        title={singleblog.title}
-        para={singleblog.text.slice(0, 20)}
-        slug={`blogs / ${singleblog.title.toLowerCase().replace(/\s/g, "-")}`}
+        title={`${singleblog.title.slice(0, 35)}...`}
+        para={`${singleblog.text.slice(0, 130)}...`}
+        slug={`blogs / ${singleblog.title.toLowerCase().replace(/\s/g, "-").slice(0, 25)}...`}
       />
       <div className="flex flex-wrap justify-between gap-y-7 lg:px-28 md:p-20 sm:p-16 p-7 relative min-h-screen w-full">
         <div className="md:w-[62%] w-full space-y-6 content">

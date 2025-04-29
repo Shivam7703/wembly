@@ -26,7 +26,7 @@ export default function Banner({title, para, img, slug}:any) {
                 />
 
                 <Image
-                  className="w-full h-[44vh] md:h-[40vh]  lg:h-[36vw] object-cover object-top"
+                  className="w-full h-[46vh] min-h-[440px] object-cover object-top"
                   src={img || banner}
                   alt="sliding image"
                   loading="lazy"
