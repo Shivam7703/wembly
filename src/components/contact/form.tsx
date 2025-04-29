@@ -53,8 +53,7 @@ function Form({ contactdata }: any) {
             Contact Us Today!
           </h2>
           <p className="text-zinc-600 mb-6 text-sm md:text-base">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
-            temporibus dicta delectus, et nemo fuga!
+          Connect With Wembley For Reliable Crop Protection & Farming Support. We're Here to Help Your Agriculture Thrive With Expert Solutions.
           </p>
           <form className="flex flex-wrap gap-y-6 py-3 justify-between">
             <input

@@ -218,7 +218,7 @@ export const faqData = {
 export const footer = {
   logo: logo2,
   text:
-    "lorem At AI Ecofuels, we are revolutionizing the biofuel industry and transforming the lives of millions of",
+    "Wembley delivers reliable crop protection solutions with advanced insecticides, herbicides, and fungicides to support Indian farmers and boost yields.",
 
   socials: {
     facebook: "https://www.facebook.com/",
@@ -1073,7 +1073,7 @@ export const products = [
 export const contactBanner = {
   title: "Contact Us",
   para:
-    "lorem Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus",
+    "Connect With Wembley For Reliable Crop Protection & Farming Support. We're Here to Help Your Agriculture Thrive With Expert Solutions.",
   slug: "contact-us",
   img: banner,
 };
