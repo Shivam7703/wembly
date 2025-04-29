@@ -23,23 +23,20 @@ function Form({ contactdata }: any) {
                 {contactdata?.detail?.map((data: any) => (
                   <div
                     key={data.id}
-                    className="flex group duration-300 group-hover:border-green1 gap-5 py-2 md:py-4 border-b border-[#ffcf3eb5] items-center"
+                    className="flex group duration-300 group-hover:border-green1 gap-5 py-2 md:py-4 border-b border-[#ffcf3eb5]"
                   >
-                    <div className="text-3xl md:text-4xl text-brown2 group-hover:text-green1 duration-300">
+                    <div className="text-3xl md:text-4xl mt-2 text-brown2 group-hover:text-green1 duration-300">
                       {data?.icon}
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-brown2 group-hover:text-white duration-300 mb-1">
                         {data?.title}
                       </h3>
-                      <a
-                        className="hover:text-zinc-200"
-                        href={data?.slug || "#"}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {data?.text}
-                      </a>
+                     
+                        {data?.text.map((wrd :any)=>(
+                          <p className="text-white font-medium  hover:!text-zinc-900" key={wrd?.id}>{wrd.text}</p>
+                        ))}
+                      
                     </div>
                   </div>
                 ))}
@@ -103,7 +100,7 @@ function Form({ contactdata }: any) {
 
       <div className="w-full md:h-[550px] h-80">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.70783721605!2d77.09038143184443!3d28.60854037240093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1bf3b54fb5f5%3A0x3c779acafc7267bb!2sRZ-105%20BLOCK-%20C%2C%20DABRI%20EXTENSION%20EAST!5e0!3m2!1sen!2sin!4v1727546752016!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63381.1314401823!2d39.15392064863281!3d-6.852106299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c49f3b724a469%3A0x2aad3ba80fb6153d!2sElegant%20House!5e0!3m2!1sen!2sin!4v1745916166334!5m2!1sen!2sin"
           width="100%"
           height="100%"
           loading="lazy"

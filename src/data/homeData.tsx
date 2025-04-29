@@ -231,11 +231,30 @@ export const footer = {
   list1: {
     title: "Products",
     links: [
-      { id: 1, label: "About", href: "about" },
-      { id: 2, label: "Services & Techs", href: "services" },
-      { id: 3, label: "Sustainability", href: "sustainability" },
-      { id: 4, label: "Blogs", href: "blogs" },
-      { id: 5, label: "Contact Us", href: "contact-us" },
+      {id:1,
+        label:"Herbicides",
+        href:"/products"
+      },
+      {id:2,
+        label:"Fungicides",
+        href:"/products"
+      },
+      {id:3,
+        label:"Insecticides",
+        href:"/products"
+      },
+      {id:4,
+        label:"Fertilizer",
+        href:"/products"
+      },
+      {id:5,
+        label:"Implements",
+        href:"/products"
+      },
+      {id:6,
+        label:"Animal Feeds",
+        href:"/products"
+      },
     ],
   },
 
@@ -252,7 +271,7 @@ export const footer = {
 
   newLetter: {
     title: "Contact Us",
-    description: "Subscribe to our newsletter to get latest news and updates.",
+   
   },
 };
 
@@ -1068,28 +1087,36 @@ export const contactsec1 = {
       id: 1,
       icon: <MdWifiCalling3 />,
       title: "Call Us",
-      text: "(+91) 1800-214-122",
-      slug: "tel:+911800-214-122",
+      text: [
+        { id: 1, text: "Head Office: - 0676200772" },
+        { id: 2, text: "Masasi - 0659965129" },
+        { id: 3, text: "Mbeya - 0677048455" },
+        { id: 4, text: "Njombe - 0677025245" },
+        { id: 5, text: "Kigoma - 0679513203" },
+        { id: 6, text: "Head Sales - 0679513203, 0677066361" },
+        { id: 7, text: "Moshi - 0677141102, 0677047881" }
+      ],
+      slug: "tel: 0676200772",
     },
     {
       id: 2,
       icon: <MdAttachEmail />,
       title: "Email Us",
-      text: "wembly@example.com",
-      slug: "mailto:wembly@example.com",
+      text: [ { id: 1, text: "info@wembleyinternational.com" },],
+      slug: "mailto:info@wembleyinternational.com",
     },
     {
       id: 3,
       icon: <FaMapLocationDot />,
       title: "Address1",
-      text: "lorem Consectetur adipiscing elit.",
+      text: [ { id: 1, text: "302-A, Elegant House, 28A Kipawa Industrial Area, Nyerere Road, Dar Es Salaam, Tanzania, P.O. Box 75641" },],
       slug: "#",
     },
     {
       id: 3,
       icon: <MdLocationCity />,
       title: "Address2",
-      text: "lorem Consectetur adipiscing elit.",
+      text: [ { id: 1, text: "22, Plot No. 2360/75 E Vingunguti, Pugu Road, Dar Es Salaam, Tanzania, P.O. Box 75641" },],
       slug: "#",
     },
   ],

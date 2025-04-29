@@ -89,27 +89,28 @@ const Header = ({ header }: any) => {
       >
         {/* Top Bar with Contact and Google Translate */}
         <div className="bg-[#030727] text-white p-3 flex justify-between items-center lg:px-20">
-          <div className="flex md:gap-9 gap-4">
+          <div className="flex md:gap-9 gap-4 text-sm">
             <a
               className="flex items-center hover:scale-105 duration-300"
-              href="tel:+918765432110"
+              href="tel:0676200772"
             >
-              <MdCall className=" text-2xl mr-2" />
-             <p className="max-md:hidden">+91 8765432110</p> 
+              <MdCall className=" text-xl mr-2" />
+             <p className="max-md:hidden">0676200772</p> 
             </a>
             <a
               className="flex items-center  hover:scale-105 duration-300"
               href="mailto:info@wembly.com"
             >
-              <MdAttachEmail className=" text-2xl mr-2" />
-             <p className="max-lg:hidden"> info@wembly.com</p> 
+              <MdAttachEmail className=" text-xl mr-2" />
+             <p className="max-lg:hidden">info@wembleyinternational.com</p> 
             </a>
             <a
               className="flex items-center  hover:scale-105 duration-300"
               href="mailto:info@wembly.com"
             >
-              <FaLocationDot className=" text-2xl mr-2" />
-             <p className="max-lg:hidden">Noida, UP-201301, Uttar Pradesh</p> 
+              <FaLocationDot className=" text-xl mr-2" />
+             <p className="max-lg:hidden">22, Plot No. 2360/75 E Vingunguti,
+Tanzania, P.O. Box 75641 </p> 
             </a>
           </div>
 

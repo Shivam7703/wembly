@@ -97,9 +97,11 @@ export default function Footer({ footer }: any) {
             <h4 className="my-2  text-xl font-semibold">
               {footer?.newLetter?.title}
             </h4>
-            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Phone: </strong>&nbsp;+91 1234567890</p>
-            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>E-mail: </strong>&nbsp;info@bharatecofuel.in</p>
-            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Address: </strong>&nbsp;A-60, SECTOR-58 NOIDA, UP-201301, UTTAR PRADESH</p>
+            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Phone: </strong>&nbsp;0679513203,0677066361</p>
+            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>E-mail: </strong>&nbsp;info@wembleyinternational.com</p>
+            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Address: </strong>&nbsp;22, Plot No. 2360/75 E Vingunguti,
+ Pugu Road, Dar Es Salaam, 
+Tanzania, P.O. Box 75641 </p>
 
           </div>
         </div>
