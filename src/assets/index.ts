@@ -8,6 +8,7 @@ import aboutb from "@/assets/home/aboutb.webp";
 import banner from "@/assets/home/Bannner1.webp";
 import banner2 from "@/assets/home/Bannner2.webp";
 import banner3 from "@/assets/home/banner2.gif";
+import prob from "@/assets/home/probanner.jpg";
 import bann from "@/assets/home/bann.webp";
 import about from "@/assets/home/about.webp";
 import about2 from "@/assets/home/about2.webp";
@@ -63,7 +64,7 @@ import tunza from "@/assets/product/Insecticides/TUNZA-70WS.webp";
 
 
 export {
-    logo , logo2, banner,banner2,banner3,susbanner,aboutb, bann, about,about2,foot,contat,cl1, com,env ,social,heade, count
+    logo , logo2, banner,banner2,banner3,susbanner,prob,aboutb, bann, about,about2,foot,contat,cl1, com,env ,social,heade, count
  , ferti
  ,Bestsup
  ,mansup

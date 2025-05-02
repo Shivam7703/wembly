@@ -1,4 +1,4 @@
-import { about, about2, aboutb, banner, banner2, banner3, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, cl1, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, rondo,  sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
+import { about, about2, aboutb, banner, banner2, banner3, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, cl1, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
@@ -645,7 +645,7 @@ export const productBanner = {
   para:
     "We provide a full range of quality agricultural solutions trusted by farmers for consistent performance, better growth, and long-term success in every season.",
   slug: "our-products",
-  img: banner2,
+  img: prob,
 };
 
 export const productcategory = [

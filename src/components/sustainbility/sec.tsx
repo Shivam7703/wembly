@@ -1,8 +1,8 @@
 "use client";
-import React, { useEffect, useRef } from 'react';
-import Image from 'next/image';
+import React, { useEffect, useRef } from "react";
+import Image from "next/image";
 import { banner, banner2 } from "@/assets";
-import { IoMdArrowDropdownCircle } from 'react-icons/io';
+import { IoMdArrowDropdownCircle } from "react-icons/io";
 
 export default function Sustainsec3() {
   const lineRef = useRef<HTMLDivElement>(null);
@@ -14,7 +14,10 @@ export default function Sustainsec3() {
 
       const { top, height } = sectionRef.current.getBoundingClientRect();
       const viewportHeight = window.innerHeight;
-      const scrollProgress = Math.min(1, Math.max(0, (viewportHeight - top - 140) / height));
+      const scrollProgress = Math.min(
+        1,
+        Math.max(0, (viewportHeight - top - 140) / height)
+      );
 
       lineRef.current.style.height = `${scrollProgress * (height - 100)}px`;
     };
@@ -23,32 +26,29 @@ export default function Sustainsec3() {
       requestAnimationFrame(updateLineHeight);
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
     <section
-      className='bg-blue-200 lg:px-28 md:px-20 sm:px-14 sm:pb-20 overflow-hidden p-6'
+      className="bg-blue-200 lg:px-28 md:px-20 sm:px-14 sm:pb-20 overflow-hidden p-6"
       ref={sectionRef}
     >
-      <div className='w-full relative sm:py-7 pb-6 max-md:pl-8'>
+      <div className="w-full relative sm:py-7 pb-6 max-md:pl-8">
         {/* Background static green line */}
         <div className="absolute md:left-1/2 left-0 z-10 -translate-x-1/2 bg-green2 h-[98%] w-1 top-3 transition-all duration-300" />
 
         {/* Dynamic scroll progress line */}
         <div
-  ref={lineRef}
-  className="absolute md:left-1/2 left-0 z-20 -translate-x-1/2 w-1 top-3"
->
-  <div className="w-full h-full bg-green1 relative transition-[height] duration-500 ease-out">
-    {/* Arrow */}
-    <IoMdArrowDropdownCircle
-      className="absolute -bottom-2 -left-4 text-green1 text-4xl bg-white rounded-full z-30"
-    />
-  </div>
-</div>
-
+          ref={lineRef}
+          className="absolute md:left-1/2 left-0 z-20 -translate-x-1/2 w-1 top-3"
+        >
+          <div className="w-full h-full bg-green1 relative transition-[height] duration-500 ease-out">
+            {/* Arrow */}
+            <IoMdArrowDropdownCircle className="absolute -bottom-2 -left-4 text-green1 text-4xl bg-white rounded-full z-30" />
+          </div>
+        </div>
 
         {/* Content Blocks */}
         <Sustain
@@ -71,13 +71,21 @@ export default function Sustainsec3() {
 
 function Sustain({ img, text, title, cls }: any) {
   return (
-    <div className={`${cls} items-stretch flex flex-wrap justify-between gap-y-2`}>
-      <div className='md:w-[47%] w-full h-auto'>
-        <Image src={img} alt='' className='w-full min-h-72 h-full object-cover' />
+    <div
+      className={`${cls} items-stretch flex flex-wrap justify-between gap-y-2`}
+    >
+      <div className="md:w-[47%] w-full h-auto">
+        <Image
+          src={img}
+          alt=""
+          className="w-full min-h-72 h-full object-cover"
+        />
       </div>
-      <div className='py-6 md:w-[47%] w-full'>
-        <h2 className='text-green1 font-bold text-2xl md:text-4xl mb-4'>{title}</h2>
-        <p className='text-zinc-800 sm:text-lg'>{text}</p>
+      <div className="py-6 md:w-[47%] w-full">
+        <h2 className="text-green1 font-bold text-2xl md:text-4xl mb-4">
+          {title}
+        </h2>
+        <p className="text-zinc-800 sm:text-lg">{text}</p>
       </div>
     </div>
   );
