@@ -4,6 +4,7 @@ import heade from "@/assets/home/header.webp";
 import count from "@/assets/home/count.webp";
 import susbanner from "@/assets/home/sustainability.webp";
 import sus1 from "@/assets/home/sustain1.jpg";
+
 import sus2 from "@/assets/home/sus2.jpg";
 
 import aboutb from "@/assets/home/aboutb.jpg";
