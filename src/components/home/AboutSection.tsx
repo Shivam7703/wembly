@@ -4,30 +4,56 @@ import Image from "next/image";
 import { aboutdata } from "@/data/homeData";
 import { motion } from "framer-motion";
 import { FaCheckCircle } from "react-icons/fa";
-import { fadeIn, staggerContainer } from "@/utils/motion";
+import { fadeIn } from "@/utils/motion";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay} from "swiper/modules";
 
 function AboutSection() {
+
+  const uniqueId = "About1234"
+    const swiperOptions = {
+    slidesPerView: 1,
+    
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    
+    speed: 1200,
+    loop: true,
+    
+    modules: [Autoplay],
+  };
+
   return (
     <section className=" lg:p-20 sm:p-12 p-7 max-w-[1580px] mx-auto flex flex-wrap justify-between gap-y-7 bg-white">
-      <motion.div
-        variants={fadeIn("right", "tween", 0.3, 1)}
-        className="sm:w-[45%] w-full min-h-96 relative group"
+      <Swiper    {...swiperOptions}
+        
+        className={`sm:w-[45%] w-full min-h-96 relative ${uniqueId}`}
       >
         {aboutdata?.img2 && (
+          <SwiperSlide>
           <Image
             src={aboutdata?.img2}
             alt="About"
-            className="group-hover:top-[30%] rounded-2xl duration-300 absolute z-10 top-0 shadow-lg right-0 w-[70%] h-[70%] border-8 border-white group-hover:scale-x-[-1] object-cover"
+            className=" rounded-2xl duration-300  shadow-lg right-0 w-full h-full border-8 border-white  object-cover"
           />
+          </SwiperSlide>
         )}
         {aboutdata?.img && (
+          <SwiperSlide>
           <Image
             src={aboutdata?.img}
             alt="About"
-            className="group-hover:bottom-[30%] rounded-2xl duration-300 absolute z-20 bottom-0 shadow-lg left-0 w-[70%] h-[70%] border-8 border-white object-cover"
+            className="rounded-2xl duration-300  shadow-lg right-0 w-full h-full border-8 border-white  object-cover"
           />
+          </SwiperSlide>
         )}
-      </motion.div>
+      </Swiper>
       <div className="sm:w-[49%] w-full space-y-5">
         {aboutdata?.title1 && (
           <h4 className="text-green1 bg-[#e2eef9] px-7 font-bold text-sm rounded-lg py-3 w-max">
