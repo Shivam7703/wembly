@@ -27,7 +27,7 @@ const data = [{
 
 
   return (
-    <section className="flex flex-wrap gap-y-4 justify-between md:p-20 sm:14 p-7 !pt-7 text-center relative overflow-hidden">
+    <section className="flex flex-wrap gap-y-4 justify-between md:p-20 sm:14 p-6 !pt-7 text-center relative overflow-hidden">
 {data?.map((card:any)=>(
   <div key={card.id} className='md:w-[32%] w-full bg-white shadow-md rounded-xl border-zinc-400 text-center space-y-4 border hover:bg-slate-100 p-7 sm:py-12'>
     <div className='mx-auto text-4xl text-green-800 w-max'>{card?.icon}</div>
