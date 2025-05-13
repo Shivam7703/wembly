@@ -3,9 +3,9 @@ import logo2 from "@/assets/logo-white.png";
 import heade from "@/assets/home/header.webp";
 import count from "@/assets/home/count.webp";
 import susbanner from "@/assets/home/sustainability.webp";
-import aboutb from "@/assets/home/aboutb.webp";
+import aboutb from "@/assets/home/aboutb.jpg";
 
-import banner from "@/assets/home/Bannner1.webp";
+import banner from "@/assets/home/Bannner1.jpg";
 import banner2 from "@/assets/home/Bannner2.webp";
 import banner3 from "@/assets/home/banner2.gif";
 import prob from "@/assets/home/probanner.jpg";

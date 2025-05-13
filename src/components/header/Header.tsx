@@ -66,7 +66,7 @@ const Header = ({ header }: any) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY < 10) {
+      if (currentScrollY < 50) {
         setIsAtTop(true);
         setIsVisible(true);
       } else {
@@ -82,7 +82,7 @@ const Header = ({ header }: any) => {
 
   return (
     <>
-      <div className="h-20 w-full"></div>
+      <div className="h-20 sm:h-28 w-full"></div>
       <header
         className={`fixed top-0 left-0 w-screen z-50 transition-all duration-300 
         ${isVisible ? "translate-y-0" : "-translate-y-full"}`}

@@ -76,7 +76,7 @@ export default function HomeBanner() {
 
 function HomeBannerCard({ img, welcome, title1, title2, para, btntext }: any) {
   return (
-    <div className="relative w-full overflow-hidden  text-white md:h-[95vh] min-h-[60vh]">
+    <div className="relative w-full overflow-hidden  text-white h-[55vh] min-h-[550px] md:min-h-[690px]">
       {/* Full-size image */}
       <Image
         src={img} // Use the dynamic image passed in
@@ -85,7 +85,7 @@ function HomeBannerCard({ img, welcome, title1, title2, para, btntext }: any) {
         layout="fill"
       />
 
-      <div className="absolute top-0 left-0 items-center justify-center w-full h-full z-10 bg-gradient-to-l from-transparent via-[#00000053] to-[#000000b3]  grid grid-cols-2 md:grid-cols-3   gap-y-10   lg:p-28 sm:p-12 p-7  ">
+      <div className="absolute top-0 left-0 items-center justify-center w-full h-full z-10 bg-gradient-to-l from-transparent via-[#00000053] to-[#000000b3]  grid grid-cols-2 md:grid-cols-3  gap-y-10   lg:p-28 sm:p-12 p-7  ">
         <motion.div
           variants={sliderText}
           initial="initial"
