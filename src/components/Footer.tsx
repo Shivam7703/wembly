@@ -107,8 +107,7 @@ Tanzania, P.O. Box 75641 </p>
         </div>
         {/* copyright  */}
         <div className="flex items-center justify-center border-t border-white py-5 max-md:flex-col">
-          <p className="text-center text-sm">{footer?.copyrightText} <span className="hover:text-main transition-all font-semibold cursor-pointer">Lorem.</span></p>
-
+          <p className="text-center text-sm">{footer?.copyrightText} <span className="hover:text-main transition-all font-semibold cursor-pointer"><a href="https://skywarddigitalsolutions.com">Skyward Digital Solutions</a></span></p>
         </div>
       </footer></>
   );

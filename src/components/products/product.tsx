@@ -5,11 +5,12 @@ import ProductSlider from './section2';
 import ProCards from './proCards';
 
 interface flex{
-  isslider: boolean;
+  isslider: boolean,
+  categ:string
 }
 
-export default function Product({isslider}: flex) {
-const [activeItem , setActiveitem] = useState("Herbicides")
+export default function Product({isslider, categ}: flex) {
+const [activeItem , setActiveitem] = useState(categ);
 
 function setProduct(product :any) {
     {activeItem != product  &&

@@ -23,27 +23,27 @@ export const navItemsArray = [
     subNav:[
       {id:1,
         label:"Herbicides",
-        href:"/products"
+        href:"/products?category=Herbicides"
       },
       {id:2,
         label:"Fungicides",
-        href:"/products"
+        href:"/products?category=Fungicides"
       },
       {id:3,
         label:"Insecticides",
-        href:"/products"
+        href:"/products?category=Insecticides"
       },
       {id:4,
         label:"Fertilizer",
-        href:"/products"
+        href:"/products?category=Fertilizer"
       },
       {id:5,
         label:"Implements",
-        href:"/products"
+        href:"/products?category=Implements"
       },
       {id:6,
         label:"Animal Feeds",
-        href:"/products"
+        href:"/products?category=Implements"
       },
      
     ]
@@ -230,32 +230,33 @@ export const footer = {
   copyrightText: "Copyrights © 2024 . Designed and Manage by ",
   list1: {
     title: "Products",
-    links: [
+    links:[
       {id:1,
         label:"Herbicides",
-        href:"/products"
+        href:"/products?category=Herbicides"
       },
       {id:2,
         label:"Fungicides",
-        href:"/products"
+        href:"/products?category=Fungicides"
       },
       {id:3,
         label:"Insecticides",
-        href:"/products"
+        href:"/products?category=Insecticides"
       },
       {id:4,
         label:"Fertilizer",
-        href:"/products"
+        href:"/products?category=Fertilizer"
       },
       {id:5,
         label:"Implements",
-        href:"/products"
+        href:"/products?category=Implements"
       },
       {id:6,
         label:"Animal Feeds",
-        href:"/products"
+        href:"/products?category=Implements"
       },
-    ],
+     
+    ]
   },
 
   list2: {

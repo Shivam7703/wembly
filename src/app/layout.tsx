@@ -8,7 +8,7 @@ import { footer } from "@/data/homeData";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AI Eco Fuel",
+  title: "Wembly International",
   description: "Develope in Next js",
 };
 

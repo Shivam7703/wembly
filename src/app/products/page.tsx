@@ -1,9 +1,14 @@
+"use client";
 import Banner from '@/components/global/banner'
-import Product from '@/components/products/product'
-import { productBanner } from '@/data/homeData'
-import React from 'react'
+import Product from '@/components/products/product';
+import { productBanner } from '@/data/homeData';
+import React from 'react';
+import { useSearchParams } from 'next/navigation';
 
 function page() {
+   const searchParams = useSearchParams()
+ 
+  const search = searchParams.get('category') 
   return (
 <>
       <Banner img ={productBanner?.img}
@@ -14,7 +19,7 @@ function page() {
 <h2 className="text-zinc-800 text-3xl text-center pb-7 sm:pb-9 md:text-5xl font-bold">
                     All Products
                   </h2>
-<Product isslider ={false}/>
+<Product isslider ={false} categ={search || "Herbicides"}/>
 </section>      </>
   )
 }
