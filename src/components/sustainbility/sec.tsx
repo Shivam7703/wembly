@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import { sus1, sus2 } from "@/assets";
+import { sus1, sus2, sus3, sus4 } from "@/assets";
 import { IoMdArrowDropdownCircle } from "react-icons/io";
 
 export default function Sustainsec3() {
@@ -66,7 +66,7 @@ export default function Sustainsec3() {
         />
 
          <Sustain
-          img={sus1}
+          img={sus3}
           title="Smart Farming for a Greener Tomorrow
 "
           text="Wembley International is focused on implementing state-of-the-art farming technology that would maximize crop output without the negative consequences on nature. Precision farming techniques can help farmers save resources, which can help control water wastage and degradation in the soil; hence, high production can be achieved, and the use of pesticides can be minimized. Wembley concentrates on the data-driven solutions that would increase productivity without affecting the natural ecosystem.
@@ -76,7 +76,7 @@ With AI-driven monitoring systems, drought-resistant crop development, and eco-f
         />
 
         <Sustain
-          img={sus2}
+          img={sus4}
           title="Sustainable Agriculture for Future Generations"
           text="Wembley International believes that there is no way farming and sustainability can be separated. Our mission is to get into the business of developing farming solutions that would enhance soil health, biodiversity, and climate resilience. Through cutting carbon emissions and introducing environmentally friendly methods of crop protection, we help the farmers grow healthy crops without destroying the planet.
 Our dedication to renewable energy-driven farming, biodegradable crop protection efforts, and measures of restoring soil guarantees that agriculture will continue to be economically viable and environmentally sustainable. Wembley equips farmers with affordable, science-based solutions that ensure the sustainability of the best farmlands for future generations while maximizing high-quality, nutritious produce."

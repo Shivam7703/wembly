@@ -4,6 +4,8 @@ import heade from "@/assets/home/header.webp";
 import count from "@/assets/home/count.webp";
 import susbanner from "@/assets/home/sustainability.webp";
 import sus1 from "@/assets/home/sustain1.jpg";
+import sus3 from "@/assets/home/sustain3.jpg";
+import sus4 from "@/assets/home/sustain4.jpg";
 
 import sus2 from "@/assets/home/sus2.jpg";
 
@@ -69,7 +71,7 @@ import tunza from "@/assets/product/Insecticides/TUNZA-70WS.webp";
 
 export {
     logo , logo2, banner,banner2,banner3,susbanner,prob,aboutb, bann, about,about2,foot,contat,cl1, com,env ,social,heade, count
- , ferti,sus1,sus2
+ , ferti,sus1,sus2, sus3, sus4
  ,Bestsup
  ,mansup
  ,Best50
