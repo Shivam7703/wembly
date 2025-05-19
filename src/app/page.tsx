@@ -24,7 +24,7 @@ export default function Home() {
 <h2 className="text-zinc-800 text-3xl text-center pb-7 sm:pb-9 md:text-5xl font-bold">
                     All Products
                   </h2>
-<Product isslider ={true}/>
+<Product isslider ={true} categ={""}/>
 </section>
 <CountDown data={countDown}/>
 <Benifit data = {benefit}/>

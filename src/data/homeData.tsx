@@ -19,7 +19,7 @@ export const navItemsArray = [
   {
     id: 2,
     label: "Products",
-    href: "/products",
+    href: "/products?category=Herbicides",
     subNav:[
       {id:1,
         label:"Herbicides",
@@ -229,7 +229,7 @@ export const footer = {
   },
   copyrightText: "Copyrights © 2024 . Designed and Manage by ",
   list1: {
-    title: "Products",
+    title: "Products?category=Herbicides",
     links:[
       {id:1,
         label:"Herbicides",
