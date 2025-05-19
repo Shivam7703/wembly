@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import { banner, sus1, sus2 } from "@/assets";
+import { sus1, sus2 } from "@/assets";
 import { IoMdArrowDropdownCircle } from "react-icons/io";
 
 export default function Sustainsec3() {
@@ -64,6 +64,24 @@ export default function Sustainsec3() {
           text="Wembley International dedicates itself to environmental conservation efforts combined with operations and sustainability development. With a focus on diversity, inclusion, and responsible practices, the company champions environmental and social responsibility. The organization works with its international partners to embrace the best sustainability practices. Wembley International offers training initiatives that assist staff members in developing innovative solutions and implementing eco-conscious practices. Wembley International recognizes that community success depends directly on ecosystem success."
           cls=""
         />
+
+         <Sustain
+          img={sus1}
+          title="Smart Farming for a Greener Tomorrow
+"
+          text="Wembley International is focused on implementing state-of-the-art farming technology that would maximize crop output without the negative consequences on nature. Precision farming techniques can help farmers save resources, which can help control water wastage and degradation in the soil; hence, high production can be achieved, and the use of pesticides can be minimized. Wembley concentrates on the data-driven solutions that would increase productivity without affecting the natural ecosystem.
+With AI-driven monitoring systems, drought-resistant crop development, and eco-friendly fertilizers, Wembley promotes sustainable ways of farming for long-term food security. We aim to support farmers in producing maximum yield with the least, which ensures a greener future for the coming generations.
+"
+          cls="md:!flex-row-reverse md:mb-9 mb-5"
+        />
+
+        <Sustain
+          img={sus2}
+          title="Sustainable Agriculture for Future Generations"
+          text="Wembley International believes that there is no way farming and sustainability can be separated. Our mission is to get into the business of developing farming solutions that would enhance soil health, biodiversity, and climate resilience. Through cutting carbon emissions and introducing environmentally friendly methods of crop protection, we help the farmers grow healthy crops without destroying the planet.
+Our dedication to renewable energy-driven farming, biodegradable crop protection efforts, and measures of restoring soil guarantees that agriculture will continue to be economically viable and environmentally sustainable. Wembley equips farmers with affordable, science-based solutions that ensure the sustainability of the best farmlands for future generations while maximizing high-quality, nutritious produce."
+          cls=""
+        />
       </div>
     </section>
   );
@@ -82,7 +100,7 @@ function Sustain({ img, text, title, cls }: any) {
         />
       </div>
       <div className="py-6 md:w-[47%] w-full">
-        <h2 className="text-green1 font-bold text-2xl md:text-4xl mb-4">
+        <h2 className="text-green1 uppercase font-bold text-2xl md:text-4xl mb-4">
           {title}
         </h2>
         <p className="text-zinc-800 sm:text-lg">{text}</p>
