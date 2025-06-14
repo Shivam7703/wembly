@@ -10,7 +10,7 @@ interface flex{
 }
 
 export default function Product({isslider, categ}: flex) {
-const [activeItem , setActiveitem] = useState(categ);
+const [activeItem , setActiveitem] = useState(categ || "Herbicides");
 
 function setProduct(product :any) {
     {activeItem != product  &&
@@ -19,7 +19,7 @@ function setProduct(product :any) {
 }
   return (
     <section>
-      <div className='flex md:gap-6 gap-3 justify-center mx-auto overflow-auto'>
+      <div className='flex md:gap-6 gap-3  lg:w-max lg:mx-auto overflow-x-auto'>
         {productcategory?.map((cat)=>(
             <div key={cat?.id} className={`border uppercase px-3 cursor-pointer py-2 rounded-lg font-medium ${activeItem == cat?.label ? "bg-brown2 text-white" : "text-brown2 "}`} onClick={() => setProduct(cat.label)}>{cat?.label}</div>
         ))}
