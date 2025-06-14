@@ -24,7 +24,7 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
       clickable: true,
     },
     autoplay: {
-      delay: 0,
+      delay: 400,
       disableOnInteraction: false,
     },
     breakpoints: {
