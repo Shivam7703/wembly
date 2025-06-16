@@ -11,7 +11,7 @@ function Productdetails({product} :any) {
         <div className='md:w-[62%] w-full '>
         <ProductGallery detail={product}/>
           <h2 className="text-zinc-800 text-3xl text-center mx-auto sm:p-16 p-7 !pb-0 md:text-5xl font-bold">
-                    Other Products
+                    Other {product?.category}
                   </h2>
                 <ProductSlider uniqueId = "pro123" datacat={product?.category}/>
 
