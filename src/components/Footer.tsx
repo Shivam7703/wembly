@@ -110,7 +110,6 @@ Tanzania, P.O. Box 75641 </p>
           <p className="text-center text-sm">{footer?.copyrightText} <span className="hover:text-main transition-all font-semibold cursor-pointer">
             Shivam Goyal
                         {/* <a href="https://skywarddigitalsolutions.com">Skyward Digital Solutions</a> */}
-
             </span></p>
         </div>
       </footer></>
