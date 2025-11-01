@@ -16,7 +16,7 @@ import bene3 from "@/assets/home/bene3.jpg";
 import bene4 from "@/assets/home/bene4.jpg";
 import banner from "@/assets/home/Bannner1.jpg";
 import banner2 from "@/assets/home/Bannner2.gif";
-import banner3 from "@/assets/home/banner3.jpeg";
+import banner3 from "@/assets/home/Banner3.jpeg";
 import prob from "@/assets/home/probanner.jpg";
 import bann from "@/assets/home/bann.webp";
 import about from "@/assets/home/about.jpeg";
