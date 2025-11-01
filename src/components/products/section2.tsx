@@ -70,7 +70,7 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
             className="mb-2 w-full text-left p-2 px-4 rounded-xl "
           >
            <Link href={`/products/${cards?.category.toLowerCase()
-    .replace(/\s+/g, "-")}/${encodeURIComponent(cards?.name || '')}`} className="w-full h-full overflow-hidden group">
+    .replace(/\s+/g, "-")}/details/${encodeURIComponent(cards?.name || '')}`} className="w-full h-full overflow-hidden group">
               <div className='pro-bg mb-3 rounded-lg overflow-hidden  w-full p-2 h-56'>
               <Image
                 src={cards.img}

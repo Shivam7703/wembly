@@ -20,7 +20,7 @@ function Aside({currpro}:any) {
                 <li key={pro?.id} className={`py-2 px-3 duration-300  w-full hover:text-white hover:bg-green1 ${currpro == pro.name ? "bg-green1 text-white": "border text-zinc-700"}`}>
                   <Link
                     href={`/products/${pro?.category.toLowerCase()
-    .replace(/\s+/g, "-")}/${encodeURIComponent(pro?.name || '')}`}
+    .replace(/\s+/g, "-")}/details/${encodeURIComponent(pro?.name || '')}`}
                     className="w-full  font-medium text-sm"
                   >
                     {pro.name}
