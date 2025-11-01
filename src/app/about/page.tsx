@@ -18,11 +18,10 @@ slug={aboutBanner.slug}/>
 
 <Section1 aboutdata={aboutsec1}/>
 <Section2/>
-<Section3/>
+{/* <Section3/> */}
 <Testimonials/>
-<Section4/>
-<Commited/>
-
+{/* <Section4/> */}
+{/* <Commited/> */}
   </>
   );
 }

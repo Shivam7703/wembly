@@ -28,7 +28,7 @@ export default function HomeBanner() {
       clickable: true,
     },
     autoplay: {
-      delay: 5500,
+      delay: 9500,
       disableOnInteraction: false,
     },
     loop: true,

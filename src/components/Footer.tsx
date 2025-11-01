@@ -6,17 +6,12 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { TbBrandYoutubeFilled } from "react-icons/tb";
-import { foot } from "@/assets";
 
 export default function Footer({ footer }: any) {
   return (
     <>
       <footer className="pt-5 p-6 md:px-24  w-full text-white bg-[#030727] !z-50 relative">
-      <Image
-      src={foot}
-      alt="logo"
-      className="w-full object-cover absolute -top-6 !-z-40 left-0 min-h-7" />
-        {/* NewsLetter Section  */}
+     
 
         {/* Footer links section  */}
         <div className="grid grid-cols-3 pb-5 sm:grid-cols-6 lg:grid-cols-12">
@@ -99,17 +94,18 @@ export default function Footer({ footer }: any) {
             </h4>
             <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Phone: </strong>&nbsp;0679513203,0677066361</p>
             <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>E-mail: </strong>&nbsp;info@wembleyinternational.com</p>
-            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Address: </strong>&nbsp;22, Plot No. 2360/75 E Vingunguti,
- Pugu Road, Dar Es Salaam, 
-Tanzania, P.O. Box 75641 </p>
+            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Address: </strong>&nbsp;Wembley International {"("}Tanzania{")"} Limited
+201-A Elegant House 
+28-A Kipawa Industrial Area,
+Julius K. Nyerere Rd, Dar es Salaam
+</p>
 
           </div>
         </div>
         {/* copyright  */}
         <div className="flex items-center justify-center border-t border-white py-5 max-md:flex-col">
           <p className="text-center text-sm">{footer?.copyrightText} <span className="hover:text-main transition-all font-semibold cursor-pointer">
-            Shivam Goyal
-                        {/* <a href="https://skywarddigitalsolutions.com">Skyward Digital Solutions</a> */}
+                        <a href="https://skywarddigitalsolutions.com">Skyward Digital Solutions</a>
             </span></p>
         </div>
       </footer></>

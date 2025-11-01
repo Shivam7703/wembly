@@ -11,6 +11,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
+import { p } from "motion/react-client";
 
 interface ProductSliderProps {
   uniqueId: string;
@@ -24,8 +25,9 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
       clickable: true,
     },
     autoplay: {
-      delay: 400,
+      delay: 3500,
       disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
     breakpoints: {
       100: {
@@ -67,7 +69,8 @@ export default function ProductSlider({ uniqueId, datacat }: ProductSliderProps)
             key={cards.id}
             className="mb-2 w-full text-left p-2 px-4 rounded-xl "
           >
-           <Link href={`/products/${encodeURIComponent(cards?.name || '')}`} className="w-full h-full overflow-hidden group">
+           <Link href={`/products/${cards?.category.toLowerCase()
+    .replace(/\s+/g, "-")}/${encodeURIComponent(cards?.name || '')}`} className="w-full h-full overflow-hidden group">
               <div className='pro-bg mb-3 rounded-lg overflow-hidden  w-full p-2 h-56'>
               <Image
                 src={cards.img}

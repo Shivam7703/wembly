@@ -1,7 +1,6 @@
 import React from 'react'
 import ProductGallery from './section1'
 import ProductSlider from './section2'
-import Testimonials from '../home/testimonial'
 import Aside from './aside'
 import Product from './product'
 

@@ -33,7 +33,7 @@ function Benifit({ data }: any) {
               <Image src={card?.img} alt={"product"} className="w-full h-64 object-cover object-right-top sm:h-96"/>
              
              <div className="absolute bottom-[5%] flex flex-col justify-center text-black left-[5%] w-[90%] bg-white overflow-hidden h-16 rounded-xl group-hover:h-[90%] duration-300 text-center ">
-              <h2 className="text-xl m-5 leading-[1.9] text-center sm:text-xl font-bold">
+              <h2 className="text-lg m-5 leading-[1.4] text-center sm:text-xl font-bold ">
 {card?.heading}              </h2>
               <div className="h-1 bg-green2 max-w-44 w-full mx-auto"></div>
               <p className="text-center font-semibold hidden group-hover:block text-sm md:text-base leadiung-[1.4] m-5">

@@ -14,7 +14,8 @@ function ProCards({datacat}:any) {
             key={cards.id}
             className=" w-max text-left p-3 px-5 rounded-xl max-w-80 max-sm:w-[49%]"
           >
-            <Link href={`/products/${encodeURIComponent(cards?.name || '')}`} className="w-full h-full overflow-hidden group">
+            <Link href={`/products/${cards?.category.toLowerCase()
+    .replace(/\s+/g, "-")}/${encodeURIComponent(cards?.name || '')}`} className="w-full h-full overflow-hidden group">
               <div className='pro-bg mb-3 rounded-lg overflow-hidden  w-full p-2 h-56'>
               <Image
                 src={cards.img}

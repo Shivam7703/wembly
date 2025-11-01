@@ -27,27 +27,33 @@ const Header = ({ header }: any) => {
 
 
     const loadGoogleTranslate = () => {
-      if (typeof window !== "undefined" && !document.getElementById("google_translate_script")) {
-        // ✅ Add Google Translate script only once
-        const script = document.createElement("script");
-        script.id = "google_translate_script";
-        script.src =
-          "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-        script.async = true;
-        document.body.appendChild(script);
-    
-        // ✅ Define init function only once
-        (window as any).googleTranslateElementInit = () => {
-          const translateElement = document.getElementById("google_translate_element");
+    if (typeof window !== "undefined" && !document.getElementById("google_translate_script")) {
+  // ✅ Add Google Translate script only once
+  const script = document.createElement("script");
+  script.id = "google_translate_script";
+  script.src =
+    "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+  script.async = true;
+  document.body.appendChild(script);
 
-          if (translateElement?.innerHTML?.trim() === "") {
-            new (window as any).google.translate.TranslateElement(
-              { pageLanguage: "en", autoDisplay: false },
-              "google_translate_element"
-            );
-          }
-        };
-      }
+  // ✅ Define init function only once
+  (window as any).googleTranslateElementInit = () => {
+    const translateElement = document.getElementById("google_translate_element");
+
+    if (translateElement?.innerHTML?.trim() === "") {
+      new (window as any).google.translate.TranslateElement(
+        {
+          pageLanguage: "en",
+          includedLanguages: "sw", // ✅ Only Swahili shown
+          autoDisplay: false,
+          // layout: (window as any).google.translate.TranslateElement.InlineLayout.SIMPLE,
+        },
+        "google_translate_element"
+      );
+    }
+  };
+}
+
     };
 
   const fetchCategories = async () => {
@@ -94,23 +100,26 @@ const Header = ({ header }: any) => {
               className="flex items-center hover:scale-105 duration-300"
               href="tel:0676200772"
             >
-              <MdCall className=" text-xl mr-2" />
+              <MdCall className=" text-lg mr-2" />
              <p className="max-md:hidden">0676200772</p> 
             </a>
             <a
               className="flex items-center  hover:scale-105 duration-300"
               href="mailto:info@wembly.com"
             >
-              <MdAttachEmail className=" text-xl mr-2" />
+              <MdAttachEmail className=" text-lg mr-2" />
              <p className="max-lg:hidden">info@wembleyinternational.com</p> 
             </a>
             <a
               className="flex items-center  hover:scale-105 duration-300"
-              href="mailto:info@wembly.com"
+              href="https://maps.app.goo.gl/EXvkuirmkyZ6pW5x7" target="_blank" rel="noopener noreferrer"
             >
-              <FaLocationDot className=" text-xl mr-2" />
-             <p className="max-lg:hidden">22, Plot No. 2360/75 E Vingunguti,
-Tanzania, P.O. Box 75641 </p> 
+              <FaLocationDot className=" text-lg mr-2" />
+             <p className="max-lg:hidden">201-A Elegant House 
+28-A Kipawa Industrial Area,
+
+
+</p> 
             </a>
           </div>
 

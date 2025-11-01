@@ -1,4 +1,4 @@
-import { about, about2, aboutb, banner, banner2, banner3, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, cl1, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
+import { about, about2, aboutb, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
@@ -19,31 +19,35 @@ export const navItemsArray = [
   {
     id: 2,
     label: "Products",
-    href: "/products?category=Herbicides",
+    href: "/products/Herbicides",
     subNav:[
       {id:1,
         label:"Herbicides",
-        href:"/products?category=Herbicides"
+        href:"/products/Herbicides"
       },
       {id:2,
         label:"Fungicides",
-        href:"/products?category=Fungicides"
+        href:"/products/Fungicides"
       },
       {id:3,
         label:"Insecticides",
-        href:"/products?category=Insecticides"
+        href:"/products/Insecticides"
       },
       {id:4,
         label:"Fertilizer",
-        href:"/products?category=Fertilizer"
+        href:"/products/Fertilizer"
       },
       {id:5,
         label:"Implements",
-        href:"/products?category=Implements"
+        href:"/products/Implements"
       },
-      {id:6,
+       {id:6,
+        label:"Plant Growth Regulator",
+        href:"/products/Implements"
+      },
+      {id:7,
         label:"Animal Feeds",
-        href:"/products?category=Implements"
+        href:"/products/Implements"
       },
      
     ]
@@ -68,6 +72,16 @@ para:" Our Solutions Provide Everything your Crops Need, From Pest Protection to
   },
   {
     id: 2, // Fix duplicate id issue by using unique ids
+    img: banner2,
+    welcome: "Best Agri-input & Crop Protection Firm ",
+    title1: "Helping farmers grow more with ",
+    title2: "simple and effective products.",
+para:"Making farming simple and effective. Your crops will be protected while the soil gets nourished for increased production.",
+    btntext: "Contact Us",
+    href: "/contact-us",
+  },
+   {
+    id: 3, // Fix duplicate id issue by using unique ids
     img: banner3,
     welcome: "Best Agri-input & Crop Protection Firm ",
     title1: "Helping farmers grow more with ",
@@ -83,11 +97,11 @@ export const aboutdata = {
   img2: about2,
 
   title1: "About Us",
-  title2: "Innovative Solutions for a Healthier,",
-  title4: " More Productive World",
+  title2: "Cultivating Tanzania's Growth,",
+  title4: " One Harvest at a Time",
 
   para:
-    "Wembley International is a Tanzania-based agricultural solutions company committed to transforming and supporting the country's farming landscape through innovative, science-backed products and sustainable practices. Our business spans a wide range of crop protection and nutrition segments, including Herbicides, Insecticides, Fungicides, Plant Growth Regulators (PGRs), Bio Pesticides, and Plant Nutrition.",
+    "Wembley International (Tanzania) Ltd. is a leading and dynamic force in Tanzania's agricultural sector. Founded in 2015, we have grown from an ambitious startup into a widely recognized and trusted distribution partner for the nation's farming community. Our mission is to empower Tanzanian farmers with the essential tools for success: advanced crop protection solutions, high-quality fertilizers, and modern agro-equipment.",
   title3: "Our Vision and Commitment",
   vision: [
     {
@@ -109,24 +123,24 @@ export const aboutdata = {
 export const countDown=[
   {id:1,
     icon:<HiShoppingBag  />,
-    title:"Retailers",
-    Value:"75"
+    title:"Dealers",
+    Value:"2000"
   },{id:2,
     icon:<RiShoppingCart2Fill />    ,
-    title:"Distributors",
-    Value:"5"
+    title:"Branches",
+    Value:"6"
   },{id:3,    icon:<IoIosPeople />    ,
-    title:"Trusted Customers",
+    title:"Sales Vehicles",
     Value:"1000"
   },{id:4,     icon:<HiBuildingOffice />    ,
-    title:"Skus",
-    Value:"500"
+    title:"Registered Products",
+    Value:"30"
   }
 ]
 
 export const whychoose ={
-  img: banner,
-  img2: banner2,
+  img: prob,
+  img2: choose1,
   title1:"Why Choose Us",
   title2:"Your Trusted Partner in ",
   title3:"Agricultural Excellence",
@@ -147,43 +161,76 @@ export const whychoose ={
 export const testimonialData = {
   title1: "Testimonial",
   title2: "What Our Client Says",
-  testimonials: [
-    {
-      id: 1,
-      title: "R.M. Mathur",
-      text:
-        "Their products are fantastic! Since I initiated their utilization, my agricultural output has achieved better health markers alongside observable yield increases. The successful outcomes have delighted me so much that I highly suggest their products to all farmers.",
-      img: cl1,
-    },
-    {
-      id: 2,
-      title: "Shivam Goyal",
-      text:
-        "I have been utilizing their fertilizer products throughout the last few years and I maintain a favorable opinion. The products require simple application methods, which resulted in robust, healthy plants.",
-      img: cl1,
-    },
-    {
-      id: 3,
-      title: "Sageer Ansari",
-      text:
-        "This company is amazing! All their solutions maintain a level of high quality together with reliability. Their solutions actively contribute to the improved growth of my farming operation. I trust their products completely and know they’ll always deliver great results.",
-      img: cl1,
-    },
-    {
-      id: 4,
-      title: "Sageer Ansari",
-      text:
-        "Their herbicides are top-notch. I trust this brand with its fertilizers since I have been using their products year after year. This chemical solution proves effective by preventing damage to my crops as it produces consistent favorable outcomes.",
-      img: cl1,
-    },
-    {
-      id: 5,
-      title: "Sageer Ansari",
-      text:
-        "Excellent service and amazing products! The team members at this company completely understand what farmers require because their support proves extremely valuable.  I’ve seen such a positive change in my crops, and I’m very thankful for their help.",
-      img: cl1,
-    },
-  ],
+  testimonials: [{
+    id: 1,
+    title: "SOLOMON MAGEMBE",
+    text:
+      "Tangu nianze kutumia viuatilifu hivi, wadudu wamepotea kabisa shambani. Mimea yangu sasa inakua vizuri bila mashambulizi ya wadudu. Mavuno yangu yameongezeka kwa kiasi kikubwa. Viuatilifu hivi vimenisaidia kulinda mazao yangu hadi kuvuna.",
+    img: cl1,
+  },
+  {
+    id: 2,
+    title: "ABDALAH RAMADHANI",
+    text:
+      "Baada ya kupulizia mara moja tu, niliona matokeo haraka na haikuhitaji kurudia mara kwa mara. Maelekezo ni rahisi kufuata na viuatilifu vinachanganyika vizuri. Hata wakulima wapya wanaweza kuvitumia kwa urahisi.",
+    img: cl2,
+  },
+  {
+    id: 3,
+    title: "JESCA NASHON",
+    text:
+      "Nilitumia viuatilifu hivi bila madhara kwa mimea au mazingira. Ni salama na vyenye matokeo mazuri. Kwa sababu mazao yangu hayakuathiriwa na wadudu, nimepata faida kubwa sokoni mwaka huu.",
+    img: cl3,
+  },
+  {
+    id: 4,
+    title: "CLEMENCIA JOHN",
+    text:
+      "Kampuni ilitoa maelekezo mazuri ya matumizi na ushauri wa kitaalamu. Huduma kwa wateja ni nzuri sana. Nimekuwa nikitumia bidhaa hizi kwa misimu kadhaa sasa, na kila mara zinafanya kazi vizuri.",
+    img: cl4,
+  },
+  {
+    id: 5,
+    title: "YOHANA AUGUSTINO",
+    text:
+      "Nimewashauri wakulima wenzangu pia kutumia viuatilifu hivi kwa sababu ni bora na vya uhakika. Niliona tofauti ndani ya siku chache tu baada ya kupulizia. Wadudu waliisha haraka na mimea ikaanza kuimarika. Hata wadudu waliokuwa sugu kwa viuatilifu vingine waliangamizwa. Hivi viuatilifu vina nguvu na ufanisi wa hali ya juu.",
+    img: cl5,
+  },
+  {
+    id: 6,
+    title: "PHILIPO MWAKALELI",
+    text:
+      "Mimea yangu iliyokuwa imeathiriwa na wadudu ilianza kuota majani mapya na maua baada ya kutumia viuatilifu hivi. Nimefurahishwa kwa sababu viuatilifu hivi havikuathiri viumbe wengine wasio lengo la kuharibu mazao.",
+    img: cl6,
+  },
+  {
+    id: 7,
+    title: "VERONICA GEORGE",
+    text:
+      "Mwaka huu nimepata mavuno bora zaidi kuliko miaka yote iliyopita. Hakuna hasara kutokana na wadudu tena.",
+    img: cl7,
+  },
+  {
+    id: 8,
+    title: "GEORGE NATHANAEL",
+    text:
+      "Kwa bei yake, viuatilifu hivi ni nafuu ukilinganisha na matokeo makubwa niliyopata. Inastahili thamani yake kabisa. Nimeitumia kwenye mazao tofauti kama mahindi, nyanya, na mboga mboga na mazao mengine kila mara inafanya kazi vizuri.",
+    img: cl8,
+  },
+  {
+    id: 9,
+    title: "MARIA JOEL",
+    text:
+      "Bidhaa zina vifungashio vizuri na imara. Rahisi kuhifadhi na hakuna uvujaji wala harufu kali. Kila msimu ninanunua viuatilifu hivi kutoka kampuni hii hii kwa sababu sijawahi kuvunjika moyo.",
+    img: cl9,
+  },
+  {
+    id: 10,
+    title: "AUGUSTINO MAYAO",
+    text:
+      "Baada ya kutumia viuatilifu hivi, pia nimeona magonjwa ya mimea kama ukungu na doa doa yakipungua. Kwa sababu wadudu hawarudi haraka, sipulizii mara nyingi, hivyo natumia pesa kidogo kwenye matibabu.",
+    img: cl5 ,
+  },],
 };
 
 export const faqData = {
@@ -210,7 +257,7 @@ export const faqData = {
     }, {
       id:5,
       que:"Where can I buy your products?",
-      ans:" Dating from authorized distributors and our organization, you can acquire our products. Users need only to reach out to obtain information about local availability."
+      ans:"we are available at your local Agro shops. You may contact our regional sales person listed under contact us to know local retail outlets."
     }
   ]
 }
@@ -218,7 +265,7 @@ export const faqData = {
 export const footer = {
   logo: logo2,
   text:
-    "Wembley delivers reliable crop protection solutions with advanced insecticides, herbicides, and fungicides to support Indian farmers and boost yields.",
+    "Wembley delivers reliable crop protection solutions with advanced insecticides, herbicides, and fungicides to support Tanzanian farmers and boost yields.",
 
   socials: {
     facebook: "https://www.facebook.com/",
@@ -229,38 +276,38 @@ export const footer = {
   },
   copyrightText: "Copyrights © 2024 . Designed and Manage by ",
   list1: {
-    title: "Products?category=Herbicides",
+    title: "Products",
     links:[
       {id:1,
         label:"Herbicides",
-        href:"/products?category=Herbicides"
+        href:"/products/Herbicides"
       },
       {id:2,
         label:"Fungicides",
-        href:"/products?category=Fungicides"
+        href:"/products/Fungicides"
       },
       {id:3,
         label:"Insecticides",
-        href:"/products?category=Insecticides"
+        href:"/products/Insecticides"
       },
       {id:4,
         label:"Fertilizer",
-        href:"/products?category=Fertilizer"
+        href:"/products/Fertilizer"
       },
       {id:5,
         label:"Implements",
-        href:"/products?category=Implements"
+        href:"/products/Implements"
       },
       {id:6,
         label:"Animal Feeds",
-        href:"/products?category=Implements"
+        href:"/products/Implements"
       },
      
     ]
   },
 
   list2: {
-    title: "Main Menus",
+    title: "Main Menu",
     links: [
       { id: 1, label: "About", href: "about" },
       { id: 2, label: "Services & Techs", href: "services" },
@@ -278,37 +325,37 @@ export const footer = {
 
 export const benefit = {
   title1: "Our Sustainable Agriculture Practices",
-  title2: "Benefits of Our Crop Care Products",
+  title2: "Benefits of our crop protection products",
   para:
-    "Crop medications defend plants from pests and diseases while enhancing yield quantities to encourage healthier development, which leads to environmentally sustainable cultivation resulting in better harvests.",
+    "Our products defend plants from pests and diseases while enhancing yield quantities to encourage healthier development, which leads to environmentally sustainable cultivation resulting in better harvests.",
   points: [
     {
       id: 1,
-     img:about,
-      heading: "Innovation in Research and Development",
+     img:banner2,
+      heading: "Simplify Your Protection Strategy",
       text:
-        "Our work produces better techniques for agricultural enhancement while developing innovative protection methods for crops.",
+        "From fungus to insects, we have a proven solution. Count on our comprehensive range to effectively address your biggest crop threats. (Please change image to image from new video of farmer with yellow sprayer",
     },
 
     {
       id: 2,
-      img:banner2,
-      heading: "Job Creation and Economic Growth",
-      text: "A local employment drive at our workplace enables farmers and businesses to flourish while strengthening both community and economic growth.",
+      img:bene2,
+      heading: "Boost Plant Health & Vitality",
+      text: "Healthier plants start with the right nutrition. Our fertilizers and inputs strengthen crops from within, building natural resilience for a more bountiful harvest.",
     },
 
     {
       id: 3,
-      img:about2,
-      heading: "Quality Standards",
-      text: "Our organization delivers safe and effective crop products that meet superior quality guidelines to enhance both crop conditions and agricultural achievements.",
+      img:bene3,
+      heading: "Confident Weed Management",
+      text: "Reclaim your fields from competitive weeds. Our effective herbicides ensure your crops get the water, light, and nutrients they need to thrive.",
     },
 
     {
       id: 4,
-      img:banner,
-      heading: "Accessibility of Medicines",
-      text: "We make essential crop care products that farmers need for crop protection and nurture readily available from our company.",
+      img:bene4,
+      heading: "Your Partner in Every Season",
+      text: "We're here with the products and advice you can rely on. Let our expertise help you make confident decisions for a successful season.",
     },
   ],
 };
@@ -666,7 +713,12 @@ export const productcategory = [
   {id:5,
     label:"Implements",
   },
- 
+   {id:6,
+        label:"Plant Growth Regulator",
+      },
+      {id:7,
+        label:"Animal Feeds",
+      },
 ];
 
 

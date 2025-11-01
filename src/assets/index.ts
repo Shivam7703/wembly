@@ -6,22 +6,34 @@ import susbanner from "@/assets/home/sustainability.webp";
 import sus1 from "@/assets/home/sustain1.jpg";
 import sus3 from "@/assets/home/sustain3.jpg";
 import sus4 from "@/assets/home/sustain4.jpg";
+import choose1 from "@/assets/home/whychoose.jpg";
 
 import sus2 from "@/assets/home/sus2.jpg";
 
 import aboutb from "@/assets/home/aboutb.jpg";
-
+import bene2 from "@/assets/home/bene2.jpg";
+import bene3 from "@/assets/home/bene3.jpg";
+import bene4 from "@/assets/home/bene4.jpg";
 import banner from "@/assets/home/Bannner1.jpg";
-import banner2 from "@/assets/home/Bannner2.webp";
-import banner3 from "@/assets/home/banner2.gif";
+import banner2 from "@/assets/home/Bannner2.gif";
+import banner3 from "@/assets/home/banner3.jpeg";
 import prob from "@/assets/home/probanner.jpg";
 import bann from "@/assets/home/bann.webp";
-import about from "@/assets/home/about.webp";
-import about2 from "@/assets/home/about2.webp";
+import about from "@/assets/home/about.jpeg";
+import about2 from "@/assets/home/about2.jpg";
 import contat from "@/assets/home/contact.webp";
-import foot from "@/assets/home/foot.webp";
 
-import cl1 from "@/assets/home/cl-1.webp";
+import cl1 from "@/assets/home/cl1.jpg";
+import cl2 from "@/assets/home/cl2.jpg";
+import cl3 from "@/assets/home/cl3.jpg";
+import cl4 from "@/assets/home/cl4.jpg";
+import cl5 from "@/assets/home/cl5.jpg";
+import cl6 from "@/assets/home/cl6.jpg";
+import cl7 from "@/assets/home/cl7.jpg";
+import cl8 from "@/assets/home/cl8.jpg";
+import cl9 from "@/assets/home/cl9.jpg";
+
+
 // about
 import com from "@/assets/about/com.webp";
 import env from "@/assets/about/env.webp";
@@ -63,15 +75,9 @@ import supamec from "@/assets/product/Insecticides/SUPAMECTIN-5EC.webp";
 import supath from "@/assets/product/Insecticides/SUPATHRIN-5EC.webp";
 import tunza from "@/assets/product/Insecticides/TUNZA-70WS.webp";
 
-
-
-
-
-
-
 export {
-    logo , logo2, banner,banner2,banner3,susbanner,prob,aboutb, bann, about,about2,foot,contat,cl1, com,env ,social,heade, count
- , ferti,sus1,sus2, sus3, sus4
+    logo , logo2, banner,banner2,banner3 ,bene2,bene3, bene4, susbanner,prob,aboutb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
+ , ferti,sus1,sus2, sus3, sus4, choose1
  ,Bestsup
  ,mansup
  ,Best50
