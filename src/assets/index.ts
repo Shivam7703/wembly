@@ -11,6 +11,7 @@ import choose1 from "@/assets/home/whychoose.jpg";
 import sus2 from "@/assets/home/sus2.jpg";
 
 import aboutb from "@/assets/home/aboutb.jpg";
+import careerb from "@/assets/home/careerb.jpg";
 import bene2 from "@/assets/home/bene2.jpg";
 import bene3 from "@/assets/home/bene3.jpg";
 import bene4 from "@/assets/home/bene4.jpg";
@@ -76,7 +77,7 @@ import supath from "@/assets/product/Insecticides/SUPATHRIN-5EC.webp";
 import tunza from "@/assets/product/Insecticides/TUNZA-70WS.webp";
 
 export {
-    logo , logo2, banner,banner2,banner3 ,bene2,bene3, bene4, susbanner,prob,aboutb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
+    logo , logo2, banner,banner2,banner3 ,bene2,bene3, bene4, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
  , ferti,sus1,sus2, sus3, sus4, choose1
  ,Bestsup
  ,mansup

@@ -1,4 +1,4 @@
-import { about, about2, aboutb, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
+import { about, about2, aboutb, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
@@ -54,7 +54,7 @@ export const navItemsArray = [
   },
 
   { id: 3, label: "Sustainability", href: "/sustainability" },
-  { id: 4, label: "Privacy Policy", href: "/privacy" },
+  { id: 4, label: "Career", href: "/career" },
   { id: 5, label: "Blogs", href: "/blogs" },
   { id: 6, label: "Contact Us", href: "/contact-us" },
 ];
@@ -686,6 +686,16 @@ export const aboutsec2 =
 {id:7, img:banner},
 {id:8, img:banner2},
 ]
+
+// Career
+export const careerBanner = {
+  title: "Career Opportunities",
+  para:
+    "We are confident that we are the leading farm in providing agricultural products that ensure food hygiene and safety.",
+  slug: "about-us",
+  img: careerb,
+};
+
 
 // products page and product
 export const productBanner = {

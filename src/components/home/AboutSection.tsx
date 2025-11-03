@@ -40,7 +40,7 @@ function AboutSection() {
           <Image
             src={aboutdata?.img2}
             alt="About"
-            className=" rounded-2xl duration-300  shadow-lg right-0 w-full h-full border-8 border-white  object-contain"
+            className=" rounded-2xl duration-300  shadow-lg right-0 w-full h-full border-8 border-white  object-cover"
           />
           </SwiperSlide>
         )}
@@ -49,7 +49,7 @@ function AboutSection() {
           <Image
             src={aboutdata?.img}
             alt="About"
-            className="rounded-2xl duration-300  shadow-lg right-0 w-full h-full   object-contain"
+            className="rounded-2xl duration-300  shadow-lg right-0 w-full h-full   object-cover"
           />
           </SwiperSlide>
         )}
