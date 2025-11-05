@@ -43,11 +43,11 @@ export const navItemsArray = [
       },
        {id:6,
         label:"Plant Growth Regulator",
-        href:"/products/Implements"
+        href:"/products/Plant Growth Regulator"
       },
       {id:7,
         label:"Animal Feeds",
-        href:"/products/Implements"
+        href:"/products/Animal Feeds"
       },
      
     ]
@@ -300,7 +300,7 @@ export const footer = {
       },
       {id:6,
         label:"Animal Feeds",
-        href:"/products/Implements"
+        href:"/products/Animal Feeds"
       },
      
     ]
