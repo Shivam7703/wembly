@@ -1,7 +1,6 @@
 import AboutSection from "@/components/home/AboutSection";
 import Benifit from "@/components/home/benifit";
 import { benefit, healthy, whychoose } from "@/data/homeData";
-
 import Blogs from "@/components/home/blog";
 import CountDown from "@/components/home/Contdown";
 import Greenbox from "@/components/home/greenbox";
@@ -12,7 +11,7 @@ import { countDown } from "@/data/homeData";
 import HealthyLife from "@/components/home/healthylife";
 import FaqSection from "@/components/home/faq";
 import Product from "@/components/products/product";
-
+import ServiceSlider from "@/components/about/section2";
 
 export default function Home() {
   return (
@@ -32,10 +31,8 @@ export default function Home() {
 <HealthyLife data = {healthy}/>
 <Testimonials/>
 <FaqSection/>
-
-
-{/* <Partner/>
-<ServiceSlider/>
+{/* <Partner/> */}
+{/* <ServiceSlider/>
 <Blogs/> */}
   </>
   );

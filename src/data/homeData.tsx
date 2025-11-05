@@ -68,7 +68,7 @@ export const sliderContent = [
     title2: "trusted solutions",
 para:" Our Solutions Provide Everything your Crops Need, From Pest Protection to Essential Nutrients. Ensuring Healthy Growth and Higher Yields. ",
     btntext: "Explore More",
-    href: "/products",
+    href: "/products/Herbicides",
   },
   {
     id: 2, // Fix duplicate id issue by using unique ids
@@ -84,9 +84,9 @@ para:"Making farming simple and effective. Your crops will be protected while th
     id: 3, // Fix duplicate id issue by using unique ids
     img: banner3,
     welcome: "Best Agri-input & Crop Protection Firm ",
-    title1: "Helping farmers grow more with ",
-    title2: "simple and effective products.",
-para:"Making farming simple and effective. Your crops will be protected while the soil gets nourished for increased production.",
+    title1: "Leading the Future of Crop ",
+    title2: "Protection & Growth",
+para:"Empowering farmers with innovative agri-solutions that ensure healthier crops and higher yields. Sustainable, effective, and farmer-focused—we help you grow with confidence.",
     btntext: "Contact Us",
     href: "/contact-us",
   },
@@ -689,20 +689,49 @@ export const aboutsec2 =
 
 // Career
 export const careerBanner = {
-  title: "Career Opportunities",
+  title: "Grow Your Career with Wembley",
   para:
-    "We are confident that we are the leading farm in providing agricultural products that ensure food hygiene and safety.",
+    "At Wembley, we’re not just cultivating crops—we’re cultivating potential. Every product we create, every field we serve, and every innovation we deliver is powered by the dedication, creativity, and expertise of our team.",
   slug: "about-us",
   img: careerb,
 };
 
+export const whywork = {
+  title1: "Why Work With Us",
+  points: [
+    {
+      id: 1,
+      heading: "Purpose-Driven Work",
+      text:
+        "Make a real difference by helping farmers improve productivity and sustainability.",
+    },
+
+    {
+      id: 2,
+      heading: "Innovation at the Core",
+      text: " Be part of a team that values research, technology, and creative problem-solving.",
+    },
+
+    {
+      id: 3,
+      heading: "Career Growth",
+      text: "We invest in your learning and professional development through continuous training and mentorship.",
+    },
+
+    {
+      id: 4,
+      heading: "Inclusive Culture",
+      text: "Work in an environment that respects ideas, encourages collaboration, and celebrates success.",
+    },
+  ],
+};
 
 // products page and product
 export const productBanner = {
   title: "Our Products",
   para:
     "We provide a full range of quality agricultural solutions trusted by farmers for consistent performance, better growth, and long-term success in every season.",
-  slug: "our-products",
+  slug: "products",
   img: prob,
 };
 
