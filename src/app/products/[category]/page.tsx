@@ -18,12 +18,13 @@ export async function generateStaticParams() {
 
 // ✅ Generate SEO metadata dynamically
 export async function generateMetadata({ params }: Props) {
-  const rawCategory = decodeURIComponent(params.category)
-    .toLowerCase()
-    .replace(/\s+/g, "-");
+  const displayCategory = decodeURIComponent(params.category)
+     .replace(/[_-]+/g, ' ')                 // turn hyphens/underscores into spaces
+    .trim()                                  // remove extra spaces
+    .split(/\s+/)                            // split into words
+    .map(w => w[0]?.toUpperCase() + w.slice(1).toLowerCase()) // capitalize
+    .join(' ');
 
-  const displayCategory =
-    rawCategory.charAt(0).toUpperCase() + rawCategory.slice(1).replace(/-/g, " ");
 
   return {
     title: `${displayCategory} | Wembly International`,
@@ -34,13 +35,13 @@ export async function generateMetadata({ params }: Props) {
 // ✅ Main static page
 export default async function Page({ params }: Props) {
   // Normalize and format category for display
-  const normalizedCategory = decodeURIComponent(params.category)
-    .toLowerCase()
-    .replace(/\s+/g, "-");
+  const displayCategory = decodeURIComponent(params.category)
+     .replace(/[_-]+/g, ' ')                 // turn hyphens/underscores into spaces
+    .trim()                                  // remove extra spaces
+    .split(/\s+/)                            // split into words
+    .map(w => w[0]?.toUpperCase() + w.slice(1).toLowerCase()) // capitalize
+    .join(' ');
 
-  const displayCategory =
-    normalizedCategory.charAt(0).toUpperCase() +
-    normalizedCategory.slice(1).replace(/-/g, " ");
 
   return (
     <div>

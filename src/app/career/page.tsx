@@ -28,11 +28,11 @@ slug={careerBanner.slug}/>
 {/* <FaqSection/> */}
 <WhyWork data = {whywork}/>
 <Section4/>
-<section className="lg:px-24 md:px-20 sm:p-16 p-6 text-center space-y-7 md:space-y-14 text-zinc-800">
+<section className="lg:px-24 md:px-20 sm:p-16 p-6 text-center space-y-7  text-zinc-800">
     <h2 className="sm:text-4xl font-bold text-2xl">
 Join Our Journey
           </h2>
-    <p className="text-zinc-700 ">
+    <p className="text-zinc-600 text-lg md:text-xl font-semibold max-w-3xl mx-auto">
 Be part of a company that’s redefining modern farming with smart, simple, and sustainable agri-solutions.
  Let’s grow together—because when farmers thrive, the world thrives.
 </p> 

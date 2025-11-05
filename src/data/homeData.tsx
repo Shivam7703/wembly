@@ -19,35 +19,35 @@ export const navItemsArray = [
   {
     id: 2,
     label: "Products",
-    href: "/products/Herbicides",
+    href: "/products/herbicides",
     subNav:[
       {id:1,
         label:"Herbicides",
-        href:"/products/Herbicides"
+        href:"/products/herbicides"
       },
       {id:2,
         label:"Fungicides",
-        href:"/products/Fungicides"
+        href:"/products/fungicides"
       },
       {id:3,
         label:"Insecticides",
-        href:"/products/Insecticides"
+        href:"/products/insecticides"
       },
       {id:4,
         label:"Fertilizer",
-        href:"/products/Fertilizer"
+        href:"/products/fertilizer"
       },
       {id:5,
         label:"Implements",
-        href:"/products/Implements"
+        href:"/products/implements"
       },
        {id:6,
         label:"Plant Growth Regulator",
-        href:"/products/Plant Growth Regulator"
+        href:"/products/plant-growth-regulator"
       },
       {id:7,
         label:"Animal Feeds",
-        href:"/products/Animal Feeds"
+        href:"/products/animal-feeds"
       },
      
     ]
@@ -68,7 +68,7 @@ export const sliderContent = [
     title2: "trusted solutions",
 para:" Our Solutions Provide Everything your Crops Need, From Pest Protection to Essential Nutrients. Ensuring Healthy Growth and Higher Yields. ",
     btntext: "Explore More",
-    href: "/products/Herbicides",
+    href: "/products/herbicides",
   },
   {
     id: 2, // Fix duplicate id issue by using unique ids
@@ -280,27 +280,27 @@ export const footer = {
     links:[
       {id:1,
         label:"Herbicides",
-        href:"/products/Herbicides"
+        href:"/products/herbicides"
       },
       {id:2,
         label:"Fungicides",
-        href:"/products/Fungicides"
+        href:"/products/fungicides"
       },
       {id:3,
         label:"Insecticides",
-        href:"/products/Insecticides"
+        href:"/products/insecticides"
       },
       {id:4,
         label:"Fertilizer",
-        href:"/products/Fertilizer"
+        href:"/products/fertilizer"
       },
       {id:5,
         label:"Implements",
-        href:"/products/Implements"
+        href:"/products/implements"
       },
       {id:6,
         label:"Animal Feeds",
-        href:"/products/Animal Feeds"
+        href:"/products/animal-feeds"
       },
      
     ]
