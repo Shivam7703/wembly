@@ -1,4 +1,4 @@
-import { about, about2, aboutb, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaking, supamec, supath, tunza } from "@/assets";
+import { about, about2, aboutb, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, suparice, supath, supatiger, tunza } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
@@ -847,14 +847,17 @@ export const products = [
   category:"Insecticides",
   name:"SUPAMECTIN 5EC", desc:"(ABAMECTIN 20G/L+ACETAMIPRID 30G/L)",
   para1:"Ni kiua dudu ambacho hutumika kuua wadudu kama vidukari ,funza wa mitumba ,vithiripi,na wadudu wengine wafyonzao katika mimea kama tango ,nyanya ,pilipili,chainizi na bamia.",
-  para2:"Is a broad – spectrum systemic insecticides which is effective for controlling Diamond black moth, aphid, leaf miner, red spider mites, stock bore, whitefly, thrips, mites,beetle,fruits flies, plant bugs, fire ants on kale, toamatoes ,capsicum ,okra, and greenpaper.",
+  para2:"Is a broad – spectrum systemic insecticides which is effective for controlling Diamond black moth, aphid, leaf miner, red spider mites, stock bore, whitefly, thrips, mites,beetle,fruits flies, plant bugs, fire ants on kale, toamatoes ,capsicum ,okra, and Green pepper.",
   sizes:[
     {id:1,
       pack:"1 Litre",
       cartoon:"1L x 10"
     },
-   
     {id:2,
+      pack:"500 ML",
+      cartoon:"500 ML x 20"
+    },
+    {id:3,
       pack:"100 ML",
       cartoon:"100 ML x 100"
     },
@@ -993,7 +996,7 @@ export const products = [
 },
 {
   id:16,
-  img:supa720,
+  img:suparice,
   category:"Herbicides",
   name:"SUPARICE GOLD 100SC", desc:"(Bispyribac – sodium 100G/L)",
   para1:"Ni kiuagugu chenye wigo mpana katika kuangamiza magugu yote sumbufu kwenye shamba la mpunga. Ni kuuagugu kinacho fanya kazi  baada ya kufyozwa na majani na mizizi. Haidhuru ukuaji au ubora wa mimea ya mpunga  na pia ni salama kwa afya ya udongo. Ni kiambata amilifu chenye Bispyribac-sodiamu:100G/L ambacho kinatumika takribani siku 15 baada ya kupandwa moja kwa moja wakati wa mpunga upo kwenye hatua ya majani 3-5.",
@@ -1021,7 +1024,7 @@ export const products = [
   id:18,
   img:Best50,
   category:"Fungicides",
-  name:"BESTONIL 50% SC", desc:"(CHLOROTHALONIL 500G/L)",
+  name:"BESTONIL 50SC", desc:"BESTONIL 50% SC(CHLOROTHALONIL 500G/L)",
   para1:"Ni kiuatilifu kinachotumika kuzuia na kutibu magonjwa ya kutu ya majani ,ukungu ,kuvu ,madoa,kukauka na mabaka ya majani kwenye mazao mbalimbali pia hutibu CDB kenye kahawa ,hutumika kwenye mazao kama kahawa ,viazi , nyanya na maharage.",
   para2:"Is a broad-spectrum contact fungicides for control of late blight in tomatoes, potatoes, coffee and French beans. Prevents and treats diseases of leaf rust, mold, fungus, spots, drying and leaf spots on various crops, also treats CDB like coffee.",
   sizes:[
@@ -1031,7 +1034,7 @@ export const products = [
     },
     {id:2,
       pack:"500 ML",
-      cartoon:"500 ML X20"
+      cartoon:"500 ML X 20"
     },
   ]
 },
@@ -1156,6 +1159,70 @@ export const products = [
   para1:"Ni mbolea yenye asili ya chumvi chumvi, hutumika kukuzia mimea ya mazao mbalimbali kama vile mahindi, maharage n.k. Ina nitrojeni ya ammoniakali na salfa inayoweza kuyeyuka katika maji. Nitrojeni iko katika mfumo wa amonia, ambayo hupunguza hatari ya kuvuja wakati wa mvua. Mbolea hii hutumika zaidi katika kilimo na kwenye nyasi na mimea inayohitaji salfa nyingi ( mahindi na viazi).",
   para2:" Ammonium sulphate contains ammoniacal nitrogen and water-soluble sulphur. The nitrogen is entirely in the form of ammonium, which reduces the risk of leaching during wet periods. This fertilizer is mainly used in arable farming and on grassland on crops that need a lot of sulphur (e.g. maize and potatoes). It is a salt-based fertilizer, used to grow various crops such as corn, beans, etc.",
 },
+{
+  id:26,
+  img:supaextra,
+  category:"Herbicides",
+  name:"SUPA EXTRA 660SC", desc:"(METOLACHLOR 290G/L +ATRAZINE 370G/L)",
+  para1:"Ni kiuagugu cha kimfumo kinachobaagua kinachotumika Kwa kudhibi na kuangamiza nyasi na magugu ya majani mapana kwenye zao la mahindi. Ni kiuagugu kinachotumika kabla na baada ya zao kuchipua. ",
+  para2:"Is a selective herbicide for control of broadleaf weed in maize. Spray on soil evenly at pre-emergence of corn. Use only once during the growth season of crops.",
+  sizes:[
+    {id:1,
+      pack:"1 Litre",
+      cartoon:"1L x 12"
+    },
+  ]
+},{
+  id:27,
+  img:Best50,
+  category:"Fungicides",
+  name:"SUPA POWER 76WP", desc:"PROBINEB 70% + CYMOXANIL 6%",
+  para1:"Ni kiua kuvu kisichochagua aina ya kuvu chenye wigo mpana wa kuzuiana kutibu kuvu na ukungu kwenye mazao kama nyanya,viazi,kabichi na vitunguu. Nyunyizia kabla au katika hatua ya awali ya ugonjwa na nyunyizia mara moja kila baada ya siku 7 kulingana na hali. Inaweza kunyunyiziwa mara kwa mara 2-3 ili kuhakikisha athari ya udhibiti. Usinyunyizie kipindi cha upepo mkali au mvua.",
+  para2:"Is a broad spectrum and systemic fungicide for protecting and curing early and late blight, Anthracnose, scab and Downy mildew in potatoes, tomatoes, cabbage and onions.Spray before or in the early stage of disease, and spray once every 7 days according to the condition. It can be sprayed continuously for 2-3 times. The spraying must be done in the way that each single part of the plants is coated.",
+  sizes:[
+    {id:1,
+      pack:"1 KG",
+      cartoon:"1KG x 20"
+    },
+  ]
+},
+{
+  id:28,
+  img:supatiger,
+  category:"Insecticides",
+  name:"SUPA TIGER 140SC", desc:"CHLORFENAPYR 100G/L +ABAMECTIN 40G/L",
+  para1:"Ni kiua dudu chenye uwigo mpana kinachotumika kuzuia na kuangamiza wadudu kwa njia ya mguso na tumbo ambacho kinauwezo wakupenya kwenye jani ili kudhibiti na kuua wadudu wasumbufu. Hutumika kuangamiza wadudu kama Leafminer na Tuta absoluta(kanitangaze) kwenye nyanya , viwavi jeshi kwenye mahindi, and vithiripi kwenye vitunguu.",
+  para2:" Is a broad-spectrum insecticide with both systemic and contact stomach action. For control of army caterpillar in Maize, Caterpillar and thrips on onion, Leaf miner (Tuta absoluta) on Tomatoes and beet armyworm in Kale.  Incompatible with alkaline materials and oxidizing agent. Do not use in the place of honeybee colony and the flowering periods. Do not use in the silkworm room and the mulberry orchard.",
+  sizes:[
+    {id:1,
+      pack:"1 Litre",
+      cartoon:"1 Litre x 10"
+    },
+    {id:2,
+      pack:"500 ML",
+      cartoon:"500 ML x 20"
+    },
+     {id:3,
+      pack:"100 ML",
+      cartoon:"100 ML x 100"
+    },
+  ]
+},
+{
+  id:29,
+  img:supagrow,
+  category:"Fertilizer",
+  name:"SUPAGROW", desc:"(NPK 19-19-19 +1MgO +TE)",
+  para1:"Ni mbolea yenye virutubisho na madini yayeyukao kwenye maji inayotumika kwenye bustani,kilimo cha mbogamboga na mazao mengine ina mchanganyiko maalum wenye kuupa mmea matokeo mazurina ya uhakika baada ya kutumia kikamilifu kwa kufuata maelekezo.",
+  para2:"SUPAGROW is a complete range of NPK 19-19-19+1MgO+TE water soluble fertilizer characterized with acid reaction. It’s produced with pure raw materials and chelated trace elements and rich source of magnesium to develop the chlorophyll photosynthesis in the rapid growth phase of the crop. SUPAGROW is ideal for nutrigation, soil application and foliar spray. All nutrients’ elements are promptly absorbed to stimulate fundamental physiological processes. It can be used before and after transplanting.",
+  sizes:[
+    {id:1,
+      pack:"1 KG",
+      cartoon:"1 KG x 20"
+    },
+  ]
+},
+
 ];
 
 

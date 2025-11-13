@@ -43,16 +43,16 @@ import env from "@/assets/about/env.webp";
 import social from "@/assets/about/social.webp";
 // product
 import ferti from "@/assets/product/Fertilizer/AMMONIUM-SULPHATE.webp";
+import supagrow from "@/assets/product/Fertilizer/supa grow.png";
 
 
-
-import Best50 from "@/assets/product/Fungicides/BESTONIL.webp";
-import Bestsup from "@/assets/product/Fungicides/BESTONIL SUPER 720SC.webp";
-import mansup from "@/assets/product/Fungicides/MANCOSTAR SUPER 720WP.webp";
-import supaking from "@/assets/product/Fungicides/SUPAKINGA 72WP.webp";
-import man5sc from "@/assets/product/Fungicides/MANCOVIL 5SC.webp";
-import sulph from "@/assets/product/Fungicides/SULPHOWIT 800 WDG.webp";
-import supa from "@/assets/product/Fungicides/SUPAZEB 80WP.webp";
+import Best50 from "@/assets/product/Fungicides/BESTONIL.png";
+import Bestsup from "@/assets/product/Fungicides/BESTONIL SUPER 720SC.png";
+import mansup from "@/assets/product/Fungicides/MANCOSTAR SUPER 720WP.png";
+import supaking from "@/assets/product/Fungicides/SUPAKINGA 72WP.png";
+import man5sc from "@/assets/product/Fungicides/MANCOVIL 5SC.png";
+import sulph from "@/assets/product/Fungicides/SULPHOWIT 800 WDG.png";
+import supa from "@/assets/product/Fungicides/SUPAZEB 80WP.png";
 
 
 
@@ -61,9 +61,10 @@ import Best200 from "@/assets/product/Herbicides/BESTOQUAT-200SL.webp";
 import Best480 from "@/assets/product/Herbicides/BESTOSATE-480SL.webp";
 import Best75 from "@/assets/product/Herbicides/BESTOSPEED-75.7SG.webp";
 import rondo from "@/assets/product/Herbicides/RONDO.webp";
-import supa720 from "@/assets/product/Herbicides/SUPAMINE-720SL.webp";
+import supa720 from "@/assets/product/Herbicides/SUPAMINE-720SL.png";
 import supa480 from "@/assets/product/Herbicides/SUPASATE 480SL.webp";
-
+import suparice from "@/assets/product/Herbicides/suparice Gold.png";
+import supaextra from "@/assets/product/Herbicides/Supa Extra.png";
 
 import farm16 from "@/assets/product/implements/farmcare16.webp";
 import farm20 from "@/assets/product/implements/farmcare20.webp";
@@ -71,17 +72,18 @@ import oxp from "@/assets/product/implements/oxplough.webp";
 
 
 
-import bestacron720 from "@/assets/product/Insecticides/BESTACRON-720EC.webp";
+import bestacron720 from "@/assets/product/Insecticides/BESTACRON-720EC.png";
 import dual from "@/assets/product/Insecticides/DUAL-POWER-344SE.webp";
 import fendel from "@/assets/product/Insecticides/FENDEL.webp";
-import supamec from "@/assets/product/Insecticides/SUPAMECTIN-5EC.webp";
-import supath from "@/assets/product/Insecticides/SUPATHRIN-5EC.webp";
+import supamec from "@/assets/product/Insecticides/SUPAMECTIN-5EC.png";
+import supath from "@/assets/product/Insecticides/SUPATHRIN-5EC.png";
+import supatiger from "@/assets/product/Insecticides/SUPA Tiger.png";
 import tunza from "@/assets/product/Insecticides/TUNZA-70WS.webp";
 
 export {
     logo , logo2, banner,banner2,banner3 ,bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
  , ferti,sus1,sus2, sus3, sus4, choose1
- ,Bestsup
+ ,Bestsup,supatiger, supagrow
  ,mansup
  ,Best50
  ,man5sc
@@ -97,6 +99,6 @@ export {
  ,bestacron720
  ,dual
  ,fendel
- ,supamec
+ ,supamec, suparice, supaextra
  ,supath
  ,tunza }
