@@ -53,6 +53,7 @@ import supaking from "@/assets/product/Fungicides/SUPAKINGA 72WP.png";
 import man5sc from "@/assets/product/Fungicides/MANCOVIL 5SC.png";
 import sulph from "@/assets/product/Fungicides/SULPHOWIT 800 WDG.png";
 import supa from "@/assets/product/Fungicides/SUPAZEB 80WP.png";
+import supapower from "@/assets/product/Fungicides/supapower.png";
 
 
 
@@ -80,11 +81,14 @@ import supath from "@/assets/product/Insecticides/SUPATHRIN-5EC.png";
 import supatiger from "@/assets/product/Insecticides/SUPA Tiger.png";
 import tunza from "@/assets/product/Insecticides/TUNZA-70WS.webp";
 
+import vegi from "@/assets/product/plant-growth-regulator/VEGISUPER LABEL.png";
+
+
 export {
     logo , logo2, banner,banner2,banner3 ,bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
  , ferti,sus1,sus2, sus3, sus4, choose1
- ,Bestsup,supatiger, supagrow
- ,mansup
+ ,Bestsup,supatiger, supagrow, supapower
+,vegi ,mansup
  ,Best50
  ,man5sc
  ,sulph

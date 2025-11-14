@@ -1,4 +1,4 @@
-import { about, about2, aboutb, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, suparice, supath, supatiger, tunza } from "@/assets";
+import { about, about2, aboutb, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, supapower, suparice, supath, supatiger, tunza, vegi } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
@@ -1174,7 +1174,7 @@ export const products = [
   ]
 },{
   id:27,
-  img:Best50,
+  img:supapower,
   category:"Fungicides",
   name:"SUPA POWER 76WP", desc:"PROBINEB 70% + CYMOXANIL 6%",
   para1:"Ni kiua kuvu kisichochagua aina ya kuvu chenye wigo mpana wa kuzuiana kutibu kuvu na ukungu kwenye mazao kama nyanya,viazi,kabichi na vitunguu. Nyunyizia kabla au katika hatua ya awali ya ugonjwa na nyunyizia mara moja kila baada ya siku 7 kulingana na hali. Inaweza kunyunyiziwa mara kwa mara 2-3 ili kuhakikisha athari ya udhibiti. Usinyunyizie kipindi cha upepo mkali au mvua.",
@@ -1222,7 +1222,33 @@ export const products = [
     },
   ]
 },
-
+{
+  id:30,
+  img:vegi,
+  category:"Plant Growth Regulator",
+  name:"VEGI SUPER", desc:"",
+  para1:"Inatumika katika kuimarisha Ukuaji wa Mimea.Inatumika kwenye mazao kama vile Matunda, Mboga mboga, Maua,na mazao mengine ya shambani. Ina mchanganyiko wenye virutubisho vya,",
+  para2:"",
+  detail:[
+    {id:1,
+      pack:"Nitrojeni",
+      cartoon:"Husaidia katika uchukuaji wa virutubisho vingine muhimu kwa kukuza ukuaji wa mizizi na kuongeza ufyonzaji wa virutubisho na mizizi ya mimea."
+    },
+     {id:2,
+      pack:"Fosforasi",
+      cartoon:"Kusitawisha mizizi · Kuongezeka kwa bua na uimara wa shina · Uotaji bora wa maua na uzalishaji wa mbegu·"
+    }, {id:3,
+      pack:"Calcium",
+      cartoon:"Madini muhumu sana kwa mimea, na kazi yake kubwa ni kutengeneza kuta za cell ambazo husaidia kuukinga mmea au tunda dhidi ya vijidudu hatarishi vya magonjwa."
+    }, {id:4,
+      pack:"Magnesium",
+      cartoon:"	Ni madini muhimu katika kuhakikisha ubora wa matunda."
+    }, {id:5,
+      pack:"Salfa ",
+      cartoon:"Kuipa mimea virutubisho muhimu, kuchochea ukuaji imara na kuongeza uzalishaji wa mazao kwa ujumla."
+    },
+  ]
+},
 ];
 
 
