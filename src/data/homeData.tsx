@@ -1,4 +1,4 @@
-import { about, about2, aboutb, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, prob, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, supapower, suparice, supath, supatiger, tunza, vegi } from "@/assets";
+import { about, about2, aboutb, AminoCalGold, AminoEggBoost, AminoESel, Aminolyte, AminoMilkBoost, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, Boostermin, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, PigBoost, PoultryBoost, prob, Respecure, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, supapower, suparice, supath, supatiger, tunza, vegi } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
@@ -1249,9 +1249,804 @@ export const products = [
     },
   ]
 },
+{
+  id:31,
+  img:AminoESel,
+  category:"Animal Feeds",
+  name:"AMINO E SEL", desc:"Powerful Antioxidant for Crazy Chick Disease",
+  para1:"Vitamin E and selenium deficiencies are main reason for encephalomalacia, muscular dystrophy, exudative diathesis, decreased hatch ability in eggs, infertility problems in calves, cattle, goats, sheeps, poultry and pigs It prevents iron intoxication after iron administration in piglets.",
+  para2:"",
+  sizes:[
+    {id:1,
+      pack:"100GM",
+      cartoon:"100GM X 70"
+    },
+  
+  ],
+  
+points: [
+  {
+    id: 1,
+    heading: "DOSAGE: For Oral Administration",
+    pointers: [
+      "Poultry and Swine – 2 gm per 2 Lt. of drinking water for 10 days",
+      "Chicks (< 21 days): 1 gm per 2 Lt. of drinking water for 10 days",
+      "Calves, Goats and Sheep – 10 gm per 2 Lt. of drinking water for 10 days",
+      "Cattle – 25 gm per 2 Lt. of drinking water for 10 days"
+    ]
+  },
+  {
+    id: 2,
+    heading: "WITHDRAWAL PERIOD",
+    pointers: [
+      "None"
+    ]
+  },
+  {
+    id: 3,
+    heading: "ADVANTAGES",
+    pointers: [
+      "Prevents crazy chick disease",
+      "For improved fertility and hatchability",
+      "Helps maintain muscle strength and stamina in poultry and livestock",
+      "Aids in cases of encephalomalacia and exudative diathesis in poultry",
+      "Improves muscle tone and reduces problems of leg weakness"
+    ]
+  },
+  {
+    id: 4,
+    heading: "Pack Size",
+    pointers: [
+      "100GM x 70"
+    ]
+  },
+  {
+    id: 5,
+    heading: "Product Composition",
+    pointers: [
+      "Vitamin E feed grade – 200 mg",
+      "Sodium selenite – 2 mg"
+    ]
+  },
+  {
+    id: 6,
+    heading: "SABABU / FAIDA YA KUTUMIA BIDHAA HII",
+    pointers: [
+      "Upungufu wa vitamini E na selenium ni miongoni mwa sababu kuu za ugojwa wa degedege ya kuku, kusinyaa kwa misuli, upungufu wa vitamin E kwa kuku, kupungua kwa uwezo wa kuanguliwa kwa mayai, utasa kwa Ng’ombe, Mbuzi, Kondoo, Kuku na Nguruwe",
+      "Huzuia sumu ya madini chuma kwa mnyama baada ya kuchoma sindano ya madini chuma kwa nguruwe",
+      "Husaidia wanyama kukua kwa kasi na uwezo wa kushika mimba (infertility)",
+      "Huzuia tatizo la kondo kubaki (Retained placenta) na maambukizi ya kizazi (Metritis)",
+      "Huzuia tatizo la ugonjwa wa machuchu (mastitis), joto lisilo onekana (silent heat) na husaidia wanyama kuingia joto"
+    ]
+  },
+  {
+    id: 7,
+    heading: "KIPIMO - Tumia kwa njia ya kunywa kwenye maji",
+    pointers: [
+      "Kuku na Nguruwe: gm 2 kwa lita 2 ya maji ya kunywa kwa siku 10",
+      "Vifaranga (chini ya siku 21): gm 100 kwa lita 200 za maji kwa siku 10",
+      "Ndama, Mbuzi na Kondoo: gm 10 kwa lita 2 za maji kwa siku 10",
+      "Ng’ombe: gm 25 kwenye lita 2 za maji kwa siku 10",
+      "Muda wa mazao ya mnyama kurudi katika matumizi tena hakuna"
+    ]
+  }
+],
+},
+{
+  id:32,
+  img:AminoMilkBoost,
+  category:"Animal Feeds",
+  name:"AMINO MILK BOOST", desc:"To Improve Production & Fat Percentage",
+  para1:"Vitamin E and selenium deficiencies are main reason for encephalomalacia, muscular dystrophy, exudative diathesis, decreased hatch ability in eggs, infertility problems in calves, cattle, goats, sheeps, poultry and pigs It prevents iron intoxication after iron administration in piglets.",
+  para2:"",
+  sizes:[
+    {id:1,
+      pack:"100GM",
+      cartoon:"100GM X 70"
+    },
+  
+  ],
+  
+points: [
+  {
+    id: 1,
+    heading: "DOSAGE: For Oral Administration",
+    pointers: [
+      "Poultry and Swine – 2 gm per 2 Lt. of drinking water for 10 days",
+      "Chicks (< 21 days): 1 gm per 2 Lt. of drinking water for 10 days",
+      "Calves, Goats and Sheep – 10 gm per 2 Lt. of drinking water for 10 days",
+      "Cattle – 25 gm per 2 Lt. of drinking water for 10 days"
+    ]
+  },
+  {
+    id: 2,
+    heading: "WITHDRAWAL PERIOD",
+    pointers: [
+      "None"
+    ]
+  },
+  {
+    id: 3,
+    heading: "ADVANTAGES",
+    pointers: [
+      "Prevents crazy chick disease",
+      "For improved fertility and hatchability",
+      "Helps maintain muscle strength and stamina in poultry and livestock",
+      "Aids in cases of encephalomalacia and exudative diathesis in poultry",
+      "Improves muscle tone and reduces problems of leg weakness"
+    ]
+  },
+  {
+    id: 4,
+    heading: "Pack Size",
+    pointers: [
+      "100GM x 70"
+    ]
+  },
+  {
+    id: 5,
+    heading: "Product Composition",
+    pointers: [
+      "Vitamin E feed grade – 200 mg",
+      "Sodium selenite – 2 mg"
+    ]
+  },
+  {
+    id: 6,
+    heading: "SABABU / FAIDA YA KUTUMIA BIDHAA HII",
+    pointers: [
+      "Upungufu wa vitamini E na selenium ni miongoni mwa sababu kuu za ugojwa wa degedege ya kuku, kusinyaa kwa misuli, upungufu wa vitamin E kwa kuku, kupungua kwa uwezo wa kuanguliwa kwa mayai, utasa kwa Ng’ombe, Mbuzi, Kondoo, Kuku na Nguruwe",
+      "Huzuia sumu ya madini chuma kwa mnyama baada ya kuchoma sindano ya madini chuma kwa nguruwe",
+      "Husaidia wanyama kukua kwa kasi na uwezo wa kushika mimba (infertility)",
+      "Huzuia tatizo la kondo kubaki (Retained placenta) na maambukizi ya kizazi (Metritis)",
+      "Huzuia tatizo la ugonjwa wa machuchu (mastitis), joto lisilo onekana (silent heat) na husaidia wanyama kuingia joto"
+    ]
+  },
+  {
+    id: 7,
+    heading: "KIPIMO - Tumia kwa njia ya kunywa kwenye maji",
+    pointers: [
+      "Kuku na Nguruwe: gm 2 kwa lita 2 ya maji ya kunywa kwa siku 10",
+      "Vifaranga (chini ya siku 21): gm 100 kwa lita 200 za maji kwa siku 10",
+      "Ndama, Mbuzi na Kondoo: gm 10 kwa lita 2 za maji kwa siku 10",
+      "Ng’ombe: gm 25 kwenye lita 2 za maji kwa siku 10",
+      "Muda wa mazao ya mnyama kurudi katika matumizi tena hakuna"
+    ]
+  }
+],
+},
+{
+  id: 33,
+  img: AminoCalGold, // change if needed
+  category: "Animal Feeds",
+  name: "AMINO CAL GOLD",
+  desc: "Calcium, Phosphorus with Vitamins D3 & B12 for Animal Healthcare",
+
+  para1:
+    "Increase milk yield, improve muscle and skeletal strength, promote growth and stamina, help in protein synthesis, prevent milk fever and rickets in cattle, assist in mastitis prevention, strengthen bones, improve egg production and eggshell strength, reduce leg weakness in broilers and layers, and enhance overall growth and hatchability.",
+
+  para2:
+    "Huongeza uzalishaji wa maziwa, kuimarisha hamu ya kula na FCR, kuboresha afya ya mnyama, kuimarisha mifupa na misuli, kusaidia kutengeneza protini mwilini, kuzuia homa ya maziwa, na kuongeza ukuaji na stamina kwa wanyama.",
+
+  sizes: [
+    {
+      id: 1,
+      pack: "1 Litre",
+      cartoon: "1 LT x 12"
+    },
+    {
+      id: 2,
+      pack: "500 ML",
+      cartoon: "500 ML x 24"
+    }
+  ],
+
+  
+  points: [
+    {
+      id: 1,
+      heading: "BENEFITS",
+      pointers: [
+        "Increase milk yield",
+        "Improve muscle and skeletal strength",
+        "Promote growth and stamina",
+        "Help in protein synthesis",
+        "Prevents milk fever and rickets in cattle",
+        "Help in mastitis prevention Improves skeletal and muscular strength of cattle",
+        "Makes stronger bones and prevent bones related disease in cattle and poultry",
+        "Improves egg production and eggshell strength in poultry",
+        "Prevents leg weakness in broilers, breeders, and layers",
+        "Improves overall growth and hatchability in broilers, breeders and layers."
+      ]
+    },
+    {
+      id: 2,
+      heading: "DIRECTION FOR USE",
+      pointers: [
+        "Cattle: 2 ml per 1 L of water for 8–10 days",
+        "Poultry: 1 ml per 1 L of water for 8–10 days",
+        "Chicks: 1 ml per 1 L of water for 8–10 days",
+        "Growers / Broilers: 2.5 ml per 1 L of water for 8–10 days",
+        "Egg laying hens: 5 ml per 1 L of water for 8–10 days"
+      ]
+    },
+    {
+      id: 3,
+      heading: "PRODUCT COMPOSITION",
+      pointers: [
+        "Calcium – 32560 mg",
+        "Phosphorus – 16770 mg",
+        "Vitamin D3 – 16000 IU",
+        "Vitamin B12 – 2000 mcg",
+        "Carbohydrate – 400000 mg",
+        "Asparagus Recemoces – 2000 mg",
+        "Magnesium – 20000 mg"
+      ]
+    },
+    {
+      id: 4,
+      heading: "FAIDA",
+      pointers: [
+        "Huongeza uzalishaji mkubwa wa maziwa bora kwa ng’ombe na mbuzi",
+        "Huongeza hamu ya kula na FCR",
+        "Huboresha afya ya mnyama",
+        "Huimarisha mifupa na nguvu za misuli",
+        "Husaidia katika kutengeneza protini muhimu mwilini",
+        "Huzuia homa ya maziwa (Milk fever)",
+        "Husaidia ukuaji wa haraka na stamina kwa mnyama"
+      ]
+    },
+    {
+      id: 5,
+      heading: "NAMNA YA KUTUMIA",
+      pointers: [
+        "Ng’ombe: 2 ml kwa lita 1 ya maji kwa siku 8–10",
+        "Ndege: 1 ml kwa lita 1 ya maji kwa siku 8–10",
+        "Vifaranga: 1 ml kwa lita 1 ya maji kwa siku 8–10",
+        "Kuku wanyama: 2.5 ml kwa lita 1 ya maji kwa siku 8–10",
+        "Kuku wa mayai: 5 ml kwa lita 1 ya maji kwa siku 8–10"
+      ]
+    }
+  ]
+},
+{
+  id: 34,
+  img: AminoEggBoost, // update if needed
+  category: "Animal Feeds",
+  name: "AMINO EGG BOOSTER",
+  desc: "Nutrients For Eggshell Quality",
+
+  para1:
+    "Helps overcome thin-shelled and leathery eggs, reduces shell fractures, controls uneven and rough eggshells, boosts egg production during laying period, and helps birds recover from stress.",
+
+  para2:
+    "Huongeza utagaji wa mayai, kuondoa tatizo la magamba mabovu, kupunguza uwezekano wa kuvunjika kwa ganda, kuboresha afya na kinga ya kuku, na kudumisha utagaji wenye ubora kwa muda mrefu.",
+
+  sizes: [
+    {
+      id: 1,
+      pack: "1 Litre",
+      cartoon: "1 LT x 12"
+    }
+  ],
+
+  
+  points: [
+    {
+      id: 1,
+      heading: "ADVANTAGES",
+      pointers: [
+        "Overcomes problems of thin-shelled eggs and leathery eggs",
+        "Reduces the incidence of shell fracture with hairline cracks",
+        "Controls uneven and rough eggshell",
+        "Boosts egg production in laying birds and helps in stress recovery",
+        "Maintains high production levels throughout the laying period"
+      ]
+    },
+    {
+      id: 2,
+      heading: "DOSAGE",
+      pointers: [
+        "Breeders and Layers: 1 ml per 2 Litres of drinking water for 10 days",
+        "Supplementation may be re-introduced if required",
+        "Withdrawal period: NONE"
+      ]
+    },
+    {
+      id: 3,
+      heading: "PRODUCT COMPOSITION",
+      pointers: [
+        "Calcium – 2000 mg",
+        "Phosphorus – 1000 mg",
+        "Vitamin D3 – 8000 IU",
+        "Vitamin B12 – 100 mcg"
+      ]
+    },
+    {
+      id: 4,
+      heading: "VIRUTUBISHO KWA UBORA WA GANDA LA YAI",
+      pointers: [
+        "Huongeza utagaji wa mayai mengi na yenye ubora",
+        "Husaidia kuondoa tatizo la mayai yenye magamba membamba na mayai yasiyo na magamba (teketeke)",
+        "Hupunguza uwezekano wa ganda kuvunjika na kuwa na mistari ya nyufa",
+        "Huboresha afya na kuzuia mayai kuwa ya ukubwa tofauti na magamba yasiyo nyororo",
+        "Hudumisha utagaji wa mayai kwa muda mrefu na ganda kuwa imara",
+        "Huboresha afya ya kuku na kuimarisha kinga dhidi ya magonjwa"
+      ]
+    },
+    {
+      id: 5,
+      heading: "KIPIMO",
+      pointers: [
+        "Kuku wazazi na watagao: 1 ml kwa lita 2 ya maji kwa siku 10",
+        "Virutubisho vinaweza kutolewa tena endapo kutahitajika"
+      ]
+    }
+  ]
+},
+{
+  id: 35,
+  img: Aminolyte, // update image variable if needed
+  category: "Animal Feeds",
+  name: "AMINOLYTE",
+  desc: "Water Soluble Powder With Vitamins, Electrolytes and Acidifiers for Livestock and Poultry (Best Electrolyte)",
+
+  para1:
+    "AMINOLYTE is used as a continuous source of essential micronutrients, helping animals cope with stress caused by vaccination, transportation, weather changes, and diseases. It provides essential amino acids that support growth and improve feed conversion. Recommended to use for at least 10 days or until appetite returns.",
+
+  para2:
+    "AMINOLYTE inaweza kutumika kama chanzo cha virutubisho muhimu katika hali ya joto na uzalishaji wa kisasa. Husaidia kupunguza mfadhaiko kutokana na mabadiliko ya hali ya hewa, magonjwa, chanjo, usafiri, na kukata midomo. Huongeza ukuaji, utagaji, hamu ya kula, na FCR, na hutumika pia wakati wa magonjwa kusaidia uponyaji.",
+
+  sizes: [
+    {
+      id: 1,
+      pack: "100 GM",
+      cartoon: "100GM x 70"
+    }
+  ],
+
+  
+  points: [
+    {
+      id: 1,
+      heading: "INDICATION (Continuous Application)",
+      pointers: [
+        "AMINOLYTE may be used as a source of micronutrients in tropical conditions and for intensive production methods.",
+        "Changes, vaccination, transportation and debarking etc",
+        "It also provides essential amino acids to promoter growth and improved feed conversion.",
+        "Intensive Application Helps to reduce stress in animals arising from diseases, weather.",
+        "AMINOLYTE should be used for at least 10 days or until appetite is regained."
+      ]
+    },
+    {
+      id: 2,
+      heading: "DOSAGE AND ADMINISTRATION",
+      pointers: [
+        "Continuous Application: Poultry- 1 gm per 2 Litres of water for 10 days",
+        "Continuous Application: Swine- 1 gm per 2 Litres of water for 10 days",
+        "Intensive application (treatment): Poultry- 2 gm per 1 Litre of water for 10 days",
+        "Intensive application (treatment): Swine- 2 gm per 1 Litre of water for 10 days"
+      ]
+    },
+    {
+      id: 3,
+      heading: "PRODUCT COMPOSITION",
+      pointers: [
+        "Vitamin A – 10.0 MIU",
+        "Vitamin D3 – 4.0 MIU",
+        "Vitamin E – 6.5 g",
+        "Vitamin K3 – 2.0 g",
+        "Vitamin B1 – 1.5 g",
+        "Vitamin B2 – 3.5 g",
+        "Vitamin B6 – 2.5 g",
+        "Vitamin B12 – 10 mg",
+        "Vitamin C – 12 g",
+        "Folic Acid – 0.4 g",
+        "Nicotinic Acid – 7 g",
+        "Pantothenic Acid – 7 g",
+        "Magnesium – 6 g",
+        "Potassium – 7.5 g",
+        "Sodium – 20 g",
+        "Lysine – 20 g",
+        "Methionine – 10 g",
+        "Threonine – 5 g",
+        "Citric Acid – 10 g"
+      ]
+    },
+    {
+      id: 4,
+      heading: "KWA MATUMIZI ENDELEVU",
+      pointers: [
+        "AMINOLYTE inaweza kutumika kama chanzo cha virutubisho muhimu kwenye hali ya hewa ya joto na katika mfumo wa uzalishaji usiyo kuwa wa huria.",
+        "Pia hutoa amino asidi muhimu zisizo zalishwa na mwili ili kuboresha ukuaji na uwezo wa myama kubadilisha chakula kuwa mazao.",
+        "Matumizi sahihi ya aminolyte husaida kupunguza mfadhaiko unaotokana na magonjwa, mabadiliko ya hali ya hewa, chanjo, usarishaji na kukata midono n.k.",
+        "AMINOLYTE inapaswa kutumika kwa angalau siku 10 au hadi mnyama atakapo pata tena hamu ya kula.",
+        "Hu boost kuku katika ukuaji, utagaji na afya kwa ujumla.",
+        "Huondoa stress za ain azote kwa Wanyama (chanjo, usafiri,n.k).",
+        "Kusaidia sana katika kuongeza uzalishaji.",
+        "Hutumika wakati wa magonjwa na matibabu kusaidia uponyaji.",
+        "Huongeza hamu ya kula na FCR."
+      ]
+    },
+    {
+      id: 5,
+      heading: "KIPIMO NA JINSI YA KUWAPATIA Kwa matumizi endelevu",
+      pointers: [
+        "Kuku: 1 gm kwa lita 2 za maji kwa siku 10",
+        "Nguruwe: gm 1 kwa lita 2 ya maji kwa siku 10 Kwa matumizi sahihi ya matibabu",
+        "Kuku: 2gm kwa lita 1 ya maji kwa siku 10",
+        "Nguruwe: 2gm kwa lita 1 ya maji kwa siku 10"
+      ]
+    }
+  ]
+},
+{
+  id: 36,
+  img: Boostermin, // update image variable if needed
+  category: "Animal Feeds",
+  name: "BOOSTERMIN",
+  desc: "Brioler Booster Multivitamin with Additional Amino Acids. (WATER SOLUBLE POWDER)",
+
+  para1:
+    "INDICATION A balance supplement containing vitamins, minerals and extra amino acids in water soluble form to promote growth of commercial broilers and chicks up to 8 weeks of age. • Useful to combat stress during periods of high temperature, vaccination and as aid in recovery from disease, to boost perfomance of the stock. • BOOSTERMIN contains the extra Methionone and Lysine which helps the healthy and productive poultry for maximum growth and high performance. Also, the references show increased final body and breast weight with increasing dietary methionone content. Methionine helps to improve and normalize the liver function which increases the immunity and prevent poultry from infectious diseases.",
+
+  para2:
+    "SABABU/FAIDA YA KUTUMIA BOOSTERMIN Boostermin ni kirutubisho ambacho kina vitamini, madini na asidi za amino za ziada ndani yake na ipo katika mfumo wapoda unao yeyuka kwenye maji ili kusaidia ukuaji wa kuku wa nyama na vifaranga hadi kufikia wiki 8. Boostermin hutumika katika kupambana na mfadhaiko katika kipindi cha joto kali, Chanjo, usafirishaji na kama msaada katika kupona kipindi wanapo ugua, na kuongeza uzalishaji wa kuku. Boostermin ina methionine na lysine za ziada ambazo husaidia kuku wenye afya na tija ili waweze kukua kwa haraka na kuongeza uzalishaji Pia rejeo zinaonyesha kadiri unavyoongeza methionine katika chakula cha kuku ndivyo utakavyopata kuku wenye uzito mkubwa na kidari chenye uzito mkubwa. Methionine husaidia kuboresha na kurekebisha ufanisi wa kazi za ini ambazo huongeza kinga na kuzuia kuku kupata magonjwa ya kuambukiza. • Hutumika kulelea vifaranga na pia hutumika kwa kuku wakubwa. • Huongeza uchangamfu kwa vifaranga na kuongeza kasi ya ukuaji. • Wakati wa magonjwa husaidia kuku kupona haraka. • Huongeza uzalishaji wa kuku wa mayai nawa nyama. • Hudumisha na kuboresha afya ya mnyama.",
+
+  sizes: [
+    {
+      id: 1,
+      pack: "1KG",
+      cartoon: "1KG X 12"
+    },
+    {
+      id: 2,
+      pack: "500GM",
+      cartoon: "500GM X 24"
+    }
+  ],
+
+  
+  points: [
+    {
+      id: 1,
+      heading: "DOSAGE",
+      pointers: [
+        "Routine: 1 gm in 2 Lt drinking water for 7 consecutive days.",
+        "Strategic: 1 gm in 3 Lt drinking water during 3rd to 6th weeks of age.",
+        "Vaccination: 1 gm 2 Lt drinking water one day before.",
+        "WITHDRAWAL PERIOD: None"
+      ]
+    },
+    {
+      id: 2,
+      heading: "PRODUCT COMPOSITION",
+      pointers: [
+        "Vitamin A- 10000000 IU",
+        "Vitamin D3- 4750000 IU",
+        "Vitamin E- 3000 IU",
+        "Vitamin K3- 4000 Mg",
+        "Vitamin C- 10000 Mg",
+        "Vitamin B1- 2750 Mg",
+        "Vitamin B2- 4750 Mg",
+        "Vitamin B6- 2750 Mg",
+        "Vitamin B12- 11750 Mg",
+        "D - calcium pantothenate- 5750 Mg",
+        "Nicotinamide- 16500 Mg",
+        "DL - methionine- 20000 Mg",
+        "Lysine hydrochloride- 40000 Mg",
+        "Manganese sulphate- 12750 Mg",
+        "Zinc sulphate- 13250 Mg",
+        "Ferrous sulphate- 5250 Mg",
+        "Copper sulphate- 13250 Mg",
+        "Potassium chloride- 73750Mg",
+        "Biotin- 20000 Mcg",
+        "Sodium sulphate- 215000 Mg",
+        "Sodium chloride- 48750 Mg",
+        "Magnesium sulphate- 12750 Mg",
+        "Excipients qs"
+      ]
+    },
+    {
+      id: 3,
+      heading: "KIPIMO",
+      pointers: [
+        "1 gm kwenye lita 2 za maji kwa siku 10",
+        "ONYO Weka mbali na watoto",
+        "MUDA WA MAZAO YA MNYAMA KURUDI KUTUMIKA Hakuna"
+      ]
+    }
+  ]
+},
+{
+  id: 37,
+  img: PigBoost, // update image variable if needed
+  category: "Animal Feeds",
+  name: "PIG BOOSTER",
+  desc: "(VITAMINS, MINERALS, AMINO ACIDS AND GROWTH PROMOTER)",
+
+  para1:
+    "PIG BOOSTER is a strong combination of vitamin, minerals and amino Acids that is essential for pig growth.",
+
+  para2:
+    "PIG BOOSTER ni mchanganyiko bora wa vitamin, madini na amino aside ambazo ni muhimu kwa ukuaji wa nguruwe.",
+
+  sizes: [
+    {
+      id: 1,
+      pack: "1KG",
+      cartoon: "1KG X 12"
+    }
+  ],
+
+  
+  points: [
+    {
+      id: 1,
+      heading: "USAGE",
+      pointers: [
+        "Should be added in feed, fattening diet and concentrated supplement.",
+        "Proper mixing is required for desired results.",
+        "De-worming must be done before usage of PIG BOOSTER."
+      ]
+    },
+    {
+      id: 2,
+      heading: "DOSAGE",
+      pointers: [
+        "Use 1 Kg of PIG BOOSTER per ton of feed and mix properly.",
+        "WITHDRAWAL PERIOD: NONE"
+      ]
+    },
+    {
+      id: 3,
+      heading: "PRODUCT COMPOSITIONS",
+      pointers: [
+        "Vitamin A- 10,000,000IU",
+        "Vitamin D- 1,000,000IU",
+        "Vitamin E- 2,000 Mg",
+        "Vitamin B1- 2,000Mg",
+        "Vitamin B2- 5000Mg",
+        "Vitamin B3- 1,500,00 Mg",
+        "Pantothenic Acid- 30,000mg",
+        "Vitamin B6- 3,000Mg",
+        "Vitamin B12- 220Mg",
+        "Betaine- 40,000mg",
+        "Lysine- 500mg",
+        "Methionine- 500mg",
+        "Manganese- 50,000mg",
+        "Zinc- 50,000mg",
+        "Iron- 40,000mg",
+        "Copper- 6,000mg",
+        "Iodine- 2,000mg",
+        "Cobolt- 400mg",
+        "Olaquindox- 10mg"
+      ]
+    },
+    {
+      id: 4,
+      heading: "MATUMIZI",
+      pointers: [
+        "PIG BOOSTER inapswa kuongezewa kwenye chakula, lishe ya kunenepesha na kwenye virutubisho. Mchanganyiko sahihi unahitajika ili kupata matokeo yaliyokusudiwa.",
+        "Dawa za minyoo zinatakiwa kutumia kabla ya kutumia PIG BOOSTER.",
+        "Ni busta ya kunenepesha nguruwe kwa haraka.",
+        "Hudunisha afya na kuimarisha kinga ya mwili.",
+        "Huongeza hamu ya kula na kusaidia nguruwe walio dumaa.",
+        "Hutumika kipindi cha ugonjwa au matibabu."
+      ]
+    },
+    {
+      id: 5,
+      heading: "KIPIMO",
+      pointers: [
+        "Tumia kilo 1 ya PIG BOOSTER kwa tani 1 ya chakula na uchanganye vizuri."
+      ]
+    }
+  ]
+},
+{
+  id: 38,
+  img: PoultryBoost, // update image variable if needed
+  category: "Animal Feeds",
+  name: "POULTRY BOOSTER",
+  desc: "Premium Chick Tonic (ORAL SOLUTION)",
+
+  para1:
+    "POULTRY BOOSTER is indicated for all animal species. It increases appetite, improves disease resistance and immunity building in poultry, enhances weight gain and overall vitality, and prevents and corrects avitaminosis and malnutrition. It reduces chick mortality and acts as a support supplement during lactation, pregnancy, moulting, intense production, stress, convalescence, anorexia and fatty liver.",
+
+  para2:
+    "POULTRY BOOSTER ina tumika kuzuia na kutibu tatizo la upungufu wa vitamini na hali ya utapiamlo (chakula duni), hupunguza vifo vya vifaranga, huongeza FCR na hutumika kama msaada wakati wa mimba, kunyonyesha, kutoa manyoya, uzalishaji mkubwa, mfadhaiko, wakati wa kupona kutokana na ugonjwa, kukosa hamu ya kula na tatizo la mafuta ya ini.",
+
+  sizes: [
+    {
+      id: 1,
+      pack: "1LT",
+      cartoon: "1LT x 12"
+    }
+  ],
+
+  
+  points: [
+    {
+      id: 1,
+      heading: "INDICATIONS AND SPECIES OF DESTINATION",
+      pointers: [
+        "Increase appetite",
+        "Improving disease resistance and immunity building in poultry",
+        "Improved weight gain and enhanced overall vitality in your birds",
+        "Is indicated to prevent and correct avitaminosis and malnutrition states, to reduce chicks mortality and as a support supplement in states of lactation pregnancy, moulting, intense production, stress, convalescence, anorexia and fat liver."
+      ]
+    },
+    {
+      id: 2,
+      heading: "DOSAGE",
+      pointers: [
+        "Administer 1ml of POULTRY BOOSTER per 2 Litres of drinking water for 10 days.",
+        "Oral route in drinking water."
+      ]
+    },
+    {
+      id: 3,
+      heading: "BENEFITS",
+      pointers: [
+        "POULTRY BOOSTER tonic is a complex of hydro and fat-soluble vitamins and amino acids that corrects deficient states and improves animals yield and feed conversion ratio.",
+        "WITHDRAWAL PERIOD: Nil"
+      ]
+    },
+    {
+      id: 4,
+      heading: "PRODUCT COMPOSITIONS",
+      pointers: [
+        "Vitamin A- 2500000 IU",
+        "Vitamin D3- 50000 IU",
+        "Vitamin E- 3.75GM",
+        "Vitamin B2- 4GM",
+        "Vitamin B1- 13.5GM",
+        "Vitamin B6- 2GM",
+        "Vitamin B12- 10MG",
+        "Sodium pantothenate- 15MG",
+        "Vitamin K3- 250MG",
+        "Choline Chloride- 400MG",
+        "D L Methionine- 5GM",
+        "L Lysine- 2.5GM",
+        "Histidine- 900MG",
+        "Arginine- 490MG",
+        "Aspartic Acid- 1.45GM",
+        "Threonine- 500MG",
+        "Serine- 680MG",
+        "Glutamic acid- 1.16GM",
+        "Proline- 510MG",
+        "Glycine- 575MG",
+        "Alanine- 975MG",
+        "Cystine- 150MG",
+        "Valine- 1.1MG",
+        "Leucine- 1.5MG",
+        "Isoleucine- 125MG",
+        "Tyrosine- 340MG",
+        "Phenylanine- 810MG",
+        "Tryptophane- 75MG",
+        "Biotin- 2MG",
+        "Inositol- 2.5MG",
+        "Excipients- q.s"
+      ]
+    },
+    {
+      id: 5,
+      heading: "SABABU YA KUTUMIA POULTRY BOOSTER",
+      pointers: [
+        "Huzuia na kutibu upungufu wa vitamini na hali ya utapiamlo",
+        "Hupunguza vifo vya vifaranga",
+        "Huongeza FCR",
+        "Hutumika wakati wa mimba, kunyonyesha, kutoa manyoya, na uzalishaji mkubwa",
+        "Husaidia wakati wa mfadhaiko, kupona ugonjwa, kukosa hamu ya kula, na tatizo la mafuta ya ini"
+      ]
+    },
+    {
+      id: 6,
+      heading: "KIPIMO",
+      pointers: [
+        "Weka ml 1 ya POULTRY BOOSTER kwenye lita 2 ya maji kwa siku 10",
+        "Kwa njia ya kunywa kwenye maji"
+      ]
+    },
+    {
+      id: 7,
+      heading: "FAIDA",
+      pointers: [
+        "Mchanganyiko wa vitamini mumunyifu ndani ya maji na mafuta na amino asidi",
+        "Hurekebisha upungufu wa vitamini na kuboresha mazao ya mifugo",
+        "Huongeza uwezo wa mnyama kubadilisha chakula kuwa mazao",
+        "Husaidia katika ukuaji wa kuku wa aina zote (mayai, nyama, na chotara)",
+        "Huongeza hamu ya kula na kuboresha afya",
+        "Huongeza uzito na uzalishaji hata kwa kuku waliodumaa",
+        "Huongeza uwezo wa kuzuia magonjwa"
+      ]
+    }
+  ]
+},
+{
+  id: 39,
+  img: Respecure, // update image variable if needed
+  category: "Animal Feeds",
+  name: "RESPICURE",
+  desc: "Poultry Respiratory Tonic",
+
+  para1:
+    "Vital role in reducing mucus accumulation and discharging out from respiratory cavities. Clears air passage in lungs to improve respiration. Improve resistance to various respiratory infections. Helps to promotes growth rate and feed conversion.",
+
+  para2:
+    "Ni muhimu katika kupunguza na kutoa makamasi nje kutoka katika mfumo wa hewa. Husafisha njia ya hewa kwenye mapafu ilikuboresha upumuaji. Huboresha uwezo wa kustahimili maambukizi mbalimbali ya mfumo wa hewa. Huponya na kuwapa nafuu kuku wanaopiga chafya. Husaidia kuboresha ukuaji na uwezo wa mnyama kubadilisha chakula kuwa mazao.",
+
+  sizes: [
+    {
+      id: 1,
+      pack: "1LT",
+      cartoon: "1LT x 12"
+    },
+    {
+      id: 2,
+      pack: "500mls",
+      cartoon: "500mls x 24"
+    },
+    {
+      id: 3,
+      pack: "100mls",
+      cartoon: "100mls x 100"
+    }
+  ],
+
+  
+  points: [
+    {
+      id: 1,
+      heading: "INDICATION",
+      pointers: [
+        "Vital role in reducing mucus accumulation and discharging out from respiratory cavities",
+        "Clears air passage in lungs to improve respiration",
+        "Improve resistance to various respiratory infections",
+        "Helps to promotes growth rate and feed conversion"
+      ]
+    },
+    {
+      id: 2,
+      heading: "DOSAGE AND ADMINISTRATION",
+      pointers: [
+        "1 ml per 4 Litres of drinking water or as advised by a veterinarian."
+      ]
+    },
+    {
+      id: 3,
+      heading: "PRODUCT COMPOSITION",
+      pointers: [
+        "Eucalyptus oil- 40000mg",
+        "Menthol- 40 000mg",
+        "Thymol- 20 000mg",
+        "Biotin- 900mg",
+        "Folic acid- 200mg",
+        "Methionine- 30000mg"
+      ]
+    },
+    {
+      id: 4,
+      heading: "SABABU/FAIDA YA KUTUMIA",
+      pointers: [
+        "Ni muhimu katika kupunguza na kutoa makamasi nje kutoka katika mfumo wa hewa.",
+        "Husafisha njia ya hewa kwenye mapafu ilikuboresha upumuaji.",
+        "Huboresha uwezo wa kustahimili maambukizi mbalimbali ya mfumo wa hewa.",
+        "Huponya na kuwapa nafuu kuku wanaopiga chafya.",
+        "Husaidia kuboresha ukuaji na uwezo wa mnyama kubadilisha chakula kuwa mazao."
+      ]
+    },
+    {
+      id: 5,
+      heading: "KIPIMO NA NJIA YA KUWAPATIA",
+      pointers: [
+        "1 ml kwa lita 4 za maji ya kunywa au kama inavyoshauriwa na Daktari wa Mifugo"
+      ]
+    }
+  ]
+}
 ];
-
-
 
 
 // contat Us

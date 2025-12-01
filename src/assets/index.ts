@@ -83,6 +83,18 @@ import tunza from "@/assets/product/Insecticides/TUNZA-70WS.webp";
 
 import vegi from "@/assets/product/plant-growth-regulator/VEGISUPER LABEL.png";
 
+// animal feed
+import Respecure from "@/assets/product/animal-feed/RESPECURE.png";
+import PoultryBoost from "@/assets/product/animal-feed/POULTRY-BOOST.png";
+import PigBoost from "@/assets/product/animal-feed/PIG-BOOST.png";
+import Boostermin from "@/assets/product/animal-feed/BOOSTERMIN.png";
+import Aminolyte from "@/assets/product/animal-feed/AMINOLYTE.png";
+import AminoEggBoost from "@/assets/product/animal-feed/AMINO-EGG-BOOST.png";
+import AminoCalGold from "@/assets/product/animal-feed/AMINO-CAL-GOLD.png";
+import AminoMilkBoost from "@/assets/product/animal-feed/AMINO-MILK-BOOST.png";
+import AminoESel from "@/assets/product/animal-feed/AMINO-E-SEL.png";
+
+
 
 export {
     logo , logo2, banner,banner2,banner3 ,bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
@@ -105,4 +117,4 @@ export {
  ,fendel
  ,supamec, suparice, supaextra
  ,supath
- ,tunza }
+ ,tunza ,  Respecure, PoultryBoost, PigBoost, Boostermin, Aminolyte, AminoEggBoost, AminoCalGold, AminoMilkBoost, AminoESel }

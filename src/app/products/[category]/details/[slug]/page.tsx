@@ -1,4 +1,4 @@
-import { banner2 } from "@/assets";
+import { banner2, prob } from "@/assets";
 import Banner from "@/components/global/banner";
 import Testimonials from "@/components/home/testimonial";
 import Productdetails from "@/components/products/details";
@@ -25,7 +25,7 @@ function page({ params }: Props) {
   return (
     <>
       <Banner
-        img={banner2}
+        img={prob}
         title={singlepro?.name}
         para={singlepro?.desc}
         slug={`products / ${singlepro?.name?.toLowerCase()}`} // Clean slug

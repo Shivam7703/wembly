@@ -180,5 +180,30 @@ body {
 }
 
 .pro-bg {
-  background: radial-gradient(circle at center, white, rgba(223, 223, 223, 0.893));
+  background: radial-gradient(circle at center,white, white, rgba(223, 223, 223, 0.893));
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 130, 43, 0.842) transparent;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 6px;   /* vertical scrollbar width */
+  height: 5px;  /* horizontal scrollbar height */
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(8, 37, 181, 0.589);
+  border-radius: 9999px;
+  border: 1px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(175, 206, 0, 0.7);
 }
