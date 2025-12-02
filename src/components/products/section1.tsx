@@ -66,8 +66,8 @@ export default function ProductGallery({ detail }: any) {
         height: `${imageRef.current?.clientHeight || 0}px`,
         transform: `scale(${zoomLevel})`,
         transformOrigin: "top left",
-        left: `${-mousePosition.x * zoomLevel + magnifierSize / 2}px`,
-        top: `${-mousePosition.y * zoomLevel + magnifierSize / 2}px`,
+        left: `${-mousePosition.x * zoomLevel + magnifierSize / 3}px`,
+        top: `${-mousePosition.y * zoomLevel + magnifierSize / 3}px`,
       }}
     >
       <Image

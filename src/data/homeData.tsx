@@ -310,7 +310,7 @@ export const footer = {
     title: "Main Menu",
     links: [
       { id: 1, label: "About", href: "about" },
-      { id: 2, label: "Services & Techs", href: "services" },
+      { id: 2, label: "Career", href: "career" },
       { id: 3, label: "Sustainability", href: "sustainability" },
       { id: 4, label: "Blogs", href: "blogs" },
       { id: 5, label: "Contact Us", href: "contact-us" },
