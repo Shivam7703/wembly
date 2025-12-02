@@ -37,7 +37,7 @@ function Aside({currpro}:any) {
       </h3>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis repellat debitis ea!</p>
       </div>
-     <div className="bg-black hover:bg-zinc-700 text-center w-full p-3 font-bold"><a href="" className="text-center !mx-auto text-white ">Download Brochure</a></div> 
+     <div className="bg-black hover:bg-zinc-700 text-center w-full p-3 font-bold"><a href="https://housingprojects.site/wembley.pdf" className="text-center !mx-auto text-white ">Download Brochure</a></div> 
       </div>
     </>
   );

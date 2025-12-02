@@ -193,12 +193,12 @@ export default Header;
 // Right Side Button for Download Brochure
 function RightSide(onTop: any) {
   return (
-    <Link href={"/"} className="w-max">
+    <a href={"https://housingprojects.site/wembley.pdf"} className="w-max" target="_blank" rel="noopener noreferrer">
       <div className="flex gap-2 p-2 text-black hover:text-white border rounded-[29px] group relative bg-white overflow-hidden items-center flex-row h-full">
         <p className="ml-5 mr-3 font-bold text-sm z-20">Download Brochure</p>
         <FaRegArrowAltCircleDown className="text-green1 text-2xl bg-white group-hover:text-black duration-200 rounded-full z-20" />
         <div className="group-hover:w-full duration-300 h-full bg-brown2 absolute z-10 w-0 top-0 right-0"></div>
       </div>
-    </Link>
+    </a>
   );
 }
