@@ -25,6 +25,10 @@ import bann from "@/assets/home/bann.webp";
 import about from "@/assets/home/about.jpeg";
 import about2 from "@/assets/home/about2.jpg";
 import contat from "@/assets/home/contact.webp";
+import blog1 from "@/assets/home/blog1.jpg";
+import blog2 from "@/assets/home/blog2.jpg";
+import blog3 from "@/assets/home/blog3.jpg";
+
 
 import cl1 from "@/assets/home/cl1.jpg";
 import cl2 from "@/assets/home/cl2.jpg";
@@ -98,7 +102,7 @@ import AminoESel from "@/assets/product/animal-feed/AMINO-E-SEL.png";
 
 export {
     logo , logo2, banner,banner2,banner3 ,bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
- , ferti,sus1,sus2, sus3, sus4, choose1
+ , ferti,sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3
  ,Bestsup,supatiger, supagrow, supapower
 ,vegi ,mansup
  ,Best50

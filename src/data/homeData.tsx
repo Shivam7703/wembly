@@ -1,4 +1,4 @@
-import { about, about2, aboutb, AminoCalGold, AminoEggBoost, AminoESel, Aminolyte, AminoMilkBoost, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, Boostermin, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, PigBoost, PoultryBoost, prob, Respecure, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, supapower, suparice, supath, supatiger, tunza, vegi } from "@/assets";
+import { about, about2, aboutb, AminoCalGold, AminoEggBoost, AminoESel, Aminolyte, AminoMilkBoost, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, blog1, blog2, blog3, Boostermin, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, PigBoost, PoultryBoost, prob, Respecure, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, supapower, suparice, supath, supatiger, tunza, vegi } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
 import {
   FaMapLocationDot,
@@ -369,237 +369,268 @@ export const blogData = {
   blogs: [
     {
       id: 1,
-      title: "Benefits of Crop Protection in Indian Agriculture",
+      img:blog1,
+      title: "Benefits of Crop Protection in Tanzanian Agriculture",
       text:
-        "Indian agricultural farming practices serve over one billion citizens while sustaining the professional lives of numerous farmers throughout the region. The production of a healthy yield faces continuous threats from plant diseases, together with pest attacks and weed growth. Crop protection stands as a necessity for such situations. The crop protection from dangerous organisms through effective methods ensures improved yield quality and secures food availability, and also enhances farmer financial stability. ",
-        detail:`  <h1 style="">Benefits of Crop Protection in Indian Agriculture</h1>
+        "Tanzanian agricultural farming practices support millions of people and sustain the livelihoods of farmers across the country. As a major contributor to the national food supply, agriculture plays a crucial role in Tanzania’s economy. However, the production of healthy crops faces continuous threats from plant diseases, pest attacks, and aggressive weed growth. Crop protection has therefore become essential to safeguard yields, maintain food availability, and improve farmer income stability.",
+        detail:`<h1>Benefits of Crop Protection in Tanzanian Agriculture</h1>
 
-    <p>Indian agricultural farming practices serve over one billion citizens while sustaining the professional lives of numerous farmers throughout the region. The production of a healthy yield faces continuous threats from plant diseases, together with pest attacks and weed growth. Crop protection stands as a necessity for such situations. The crop protection from dangerous organisms through effective methods ensures improved yield quality and secures food availability, and also enhances farmer financial stability.</p>
+<p>
+Tanzanian agriculture supports millions of people and sustains the livelihoods of farmers across the country. As a major contributor to national food security and economic growth, agriculture plays a vital role in Tanzania’s development. However, healthy crop production is constantly threatened by plant diseases, pest attacks, and aggressive weed growth. Crop protection has therefore become essential for safeguarding yields, ensuring stable food availability, and improving farmer income security.
+</p>
 
-    <h2 style="">Why Crop Protection Matters for Indian Farmers?</h2>
-    <p>Crop protection has become essential in India because agricultural weather instability, rising pest adaptation rates, and diseases are negatively affecting farms' health. Farmers need to invest their time in crop cultivation for months. The careful work of farmers will become useless because sudden infestations or infections will destroy their crops if adequate crop protection is not implemented. The implementation of insecticides, together with fungicides and herbicides, provides crop protection from beginning to end.</p>
+<h2>Why Crop Protection Matters for Tanzanian Farmers</h2>
+<p>
+Crop protection is crucial in Tanzania because unpredictable weather patterns, widespread pest invasions, and recurring crop diseases directly affect farm productivity. Farmers invest months of effort into nurturing their crops, but sudden outbreaks—such as fall armyworm, cassava mosaic virus, or fungal infections—can destroy large fields if adequate protection measures are not implemented. By using insecticides, fungicides, herbicides, and improved farming practices, Tanzanian farmers can safeguard their crops from sowing to harvest.
+</p>
 
-    <h2 style="">Types of Crop Protection Solutions Used in India</h2>
-    <ul>
-      <li><strong>Insecticides:</strong> Protective agents against insects such as bollworms, aphids, and beetles.</li>
-      <li><strong>Herbicides:</strong> Suppress weeds that compete with crops for nutrients and water.</li>
-      <li><strong>Fungicides:</strong> Defend crops from fungal infections like blight and mildew.</li>
-      <li><strong>Fertilizers:</strong> Supply essential nutrients to boost development and harvest yields.</li>
-      <li><strong>Implements:</strong> Tools and machines like plows and harvesters improve work efficiency.</li>
-      <li><strong>Animal Feeds:</strong> Ensure nutritious diets for livestock, boosting vitality and commercial value.</li>
-    </ul>
+<h2>Types of Crop Protection Solutions Used in Tanzania</h2>
+<ul>
+  <li><strong>Insecticides:</strong> Help control pests like fall armyworm, whiteflies, aphids, and stem borers.</li>
+  <li><strong>Herbicides:</strong> Eliminate weeds that compete with crops for nutrients, water, and sunlight.</li>
+  <li><strong>Fungicides:</strong> Protect crops from fungal infections such as blight, rust, and mildew.</li>
+  <li><strong>Fertilizers:</strong> Provide essential nutrients to improve plant growth and overall yield quality.</li>
+  <li><strong>Implements:</strong> Mechanized tools—tractors, sprayers, and harvesters—boost operational efficiency.</li>
+  <li><strong>Animal Feeds:</strong> Support healthy livestock growth, improving productivity and market value.</li>
+</ul>
 
-    <h2 style="">Benefits of Crop Protection in Indian Agriculture</h2>
-    <ul>
-      <li><strong>Higher Yields:</strong> Reduces damage from pests and diseases for better harvests.</li>
-      <li><strong>Improved Quality:</strong> Results in better-quality produce with premium market value.</li>
-      <li><strong>Food Security:</strong> Helps increase national food reserves and manage inflation.</li>
-      <li><strong>Farmer Income Growth:</strong> Reduces losses and improves financial security.</li>
-      <li><strong>Sustainable Agriculture:</strong> Promotes land and plant health for long-term farming.</li>
-    </ul>
+<h2>Benefits of Crop Protection in Tanzanian Agriculture</h2>
+<ul>
+  <li><strong>Higher Yields:</strong> Minimizes losses caused by pests and diseases, resulting in stronger harvests.</li>
+  <li><strong>Improved Quality:</strong> Produces healthier, cleaner crops with better market pricing.</li>
+  <li><strong>Food Security:</strong> Ensures a consistent food supply and supports national food reserves.</li>
+  <li><strong>Farmer Income Growth:</strong> Reduces major losses and helps farmers earn more consistently.</li>
+  <li><strong>Sustainable Agriculture:</strong> Maintains soil health, strengthens crops, and supports long-term farming.</li>
+</ul>
 
-    <h2 style="">Wembley International’s Role in Crop Protection</h2>
-    <p>Wembley International offers a wide range of crop protection products tailored to Indian farming conditions, including:</p>
-    <ul>
-      <li>Eco-friendly insecticides for safe pest control.</li>
-      <li>New-generation herbicides that protect without harming crops.</li>
-      <li>Modern fungicides applied at critical crop development stages.</li>
-    </ul>
-    <p>All products are certified for safety, effectiveness, and affordability based on Indian conditions.</p>
+<h2>Wembley International’s Role in Crop Protection</h2>
+<p>
+Wembley International offers a diverse range of crop protection solutions developed for Tanzania’s tropical climate, varied soil types, and agricultural challenges, including:
+</p>
+<ul>
+  <li>Eco-friendly insecticides for effective pest control in tropical conditions.</li>
+  <li>Advanced herbicides designed to manage strong weed growth without harming crops.</li>
+  <li>Modern fungicides applied at critical stages to prevent fungal outbreaks.</li>
+</ul>
+<p>
+All products are thoroughly tested for safety, reliability, and affordability to meet the needs of Tanzanian farmers.
+</p>
 
-    <h2 style="">How Crop Protection Helps Different Crops</h2>
-    <ul>
-      <li><strong>Wheat and Rice:</strong> Protection from rust, blight, and borer infestations.</li>
-      <li><strong>Cotton:</strong> Defense against bollworms and sucking pests.</li>
-      <li><strong>Vegetables:</strong> Safeguards from fungal infections and leaf eaters.</li>
-      <li><strong>Fruits:</strong> Prevention of diseases like anthracnose to preserve fruit quality.</li>
-    </ul>
+<h2>How Crop Protection Helps Different Tanzanian Crops</h2>
+<ul>
+  <li><strong>Maize:</strong> Protection against fall armyworm, stem borers, and fungal diseases.</li>
+  <li><strong>Cassava:</strong> Defense against cassava mosaic disease and mealybug infestations.</li>
+  <li><strong>Rice:</strong> Prevents blast disease, brown spot, and weed invasion.</li>
+  <li><strong>Coffee:</strong> Guards against coffee berry disease, leaf rust, and insect attacks.</li>
+  <li><strong>Horticulture (Vegetables & Fruits):</strong> Protects produce from fungal infections, leaf-eating pests, and fruit diseases.</li>
+</ul>
 
-    <h2 style="">How Indian Farmers Can Use Crop Protection Wisely</h2>
-    <ul>
-      <li>Follow instructions on product labels carefully.</li>
-      <li>Use protective gear while handling pesticides.</li>
-      <li>Apply specific sprays instead of general scattering.</li>
-      <li>Combine crop protection with proper irrigation, seed selection, and soil health strategies.</li>
-    </ul>
+<h2>How Tanzanian Farmers Can Use Crop Protection Wisely</h2>
+<ul>
+  <li>Follow product label instructions carefully.</li>
+  <li>Wear proper protective gear when handling pesticides.</li>
+  <li>Use targeted treatments instead of general spraying.</li>
+  <li>Combine crop protection with improved irrigation, quality seeds, and soil management practices.</li>
+</ul>
 
-    <h2 style="">The Future of Crop Protection in Indian Agriculture</h2>
-    <p>Sustainable and smart solutions are reshaping crop protection. Drone tech, data-based farming, and precision tools now help detect pests early and apply solutions efficiently. Wembley International continues to invest in innovative, eco-friendly protection solutions for Indian farmers.</p>
+<h2>The Future of Crop Protection in Tanzania</h2>
+<p>
+Tanzania is transitioning toward modern, sustainable, and climate-smart farming systems. Advancements such as drone spraying, digital pest monitoring, and precision application tools help farmers detect threats early and use crop protection more efficiently. Wembley International continues to invest in new-generation, eco-friendly solutions to support Tanzania’s evolving agriculture.
+</p>
 
-    <h2 style="">How Wembley Can Help You With Crop Protection</h2>
-    <ul>
-      <li><strong>Eco-friendly insecticides:</strong> Target pests while being safe for the environment.</li>
-      <li><strong>Advanced herbicides:</strong> Tackle tough weeds without harming crops.</li>
-      <li><strong>Modern fungicides:</strong> Support crop health during key growth phases.</li>
-    </ul>
-    <p>All products are tested under Indian soil and climate conditions to ensure reliability and affordability. With Wembley’s help, farmers can enhance yield, protect plants, and uplift community well-being.</p>
-
-    <p style="margin-top:20px; font-weight:600;">Crop protection is not just a farming technique—it's a lifeline for Indian agriculture. With reliable solutions from trusted names like Wembley International, farmers can grow healthy crops, increase incomes, and contribute to India's food security. Let’s support our farmers by promoting smart, safe, and effective crop protection practices across the country.</p>
+<h2>How Wembley Supports Tanzanian Farmers</h2>
+<ul>
+  <li><strong>Eco-friendly insecticides:</strong> Effective against major pests while being environmentally safe.</li>
+  <li><strong>Advanced herbicides:</strong> Control strong and persistent weeds found in Tanzanian farmlands.</li>
+  <li><strong>Modern fungicides:</strong> Protect crops during crucial growth stages to prevent disease outbreaks.</li>
+</ul>
+<p>
+All solutions are tested to match Tanzania’s soil conditions, climate patterns, and crop requirements, ensuring maximum reliability and cost-efficiency.
+</p>
 
 `,
       date: "05/09/23",
-      img: banner,
+      
     },
     {
       id: 2,
-      title: "Protecting Crops with Advanced Farming Solutions",
+            img:blog2,
+      title: "Protecting Crops with Advanced Farming Solutions in Tanzania",
       text:
-        "Indian agriculture sustains itself due to farming yet crop protection remains essential for farmer success. The expanding population, along with climate uncertainties, makes it essential for farmers to adopt progressive farm solutions at this historical moment. Advanced farming solutions enable farmers to achieve better crop yield and protect their crops while practicing sustainable agriculture.",
-        detail:` <h1 style="color:#2c5f2d;">Protecting Crops with Advanced Farming Solutions</h1>
+        "Tanzanian agriculture is the backbone of the nation’s economy, supporting millions of households and feeding a growing population. Yet crop protection remains a critical necessity for farmer success. Climate variability, pest outbreaks, and soil degradation make it essential for Tanzanian farmers to adopt advanced and modern farming solutions. These solutions help achieve higher yields, protect crops throughout the season, and promote long-term sustainable agriculture.",
+        detail:`<h1>Protecting Crops with Advanced Farming Solutions in Tanzania</h1>
 
-    <p>Indian agriculture sustains itself due to farming yet crop protection remains essential for farmer success. The expanding population, along with climate uncertainties, makes it essential for farmers to adopt progressive farm solutions at this historical moment. Advanced farming solutions enable farmers to achieve better crop yield and protect their crops while practicing sustainable agriculture.</p>
+<p>
+Tanzanian agriculture is the backbone of the nation’s economy, supporting millions of households and feeding a growing population. Yet crop protection remains a critical necessity for farmer success. Climate variability, pest outbreaks, and soil degradation make it essential for Tanzanian farmers to adopt advanced and modern farming solutions. These solutions help achieve higher yields, protect crops throughout the season, and promote long-term sustainable agriculture.
+</p>
 
-    <p>Agriculture experiences a transformation through the implementation of precise tools along with sustainable pesticides and integrated pest management solutions. The modern agricultural solutions minimize both pests and diseases' impact on crops, together with efficient utilization of water and fertilizers. These agricultural methods provide farmers with better yields and environmental protection, together with solid soil preservation, which allows sustained agricultural production.</p>
+<p>
+Modern agriculture in Tanzania is evolving with the use of precise tools, sustainable pesticides, and integrated pest management practices. These innovative solutions reduce the impact of pests, diseases, and weeds while ensuring efficient use of water and fertilizers. By adopting these advanced methods, farmers achieve stronger yields, improved soil health, and environmental protection—paving the way for sustainable agricultural growth.
+</p>
 
-    <h2 >Why Do We Need Advanced Farming Solutions Today?</h2>
-    <p>Advanced farming solutions deliver technical tools along with efficient farming technologies, which help farmers execute all agricultural processes. These farming solutions enhance productivity levels while minimizing harvest losses through their utilization from planting until the harvest period. The contemporary agricultural field suffers crop destruction from pests and diseases, together with weed growth. Crop protection requires effective farming solutions for its survival.</p>
+<h2>Why Tanzania Needs Advanced Farming Solutions Today</h2>
+<p>
+Advanced agricultural systems provide Tanzanian farmers with the right tools and technologies to manage every stage of cultivation. These solutions strengthen productivity, reduce crop losses, and protect fields from increasing threats such as pests, diseases, and unpredictable weather. With agriculture heavily dependent on seasonal rains, effective crop protection becomes a lifeline for farm survival and long-term food security.
+</p>
 
-    <h2 >Types of Advanced Farming Solutions for Indian Agriculture</h2>
-    <ul>
-      <li><strong>Precision Farming Solutions:</strong> The system integrates both data and technological tools for enhanced planting and harvesting quality.</li>
-      <li><strong>Integrated Pest Management:</strong> Combines different methods to control pests without harming the environment.</li>
-      <li><strong>Organic Farming Solutions:</strong> Organic agriculture should be promoted through fertilization methods based on nature, along with biopesticide applications for crop production.</li>
-      <li><strong>Smart Irrigation Systems:</strong> Efficient water preservation systems allow for exact watering amounts to arrive at the crops.</li>
-      <li><strong>Drone-Based Farming Solutions:</strong> Farmers need to inspect crops while they perform fertilizer applications, and they need to obtain current field information.</li>
-    </ul>
+<h2>Types of Advanced Farming Solutions Used in Tanzania</h2>
+<ul>
+  <li><strong>Precision Farming Solutions:</strong> Use data-driven tools and technologies to optimize planting, soil management, and harvesting practices.</li>
+  <li><strong>Integrated Pest Management (IPM):</strong> Combines biological, cultural, and chemical methods to control pests in a sustainable and eco-friendly manner.</li>
+  <li><strong>Organic Farming Solutions:</strong> Promote natural fertilizers, composting, and biopesticides to enhance soil fertility and reduce chemical dependence.</li>
+  <li><strong>Smart Irrigation Systems:</strong> Efficient water distribution systems ensure crops receive the right amount of water, especially in dry and semi-arid regions.</li>
+  <li><strong>Drone-Based Farming Solutions:</strong> Drones monitor large farmlands, detect early pest infestations, and apply fertilizers or sprays accurately.</li>
+</ul>
 
-    <h2 >Benefits of Using Advanced Farming Solutions</h2>
-    <ul>
-      <li>Better crop protection against pests and diseases</li>
-      <li>Increased crop yield and better quality produce</li>
-      <li>Reduced need for chemical pesticides</li>
-      <li>Improved soil health and water usage</li>
-      <li>Enhanced income for farmers and reduced losses</li>
-    </ul>
+<h2>Benefits of Using Advanced Farming Solutions</h2>
+<ul>
+  <li>Stronger protection against pests, weeds, and crop diseases.</li>
+  <li>Higher yields and improved crop quality.</li>
+  <li>Reduced reliance on harmful chemical pesticides.</li>
+  <li>Improved soil fertility and water efficiency.</li>
+  <li>Increased farmer income and reduced seasonal losses.</li>
+</ul>
 
-    <h2 >Farming Solutions and Crop Protection—A Strong Relationship</h2>
-    <p>Present-day agricultural solutions function to maintain complete protection of crops. Proper utilization of insecticides together with fungicides and herbicides stands as a core element of smart farming technology. The tools safeguard crops from damaging pests while offering protection without harming the environmental surroundings.</p>
+<h2>Farming Solutions & Crop Protection—A Powerful Combination</h2>
+<p>
+Modern agricultural tools work hand-in-hand with strong crop protection. Proper use of insecticides, fungicides, and herbicides ensures healthy plant growth, while smart farming technologies make their application more accurate and sustainable. This powerful combination helps Tanzanian farmers protect their crops effectively without harming the environment.
+</p>
 
-    <h2 >How Agriculture Solutions Are Transforming Indian Farms</h2>
-    <p>Indian agricultural workers experience fundamental operational changes through technology-enabled solutions in farming. Indian farmers access solutions that use technology to deliver weather alerts along with soil testing features and crop health monitoring capabilities. These methods have revolutionized rural territories that used to practice farming through traditional methods only.</p>
+<h2>How Advanced Solutions Are Transforming Tanzanian Farms</h2>
+<p>
+Across Tanzania, farmers are increasingly adopting digital tools, weather-based advisories, soil-testing technologies, and crop-health monitoring systems. These innovations are transforming traditional farming communities by providing real-time information, reducing risks, and improving productivity even under challenging climatic conditions.
+</p>
 
-    <h2 >Challenges in Adopting Farming Solutions</h2>
-    <ul>
-      <li>Lack of awareness among farmers</li>
-      <li>Limited access to new technology</li>
-      <li>High cost of advanced farming solutions</li>
-    </ul>
-    <p>To harness modern farming technology, farmers require assistance from the government along with training programs.</p>
+<h2>Challenges in Adopting Modern Farming Solutions</h2>
+<ul>
+  <li>Limited awareness of modern technologies.</li>
+  <li>High cost of advanced equipment and machinery.</li>
+  <li>Insufficient access to training programs.</li>
+  <li>Lack of widespread digital infrastructure in rural regions.</li>
+</ul>
+<p>
+To ensure successful adoption, farmers need improved training, government support, and access to affordable modern tools.
+</p>
 
-    <h2 >How Wembley International Supports Farmers with Farming Solutions</h2>
-    <p>Wembley International works to supply trusted farming solutions that empower Indian farmers. Wembley International delivers agricultural sprays and insecticides, along with fungicides that have been specially formulated to accommodate Indian agricultural requirements. The offered agricultural products defend crops while fostering sustainable farming methods.</p>
+<h2>The Future of Tanzanian Agriculture with Modern Farming Solutions</h2>
+<p>
+The future of Tanzania’s farming sector depends on modernization. Precision tools, organic methods, water-efficient irrigation systems, and innovative pest management practices will shape the next era of agricultural development. With strong crop protection and advanced farming solutions, Tanzanian farmers can achieve higher productivity, stable incomes, and greater national food security.
+</p>
+<p>
+Modern farming technologies will ensure sustainable agriculture, healthier crops, and a more secure future for Tanzania’s farming communities.
+</p>
 
-    <p>Farmers who adopt Wembley’s farming solutions have achieved outstanding improvements regarding both their harvest output and crop quality outcomes. The company delivers professional recommendations together with reasonably priced agricultural products to ensure all farmers receive ideal solutions.</p>
+<h2>How Wembley International Supports Tanzanian Farmers</h2>
+<ul>
+  <li><strong>High-quality insecticides:</strong> Formulated to target major pests effectively.</li>
+  <li><strong>Advanced fungicides:</strong> Protect crops from damaging fungal diseases.</li>
+  <li><strong>Effective herbicides:</strong> Control stubborn weeds common in Tanzanian farmlands.</li>
+  <li><strong>Sustainable crop-protection formulas:</strong> Affordable and suitable for long-term soil and crop health.</li>
+</ul>
+<p>
+All products are tested under Tanzanian farming conditions to ensure safety, effectiveness, and long-term soil health. Wembley International also provides guidance to farmers, helping them choose the right solutions at the right time.
+</p>
 
-    <h2 >The Future of Indian Agriculture with Farming Solutions</h2>
-    <p>Modernizing farming solutions will determine what kind of future Indian agriculture will have. Sustainable farming tools, together with precise equipment and organic growing methods, and advanced pest management solutions become accessible to all farmers with proper backing systems. The transition will enhance both economic growth and the supply of food worldwide.</p>
-
-    <p>Indian agricultural practices will become more productive through contemporary farming solutions, which simultaneously defend crops from pests as well as maintain soil well-being. Advanced solutions protect sustainability in farming operations, maintain farmer incomes, and strengthen food security for prosperous agricultural development.</p>
 `,
       date: "15/12/23",
-      img: banner,
     },
     {
       id: 3,
-      title: "Revolutionizing Indian Farming with Advanced Agricultural Solutions",
+            img:blog3,
+      title: "Revolutionizing Tanzanian Farming with Advanced Agricultural Solutions",
       text:
-        "The modern agricultural environment demands that Indian farmers adopt sustainable, efficient solutions. With smart irrigation, organic practices, and digital innovations, agriculture in India is undergoing a major transformation—boosting productivity and ensuring crop protection.",
-      detail: `<h1 style="color:#2c5f2d;">Revolutionizing Indian Farming with Advanced Agricultural Solutions</h1>
-    
-      <p>The modern agricultural environment demands that farmers adopt agricultural solutions that enable them to boost yield while safeguarding their crops through sustainable methods. Indian agriculture experiences a major transformation through smart irrigation systems, modern farming solutions, and organic pesticide applications. The following segment evaluates how agricultural solutions enable farmers to become both more productive and intelligent.</p>
-    
-      <h2>What Are Agriculture Solutions?</h2>
-      <p>Modern solutions that enhance agriculture promote enhanced farming operations and techniques through contemporary instrumentation or methods. The system integrates new seed varieties with organic nutrients and smart water distribution systems, along with digital platforms used to monitor plant health. By implementing farming solutions, farmers gain better efficiency in crop protection and increased yield production.</p>
-    
-      <h2>Why India Needs Modern Agriculture Solutions</h2>
-      <ul>
-        <li>The expanding population demands more food.</li>
-        <li>Unpredictable weather conditions are affecting crops.</li>
-        <li>There is an urgent need for crop protection against pests and diseases.</li>
-        <li>Decreasing soil fertility and water resources.</li>
-        <li>High standards emerge as a necessity for companies aiming to succeed in worldwide markets.</li>
-      </ul>
-      <p>Farmers can resolve present challenges through the implementation of farming solutions and agricultural solutions that protect their income streams.</p>
-    
-      <h2>Top Benefits of Agriculture Solutions for Indian Farmers</h2>
-      <ul>
-        <li>Higher crop yield with better seed and fertilizer technology</li>
-        <li>Low-cost agricultural practices and reduced waste</li>
-        <li>Effective crop protection using biological fungicides and pesticides</li>
-        <li>Improved water management with smart irrigation</li>
-        <li>Informed decision-making through real-time data</li>
-      </ul>
-    
-      <h2>Key Components of Modern Agriculture Solutions</h2>
-      <ul>
-        <li><strong>Smart Irrigation Systems:</strong> Drip irrigation and moisture sensors for optimal water usage</li>
-        <li><strong>Organic Fertilizers and Bio-Pesticides:</strong> Eco-friendly options for crop safety</li>
-        <li><strong>Advanced Machinery:</strong> Tools like seeders and harvesters for efficiency</li>
-        <li><strong>Digital Platforms and Mobile Apps:</strong> Tools for weather updates, soil conditions, and market rates</li>
-        <li><strong>Crop Monitoring and Drone Technology:</strong> Early detection of pests and diseases</li>
-      </ul>
-    
-      <h2>How Agricultural Solutions Improve Crop Protection</h2>
-      <ul>
-        <li>Targeted use of insecticides, herbicides, and fungicides</li>
-        <li>Disease-resistant seed varieties</li>
-        <li>Early detection using AI and sensors</li>
-        <li>Safer alternatives to chemical sprays</li>
-      </ul>
-    
-      <h2>Sustainable Agriculture Solutions for the Future</h2>
-      <p>New agricultural solutions must focus on the development of sustainable practices. This includes:</p>
-      <ul>
-        <li>Organic farming methods</li>
-        <li>Zero-waste cultivation</li>
-        <li>Crop rotation and soil rejuvenation</li>
-        <li>Solar-powered equipment</li>
-        <li>Nature-based pest management</li>
-      </ul>
-      <p>These practices support long-term profitability and environmental care.</p>
-    
-      <h2>Role of Wembley International in Delivering Agriculture Solutions</h2>
-      <p>Wembley International leads the way by providing stable agricultural solutions to the market. Their offerings include:</p>
-      <ul>
-        <li>Quality crop care products</li>
-        <li>Research-based farming solutions</li>
-        <li>Training programs for modern practices</li>
-        <li>Affordable and accessible products for Indian farmers</li>
-      </ul>
-      <p>Wembley dedicates itself to innovative research so farmers receive top-quality solutions for crop protection and agricultural growth.</p>
-    
-      <h2>How to Choose the Right Agriculture Solutions</h2>
-      <ul>
-        <li>Type of crop being grown</li>
-        <li>Soil condition and region</li>
-        <li>Budget and available resources</li>
-        <li>Climate and seasonal challenges</li>
-        <li>Long-term farming goals</li>
-      </ul>
-      <p>Farmers should always seek expert advice and explore trusted providers of tailored solutions.</p>
-    
-      <h2>Government Support for Agriculture Solutions in India</h2>
-      <ul>
-        <li>Subsidies on modern farming equipment</li>
-        <li>Support for organic and natural farming programs</li>
-        <li>Financial aid for purchasing crop protection chemicals and fertilizers</li>
-        <li>Farmer education initiatives for better agricultural practices</li>
-      </ul>
-    
-      <h2>Challenges in Implementing Agriculture Solutions</h2>
-      <ul>
-        <li>Lack of awareness about modern farming solutions</li>
-        <li>High cost of advanced technology</li>
-        <li>Limited access in rural areas</li>
-        <li>Resistance to adopting new methods</li>
-      </ul>
-      <p>With increased outreach and training, adoption can grow across India.</p>
-    
-      <h2>Agricultural Solutions Are the Future of Farming</h2>
-      <p>The future of Indian agriculture depends on the implementation of smart, scalable, and sustainable farming systems. Advanced agricultural solutions offer increased yield, better crop protection, and reduced operational costs. Collaboration among farmers, government, and innovators like Wembley International will define the next era of Indian farming.</p>
-      `,
+        "Tanzania’s agricultural sector is evolving rapidly as farmers adopt modern solutions to improve productivity and protect their crops. With unpredictable climate patterns, increasing pest attacks, and rising demand for food, advanced agricultural systems have become essential. From smart irrigation to organic crop protection, Tanzanian farmers are gaining tools that help them farm more efficiently and sustainably.",
+      detail: `<h1>Revolutionizing Tanzanian Farming with Advanced Agricultural Solutions</h1>
+
+<p>
+Tanzania’s agricultural sector is evolving rapidly as farmers adopt modern solutions to improve productivity and protect their crops. With unpredictable climate patterns, increasing pest attacks, and rising food demand, advanced agricultural systems have become essential. From smart irrigation to organic crop protection, Tanzanian farmers now have tools that help them farm more efficiently and sustainably.
+</p>
+
+<h2>What Are Agriculture Solutions?</h2>
+<p>
+Agricultural solutions are modern tools, technologies, and methods designed to improve farming operations. These include improved seed varieties, organic fertilizers, precision irrigation systems, and digital monitoring tools that track plant health. Through these innovative solutions, farmers achieve better yields, stronger crop protection, and more resilient farming systems.
+</p>
+
+<h2>Why Tanzania Needs Modern Agriculture Solutions</h2>
+<ul>
+  <li>Growing population requiring higher food production.</li>
+  <li>Climate variability affecting rainfall patterns and soil health.</li>
+  <li>Rising pest and disease pressure on major crops.</li>
+  <li>Soil degradation in several farming regions.</li>
+  <li>Need for consistent and competitive agricultural output.</li>
+</ul>
+
+<h2>Benefits of Agriculture Solutions for Tanzanian Farmers</h2>
+<p>
+Modern farming systems empower farmers to overcome challenges with greater confidence. They help boost crop yields, reduce wastage, improve water efficiency, and strengthen crop protection. With the right technologies, farmers make informed decisions and improve overall farm profitability.
+</p>
+
+<h3>Key Benefits</h3>
+<ul>
+  <li>Higher crop yield and improved produce quality.</li>
+  <li>Reduced losses from pests and diseases.</li>
+  <li>Efficient water use through smart irrigation systems.</li>
+  <li>Lower dependence on harmful chemical pesticides.</li>
+  <li>Better long-term soil and plant health.</li>
+</ul>
+
+<h2>Key Components of Modern Agriculture Solutions</h2>
+<p>
+Tanzania’s agricultural landscape is strengthening through a variety of innovative practices and tools:
+</p>
+<ul>
+  <li><strong>Smart Irrigation Systems:</strong> Drip irrigation, sprinklers, and soil-moisture sensors deliver water precisely where needed.</li>
+  <li><strong>Organic Fertilizers & Bio-Pesticides:</strong> Eco-friendly inputs that support healthier crops and protect the environment.</li>
+  <li><strong>Advanced Farming Machinery:</strong> Seeders, tillers, and harvesters increase efficiency and reduce labor requirements.</li>
+  <li><strong>Digital & Mobile Platforms:</strong> Apps providing real-time weather updates, soil health insights, and crop market trends.</li>
+  <li><strong>Drone & Sensor Technology:</strong> Used for crop health scanning, pest detection, and monitoring large farmlands quickly.</li>
+</ul>
+
+<h2>How Agricultural Solutions Improve Crop Protection</h2>
+<p>
+Agricultural solutions enable farmers to carry out targeted pest and disease management. Precision tools ensure accurate application of insecticides, fungicides, and herbicides. Improved seed varieties enhance natural resistance, while early detection technologies help prevent widespread infestations. Together, these solutions strengthen crop protection throughout the farming cycle.
+</p>
+
+<h2>Sustainable Agriculture Solutions for Tanzania’s Future</h2>
+<p>
+Sustainability is becoming a major priority in Tanzania’s agricultural transformation. Organic farming, soil regeneration practices, solar-powered machinery, and natural pest control methods are helping secure long-term productivity. These eco-friendly techniques protect farmland while supporting reliable harvests for future generations.
+</p>
+
+<h2>How Farmers Can Choose the Right Agriculture Solutions</h2>
+<ul>
+  <li>Understand crop type, soil condition, and climate challenges.</li>
+  <li>Evaluate available resources and long-term farming goals.</li>
+  <li>Consider solutions that improve both yield and crop protection.</li>
+  <li>Seek guidance from trusted agricultural experts and suppliers.</li>
+</ul>
+
+<h2>Government Support for Agriculture Solutions in Tanzania</h2>
+<p>
+The Tanzanian government continues to promote agricultural growth through subsidies on modern equipment, support for organic farming, farmer training workshops, and programs that improve access to fertilizers and crop protection products. These initiatives aim to help farmers transition toward modern and sustainable agriculture practices.
+</p>
+
+<h2>Challenges in Adopting Modern Agriculture Solutions</h2>
+<ul>
+  <li>Limited awareness about new technologies.</li>
+  <li>High initial cost of advanced tools and machinery.</li>
+  <li>Restricted access to digital platforms in rural regions.</li>
+  <li>Insufficient training and technical support.</li>
+</ul>
+
+<p>
+With increased awareness, improved infrastructure, and more training programs, modern agricultural solutions will reach every region of Tanzania.
+</p>
+
+<h2>Agriculture Solutions Are Shaping Tanzania’s Future</h2>
+<p>
+Tanzania’s farming sector is moving toward a future shaped by smart, sustainable, and highly efficient agricultural systems. Modern solutions help achieve higher yields, stronger crop protection, and improved farmer incomes. With support from innovators like Wembley International, the next phase of Tanzania’s agriculture promises resilience and consistent growth.
+</p>
+
+<h2>Role of Wembley International in Tanzania’s Agriculture Development</h2>
+<p>
+Wembley International plays a key role in empowering Tanzanian farmers with reliable crop protection and agricultural solutions. The company provides high-quality insecticides, fungicides, and herbicides tailored to Tanzanian crop conditions. Through farmer training programs and expert guidance, Wembley helps farmers adopt efficient, sustainable, and environmentally friendly farming practices.
+</p>`,
       date: "25/04/25",
-      img: banner, // replace 'banner' with your actual image import or path
     }
   ],
 };
