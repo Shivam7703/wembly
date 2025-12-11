@@ -92,12 +92,32 @@ export default function Footer({ footer }: any) {
             <h4 className="my-2  text-xl font-semibold">
               {footer?.newLetter?.title}
             </h4>
-            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Phone: </strong>&nbsp;0679513203,0677066361</p>
-            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>E-mail: </strong>&nbsp;info@wembleyinternational.com</p>
-            <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '><strong>Address: </strong>&nbsp;Wembley International {"("}Tanzania{")"} Limited
-201-A Elegant House 
-28-A Kipawa Industrial Area,
-Julius K. Nyerere Rd, Dar es Salaam
+          <p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '>
+  <strong>Phone: </strong>&nbsp;
+  <a href="tel:0679513203" className="hover:text-main">0679513203</a>, {" "}
+  <a href="tel:0677066361" className="hover:text-main">0677066361</a>
+</p>
+
+<p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '>
+  <strong>E-mail: </strong>&nbsp;
+  <a href="mailto:info@wembleyinternational.com" className="hover:text-main">
+    info@wembleyinternational.com
+  </a>
+</p>
+
+<p className=' transition:all text-base text-zinc-200 duration-300 hover: hover:text-main '>
+  <strong>Address: </strong>&nbsp;
+  <a 
+    href="https://www.google.com/maps/search/?api=1&query=Wembley+International+Tanzania+Limited+201-A+Elegant+House+28-A+Kipawa+Industrial+Area+Julius+K+Nyerere+Rd+Dar+es+Salaam" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="hover:text-main"
+  >
+    Wembley International {"("}Tanzania{")"} Limited<br/>
+    201-A Elegant House <br/>
+    28-A Kipawa Industrial Area,<br/>
+    Julius K. Nyerere Rd, Dar es Salaam
+  </a>
 </p>
 
           </div>

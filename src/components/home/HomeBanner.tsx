@@ -53,6 +53,7 @@ export default function HomeBanner() {
               title2={item?.title2}
               para={item?.para}
               btntext={item?.btntext}
+              hrefs={item?.href}
               key={currentSlide} // Re-trigger animation when slide changes
             />
           </SwiperSlide>
@@ -74,13 +75,13 @@ export default function HomeBanner() {
   );
 }
 
-function HomeBannerCard({ img, welcome, title1, title2, para, btntext }: any) {
+function HomeBannerCard({ img, welcome, title1, title2, para, btntext, hrefs }: any) {
   return (
     <div className="relative w-full overflow-hidden  text-white h-[55vh] min-h-[550px] md:min-h-[690px]">
       {/* Full-size image */}
       <Image
         src={img} // Use the dynamic image passed in
-        className="absolute z-0 h-full w-full  object-cover md:object-right"
+        className="absolute z-0 h-full w-full object-top object-cover md:object-right"
         alt="banner image"
         layout="fill"
       />
@@ -104,7 +105,7 @@ function HomeBannerCard({ img, welcome, title1, title2, para, btntext }: any) {
            
            {para}
           </p>
-          <Link href={"/"} className="w-min">
+          <Link href={hrefs} className="w-min">
             <div className="flex items-center rounded-3xl gap-4 text-nowrap px-6 py-2 text-green1 bg-white duration-300 hover:bg-black hover:text-white">
               <p className="text-sm font-bold">{btntext}</p>
               <MdArrowRightAlt className="animate-x text-3xl" />

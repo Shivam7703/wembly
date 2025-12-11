@@ -1,7 +1,11 @@
-import { about, about2, aboutb, AminoCalGold, AminoEggBoost, AminoESel, Aminolyte, AminoMilkBoost, banner, banner2, banner3, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, blog1, blog2, blog3, Boostermin, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, PigBoost, PoultryBoost, prob, Respecure, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, supapower, suparice, supath, supatiger, tunza, vegi } from "@/assets";
+import { about, about2, aboutb, AminoCalGold, AminoEggBoost, AminoESel, Aminolyte, AminoMilkBoost, banner, banner2, banner3, bene1, bene2, bene3, bene4, Best200, Best480, Best50, Best720, Best75, bestacron720, Bestsup, blog1, blog2, blog3, Boostermin, careerb, choose1, cl1, cl2, cl3, cl4, cl5, cl6, cl7, cl8, cl9, contactb, dual, farm16, farm20, fendel, ferti, logo2, man5sc, mansup, oxp, PigBoost, PoultryBoost, prob, Respecure, rondo,  sulph, supa, supa480, supa720, supaextra, supagrow, supaking, supamec, supapower, suparice, supath, supatiger, tunza, vegi } from "@/assets";
 import { BsCart4 } from "react-icons/bs";
+import { FaBoxes } from "react-icons/fa";
 import {
+  FaCodeBranch,
   FaMapLocationDot,
+  FaTruck,
+  FaUserGroup,
 } from "react-icons/fa6";
 import { GiDeadEye, GiOakLeaf } from "react-icons/gi";
 import { HiShoppingBag } from "react-icons/hi";
@@ -64,8 +68,8 @@ export const sliderContent = [
     id: 1,
     img: banner,
     welcome: "Welcome To Wembley International",
-    title1: "Better care for crops, stronger yields with our ",
-    title2: "trusted solutions",
+    title1: "Better Care for Crops, Stronger Yields with Our ",
+    title2: "Trusted Solutions",
 para:" Our Solutions Provide Everything your Crops Need, From Pest Protection to Essential Nutrients. Ensuring Healthy Growth and Higher Yields. ",
     btntext: "Explore More",
     href: "/products/herbicides",
@@ -74,8 +78,8 @@ para:" Our Solutions Provide Everything your Crops Need, From Pest Protection to
     id: 2, // Fix duplicate id issue by using unique ids
     img: banner2,
     welcome: "Best Agri-input & Crop Protection Firm ",
-    title1: "Helping farmers grow more with ",
-    title2: "simple and effective products.",
+    title1: "Helping Farmers Grow More with ",
+    title2: "Simple and Effective Products",
 para:"Making farming simple and effective. Your crops will be protected while the soil gets nourished for increased production.",
     btntext: "Contact Us",
     href: "/contact-us",
@@ -122,17 +126,17 @@ export const aboutdata = {
 
 export const countDown=[
   {id:1,
-    icon:<HiShoppingBag  />,
+    icon:<FaUserGroup />,
     title:"Dealers",
     Value:"2000"
   },{id:2,
-    icon:<RiShoppingCart2Fill />    ,
+    icon:<FaCodeBranch />,
     title:"Branches",
-    Value:"6"
-  },{id:3,    icon:<IoIosPeople />    ,
+    Value:"06"
+  },{id:3,    icon:<FaTruck /> ,
     title:"Sales Vehicles",
-    Value:"1000"
-  },{id:4,     icon:<HiBuildingOffice />    ,
+    Value:"08"
+  },{id:4,     icon:<FaBoxes />,
     title:"Registered Products",
     Value:"30"
   }
@@ -166,70 +170,70 @@ export const testimonialData = {
     title: "SOLOMON MAGEMBE",
     text:
       "Tangu nianze kutumia viuatilifu hivi, wadudu wamepotea kabisa shambani. Mimea yangu sasa inakua vizuri bila mashambulizi ya wadudu. Mavuno yangu yameongezeka kwa kiasi kikubwa. Viuatilifu hivi vimenisaidia kulinda mazao yangu hadi kuvuna.",
-    img: cl1,
+    img: cl3,
   },
   {
     id: 2,
     title: "ABDALAH RAMADHANI",
     text:
       "Baada ya kupulizia mara moja tu, niliona matokeo haraka na haikuhitaji kurudia mara kwa mara. Maelekezo ni rahisi kufuata na viuatilifu vinachanganyika vizuri. Hata wakulima wapya wanaweza kuvitumia kwa urahisi.",
-    img: cl2,
+    img: cl5,
   },
   {
     id: 3,
     title: "JESCA NASHON",
     text:
       "Nilitumia viuatilifu hivi bila madhara kwa mimea au mazingira. Ni salama na vyenye matokeo mazuri. Kwa sababu mazao yangu hayakuathiriwa na wadudu, nimepata faida kubwa sokoni mwaka huu.",
-    img: cl3,
+    img: cl1,
   },
   {
     id: 4,
     title: "CLEMENCIA JOHN",
     text:
       "Kampuni ilitoa maelekezo mazuri ya matumizi na ushauri wa kitaalamu. Huduma kwa wateja ni nzuri sana. Nimekuwa nikitumia bidhaa hizi kwa misimu kadhaa sasa, na kila mara zinafanya kazi vizuri.",
-    img: cl4,
+    img: cl2,
   },
   {
     id: 5,
     title: "YOHANA AUGUSTINO",
     text:
       "Nimewashauri wakulima wenzangu pia kutumia viuatilifu hivi kwa sababu ni bora na vya uhakika. Niliona tofauti ndani ya siku chache tu baada ya kupulizia. Wadudu waliisha haraka na mimea ikaanza kuimarika. Hata wadudu waliokuwa sugu kwa viuatilifu vingine waliangamizwa. Hivi viuatilifu vina nguvu na ufanisi wa hali ya juu.",
-    img: cl5,
+    img: cl6,
   },
   {
     id: 6,
     title: "PHILIPO MWAKALELI",
     text:
       "Mimea yangu iliyokuwa imeathiriwa na wadudu ilianza kuota majani mapya na maua baada ya kutumia viuatilifu hivi. Nimefurahishwa kwa sababu viuatilifu hivi havikuathiri viumbe wengine wasio lengo la kuharibu mazao.",
-    img: cl6,
+    img: cl7,
   },
   {
     id: 7,
     title: "VERONICA GEORGE",
     text:
       "Mwaka huu nimepata mavuno bora zaidi kuliko miaka yote iliyopita. Hakuna hasara kutokana na wadudu tena.",
-    img: cl7,
+    img: cl4,
   },
   {
     id: 8,
     title: "GEORGE NATHANAEL",
     text:
       "Kwa bei yake, viuatilifu hivi ni nafuu ukilinganisha na matokeo makubwa niliyopata. Inastahili thamani yake kabisa. Nimeitumia kwenye mazao tofauti kama mahindi, nyanya, na mboga mboga na mazao mengine kila mara inafanya kazi vizuri.",
-    img: cl8,
+    img: cl9,
   },
   {
     id: 9,
     title: "MARIA JOEL",
     text:
       "Bidhaa zina vifungashio vizuri na imara. Rahisi kuhifadhi na hakuna uvujaji wala harufu kali. Kila msimu ninanunua viuatilifu hivi kutoka kampuni hii hii kwa sababu sijawahi kuvunjika moyo.",
-    img: cl9,
+    img: cl8,
   },
   {
     id: 10,
     title: "AUGUSTINO MAYAO",
     text:
       "Baada ya kutumia viuatilifu hivi, pia nimeona magonjwa ya mimea kama ukungu na doa doa yakipungua. Kwa sababu wadudu hawarudi haraka, sipulizii mara nyingi, hivyo natumia pesa kidogo kwenye matibabu.",
-    img: cl5 ,
+    img: cl7 ,
   },],
 };
 
@@ -331,7 +335,7 @@ export const benefit = {
   points: [
     {
       id: 1,
-     img:banner2,
+     img:bene1,
       heading: "Simplify Your Protection Strategy",
       text:
         "From fungus to insects, we have a proven solution. Count on our comprehensive range to effectively address your biggest crop threats. (Please change image to image from new video of farmer with yellow sprayer",

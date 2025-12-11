@@ -125,7 +125,7 @@ const Header = ({ header }: any) => {
 
           {/* ✅ Google Translate Widget */}
           <div className="max-h-8 overflow-hidden rounded-lg ">
-          <div id="google_translate_element" className=" !-mt-1 max-sm:p-1 max-sm:text-sm"></div>
+          <div id="google_translate_element" className=" !-mt-1 max-sm:p-0.5 max-sm:text-sm"></div>
           </div>
         </div>
 

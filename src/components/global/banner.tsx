@@ -31,7 +31,7 @@ export default function Banner({title, para, img, slug}:any) {
                   alt="sliding image"
                   loading="lazy"
                 />
-                <div className="overlay w-full h-full absolute top-0 left-0 bg-black bg-opacity-30 flex items-center text-white">
+                <div className="overlay w-full h-full absolute top-0 left-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent backdrop-blur-sm  flex items-center text-white">
                   <motion.div
                   
                 variants={sliderText} // Using the sliderText motion variants

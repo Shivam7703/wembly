@@ -75,7 +75,7 @@ export default function FaqSection() {
           <h2 className="text-white mb-6 text-3xl md:text-5xl font-bold">
             Contact Us Today!
           </h2>
-          <form className="flex flex-wrap gap-y-6 py-3 justify-between ">
+          <form className="flex text-white flex-wrap gap-y-6 py-3 justify-between ">
             <input
               type="text"
               placeholder="Your Name"

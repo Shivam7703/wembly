@@ -14,6 +14,7 @@ import aboutb from "@/assets/home/aboutb.jpg";
 import careerb from "@/assets/home/careerb.jpg";
 import contactb from "@/assets/home/cantactb.jpg";
 
+import bene1 from "@/assets/home/bene1.jpg";
 import bene2 from "@/assets/home/bene2.jpg";
 import bene3 from "@/assets/home/bene3.jpg";
 import bene4 from "@/assets/home/bene4.jpg";
@@ -101,7 +102,7 @@ import AminoESel from "@/assets/product/animal-feed/AMINO-E-SEL.png";
 
 
 export {
-    logo , logo2, banner,banner2,banner3 ,bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
+    logo , logo2, banner,banner2,banner3,bene1 ,bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
  , ferti,sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3
  ,Bestsup,supatiger, supagrow, supapower
 ,vegi ,mansup

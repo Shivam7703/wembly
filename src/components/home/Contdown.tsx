@@ -27,7 +27,7 @@ function CountDown({ data }: any) {
                   delay={0.2}
                   duration={2.75}
                   separator=","
-               />K+
+               />+
                   </div>
             <h3
               className={`font-medium text-sm sm:text-xl text-white`}

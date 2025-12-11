@@ -12,7 +12,7 @@ function Form({ contactdata }: any) {
             <Image
               src={contat}
               alt="contact"
-              className="w-full md:h-96 h-72 mb-4 md:mb-7 object-cover rounded-xl"
+              className="w-full md:h-96 h-72 mb-4 md:mb-7 object-cover object-center rounded-xl"
             />
             <div className="bg-yellow3 md:p-9 p-4 rounded-xl">
               <h4 className="mb-3 font-bold text-xl md:text-2xl">
@@ -55,7 +55,7 @@ function Form({ contactdata }: any) {
           <p className="text-zinc-600 mb-6 text-sm md:text-base">
           Connect With Wembley For Reliable Crop Protection & Farming Support. We're Here to Help Your Agriculture Thrive With Expert Solutions.
           </p>
-          <form className="flex flex-wrap gap-y-6 py-3 justify-between">
+          <form className="flex text-zinc-900 flex-wrap gap-y-6 py-3 justify-between">
             <input
               type="text"
               placeholder="Your Name"
