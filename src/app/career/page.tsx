@@ -3,6 +3,7 @@ import Section1 from "@/components/about/section1";
 import Section2 from "@/components/about/section2";
 import Section3 from "@/components/about/section3";
 import Section4 from "@/components/about/section4";
+import CareerForm from "@/components/career/careerform";
 import WhyWork from "@/components/career/whywork";
 import Banner from "@/components/global/banner";
 import FaqSection from "@/components/home/faq";
@@ -36,12 +37,13 @@ Join Our Journey
 Be part of a company that’s redefining modern farming with smart, simple, and sustainable agri-solutions.
  Let’s grow together—because when farmers thrive, the world thrives.
 </p> 
-  <a href={"mailto:career@wemblyinternational.com"} className="w-max mx-auto">
+  {/* <a href={"mailto:career@wemblyinternational.com"} className="w-max mx-auto">
             <div className="flex mx-auto mt-5  items-center rounded-3xl gap-4 text-nowrap px-6 py-2 text-green1 bg-zinc-300 duration-300 hover:bg-black hover:text-white w-max">
               <p className="text-sm font-bold">Send Your CV</p>
               <MdArrowRightAlt className="animate-x text-3xl" />
             </div>
-          </a>
+          </a> */}
+          <CareerForm/>
  </section>
   </>
   );

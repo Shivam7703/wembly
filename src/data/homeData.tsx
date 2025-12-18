@@ -272,9 +272,9 @@ export const footer = {
     "Wembley delivers reliable crop protection solutions with advanced insecticides, herbicides, and fungicides to support Tanzanian farmers and boost yields.",
 
   socials: {
-    facebook: "https://www.facebook.com/",
+    facebook: "https://www.facebook.com/wembleyinternationaltz",
     twitter: "https://twitter.com/",
-    instagram: "https://www.instagram.com//",
+    instagram: "https://www.instagram.com/wembley_international/?hl=en",
     linkedin: "https://www.linkedin.com/school//",
     youtube: "https://www.youtube.com/c/",
   },

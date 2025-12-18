@@ -8,14 +8,14 @@ function Form({ contactdata }: any) {
     <div>
       <div className="flex lg:p-28 sm:p-12 p-7 relative flex-wrap justify-between min-h-screen mx-auto">
         {contactdata && (
-          <div className="md:w-[45%] w-full">
+          <div className="md:w-[45%] text-black w-full">
             <Image
               src={contat}
               alt="contact"
               className="w-full md:h-96 h-72 mb-4 md:mb-7 object-cover object-center rounded-xl"
             />
-            <div className="bg-yellow3 md:p-9 p-4 rounded-xl">
-              <h4 className="mb-3 font-bold text-xl md:text-2xl">
+            <div className="bg-gradient from-yellow-500 to bg-yellow-400 shadow-lg shadow-black/20  md:p-9 p-4 rounded-xl">
+              <h4 className="mb-3 font-bold  text-xl md:text-2xl">
                 {contactdata?.title}
               </h4>
               <p>{contactdata?.para}</p>
@@ -23,18 +23,18 @@ function Form({ contactdata }: any) {
                 {contactdata?.detail?.map((data: any) => (
                   <div
                     key={data.id}
-                    className="flex group duration-300 group-hover:border-green1 gap-5 py-2 md:py-4 border-b border-[#ffcf3eb5]"
+                    className="flex group duration-300 group-hover:border-green1 gap-5 py-2 md:py-4 border-t border-yellow-700"
                   >
                     <div className="text-3xl md:text-4xl mt-2 text-brown2 group-hover:text-green1 duration-300">
                       {data?.icon}
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-brown2 group-hover:text-white duration-300 mb-1">
+                      <h3 className="text-xl font-bold text-brown2 mb-1">
                         {data?.title}
                       </h3>
                      
                         {data?.text.map((wrd :any)=>(
-                          <p className="text-white font-medium  hover:!text-zinc-900" key={wrd?.id}>{wrd.text}</p>
+                          <p className=" font-medium  text-zinc-800" key={wrd?.id}>{wrd.text}</p>
                         ))}
                       
                     </div>

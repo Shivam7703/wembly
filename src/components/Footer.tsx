@@ -36,7 +36,7 @@ export default function Footer({ footer }: any) {
                     className="hover:text-brown2 p-2 bg-[#ffffff19] rounded-full duration-300"
                     onClick={() => window.open(footer?.socials?.instagram, "_blank")} />
                 )}
-                {footer?.socials?.linkedin && (
+                {/* {footer?.socials?.linkedin && (
                   <FaLinkedinIn
                     className="hover:text-brown2 p-2 bg-[#ffffff19] rounded-full duration-300"
                     onClick={() => window.open(footer?.socials?.linkedin, "_blank")} />
@@ -50,7 +50,7 @@ export default function Footer({ footer }: any) {
                   <FaXTwitter
                     className="hover:text-brown2 p-2 bg-[#ffffff19] rounded-full duration-300"
                     onClick={() => window.open(footer?.socials?.twitter, "_blank")} />
-                )}
+                )} */}
               </div>
             )}
           </div>

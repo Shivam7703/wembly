@@ -12,6 +12,7 @@ import sus2 from "@/assets/home/sus2.jpg";
 
 import aboutb from "@/assets/home/aboutb.jpg";
 import careerb from "@/assets/home/careerb.jpg";
+import career from "@/assets/home/career.jpg";
 import contactb from "@/assets/home/cantactb.jpg";
 
 import bene1 from "@/assets/home/bene1.jpg";
@@ -30,7 +31,6 @@ import blog1 from "@/assets/home/blog1.jpg";
 import blog2 from "@/assets/home/blog2.jpg";
 import blog3 from "@/assets/home/blog3.jpg";
 
-
 import cl1 from "@/assets/home/cl1.jpg";
 import cl2 from "@/assets/home/cl2.jpg";
 import cl3 from "@/assets/home/cl3.jpg";
@@ -41,7 +41,6 @@ import cl7 from "@/assets/home/cl7.jpg";
 import cl8 from "@/assets/home/cl8.jpg";
 import cl9 from "@/assets/home/cl9.jpg";
 
-
 // about
 import com from "@/assets/about/com.webp";
 import env from "@/assets/about/env.webp";
@@ -49,7 +48,6 @@ import social from "@/assets/about/social.webp";
 // product
 import ferti from "@/assets/product/Fertilizer/AMMONIUM-SULPHATE.webp";
 import supagrow from "@/assets/product/Fertilizer/supa grow.png";
-
 
 import Best50 from "@/assets/product/Fungicides/BESTONIL.png";
 import Bestsup from "@/assets/product/Fungicides/BESTONIL SUPER 720SC.png";
@@ -59,8 +57,7 @@ import man5sc from "@/assets/product/Fungicides/MANCOVIL 5SC.png";
 import sulph from "@/assets/product/Fungicides/SULPHOWIT 800 WDG.png";
 import supa from "@/assets/product/Fungicides/SUPAZEB 80WP.png";
 import supapower from "@/assets/product/Fungicides/supapower.png";
-
-
+import supaextra from "@/assets/product/Herbicides/Supa Extra.png";
 
 import Best720 from "@/assets/product/Herbicides/BESTOMINE-720SL.webp";
 import Best200 from "@/assets/product/Herbicides/BESTOQUAT-200SL.webp";
@@ -70,13 +67,10 @@ import rondo from "@/assets/product/Herbicides/RONDO.webp";
 import supa720 from "@/assets/product/Herbicides/SUPAMINE-720SL.png";
 import supa480 from "@/assets/product/Herbicides/SUPASATE 480SL.webp";
 import suparice from "@/assets/product/Herbicides/suparice Gold.png";
-import supaextra from "@/assets/product/Herbicides/Supa Extra.png";
 
 import farm16 from "@/assets/product/implements/farmcare16.webp";
 import farm20 from "@/assets/product/implements/farmcare20.webp";
 import oxp from "@/assets/product/implements/oxplough.webp";
-
-
 
 import bestacron720 from "@/assets/product/Insecticides/BESTACRON-720EC.png";
 import dual from "@/assets/product/Insecticides/DUAL-POWER-344SE.webp";
@@ -104,7 +98,7 @@ import AminoESel from "@/assets/product/animal-feed/AMINO-E-SEL.png";
 export {
     logo , logo2, banner,banner2,banner3,bene1 ,bene2,bene3, bene4,contactb, susbanner,prob,aboutb,careerb, bann, about,about2,contat,cl1,cl2,cl3,cl4,cl5,cl6,cl7,cl8,cl9, com,env ,social,heade, count
  , ferti,sus1,sus2, sus3, sus4, choose1, blog1, blog2, blog3
- ,Bestsup,supatiger, supagrow, supapower
+ ,Bestsup,supatiger, supagrow, supapower, career
 ,vegi ,mansup
  ,Best50
  ,man5sc
